@@ -11,14 +11,14 @@
 #(set-global-staff-size 15.87)
 
 \book {
-	\bookpart {
-		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-		\partTitle "1" "K Y R I E"
-		\tocPart "1" "Kyrie"
-		\partMark
-		\pageBreak
-		\markup \null
-	}
+	% \bookpart {
+	% 	\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+	% 	\partTitle "1" "K Y R I E"
+	% 	\tocPart "1" "Kyrie"
+	% 	\partMark
+	% 	\pageBreak
+	% 	\markup \null
+	% }
 	\bookpart {
 		\header {
 			number = "1.1"
@@ -100,7 +100,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

@@ -196,6 +196,270 @@ KyrieBassFigures = \figuremode {
 	r1 %91 finis
 }
 
+ChristeOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoChriste
+		\mvTr c2.\fE-\soloE
+		c
+		f2 fis4
+		g h a
+		g2. %5
+		g,
+		c2 c4
+		d c h
+		a h g
+		c e8^\critnote f e d %10
+		c4^\critnote d e
+		f f, r
+		d' e fis
+		g g, r
+		g'2 r4 %15
+		c,2 r4
+		g2 r4
+		c2 r4
+		d d c
+		h r8 g a h %20
+		c4 g' g,
+		c2 r4
+		c g' g,
+		c c, r
+		c'2.\pE %25
+		c
+		f2 fis4
+		g h a
+		g2.
+		g, %30
+		c2 c4
+		d c h
+		a h c
+		g2.
+		c %35
+		f2 fis4
+		g g,8 a h a
+		g4 g g
+		d' g g,
+		r g' g, %40
+		r d' d,
+		g' a a,
+		d2.
+		d
+		a %45
+		d2 c!4
+		h a g
+		d' d, r
+		d' e fis
+		g g, r %50
+		g8 g g g g g
+		g g g g g g
+		g2 g4
+		c c h
+		a8 a a a a a %55
+		a a a a a a
+		a2 a4
+		d d, d'
+		d2 g4
+		d g g, %60
+		c c8 d e fis
+		g4 g, r
+		d'2 d,4
+		g\fE a h
+		c c h %65
+		a h cis
+		d d, d'
+		g g, r
+		g' g, r
+		c2 r4 %70
+		g' d' d,
+		g g, r
+		g2.\pE
+		g
+		a4 fis g %75
+		d' d, g
+		a h c
+		g2.
+		c
+		c %80
+		f2 fis4
+		g2 h4
+		c8 c, c c c c
+		c c c c c c
+		c c c c c c %85
+		c c c b a g
+		f2.
+		f
+		b2 h4
+		c2. %90
+		c
+		f4 g g,
+		c2.
+		f
+		b, %95
+		e!2 g4
+		a a, a
+		a8 a a a a a
+		a a a a a a
+		g g a a a a %100
+		d2.
+		g8 g, g g g g
+		g g g g g g
+		f' f g g g, g
+		c4 c, c' %105
+		c c c
+		f c c
+		c d e8 f
+		g4 g, g
+		c c c %110
+		f g g,
+		c c, c'
+		f f, r
+		c'2 r4
+		g'2 g,4 %115
+		c\fE d^\critnote e
+		f f, r
+		d' e fis
+		g g, r
+		g' g, r %120
+		c c, c'
+		a d c
+		h h g
+		c g' g,
+		c2 r4 %125
+		c g' g,
+		c c, r\fermata \bar "||" %127 finis
+	}
+}
+
+ChristeBassFigures = \figuremode {
+	r2.
+	r
+	<6>2 <6 5>4
+	r <6> <6\\>
+	r2. %5
+	r
+	<6>2 <5>4
+	<_+>4 <\t> <6>
+	<6!> <\t> <7>
+	<9 4> <6>2 %10
+	r <6 5->4
+	r2.
+	<_+>2 <6 5>4
+	r2.
+	<7!> %15
+	r
+	<7>
+	r
+	<_+>2 <4\+>4
+	<6> <5!>2 %20
+	r4 <4> <3>
+	r2.
+	r4 <6 4> <5 3>
+	r2.
+	r %25
+	r
+	<6>2 <6 5>4
+	<4> <6> <6\\>
+	r2.
+	r %30
+	<6>2 <5>4
+	<_+> <\t> <6>
+	<6!> <\t>2
+	<6 4>4 <5 3>2
+	<8>2 <7->4 %35
+	<5>4 <6> <6>8 <5>
+	<[9] 4>4 <[8] 3>2
+	r2.
+	<7 _+>4 <9 4> <8 3>
+	r2. %40
+	r4 <7 _+>2
+	<6>4 <6+ 4> <5 _+>
+	<_+>2.
+	r
+	<_+> %45
+	q2 <4\+>4
+	<6>2.
+	<6 4>4 <5 _+>2
+	<_+>4 <7> <5>
+	r2. %50
+	<5 3>4 <6 4>2
+	<6 4>4 <7 5>2
+	<9 7>4 <8 6> <7 5>
+	<9 4> <8 3>2
+	<5 _+>4 <6+ 4>2 %55
+	<6+ 4>4 <7 5 _+>2
+	<9 7 _+>4 <8 6> <7 5>
+	<9 4> <8 _+>2
+	<_+>2.
+	q4 <9 4> <8 3> %60
+	r2.
+	r
+	<4>2 <_+>4
+	r2 <6 5!>4
+	r2 <6>8 <6\\> %65
+	<_+>2 <6 5!>4
+	<_+>2.
+	r
+	r
+	r %70
+	r4 <6 4> <5 _+>
+	r2.
+	r
+	r
+	r4 <6 5>2 %75
+	<_+>2.
+	<6!>4 <\t>2
+	<6 4>4 <5 3>2
+	r2.
+	r %80
+	<6>2 <7>4
+	r2 <6 5>4
+	r2.
+	<5 3>8 <6 4> <7- 5>2
+	<6 4>2. %85
+	<\t \t>4 <5 3>2
+	r2.
+	r
+	<6>2 <6 5>4
+	r2. %90
+	r
+	<6>4 <6 4> <5 _->
+	<8>2 <7->4
+	<8>2 <7->4
+	<8>2 <7>4 %95
+	<6 _->2 <_->4
+	<_+>2.
+	q
+	<5 _+>8 <6 4> <7 _+>2
+	<_->4 <8 6 _+> <7 5> %100
+	r2.
+	<_!>2.
+	<7>
+	r4 <8 6> <7 5>
+	r2. %105
+	r
+	r
+	r4 <6> q
+	r2.
+	r %110
+	<6>4 <6 4> <5 3>
+	r2.
+	r
+	r
+	<4>2 <3>4 %115
+	r2 <6 5->4
+	r2.
+	<_+>2 <6 5>4
+	<_!>2.
+	<7> %120
+	r
+	<6\\>4 <_+> <\t>
+	<6>2 <7!>4
+	r <4> <3>
+	r2. %125
+	r4 <4> <3>
+	r2. %127 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

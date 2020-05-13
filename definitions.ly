@@ -277,7 +277,7 @@ decrescE = #(make-music
 
 
 
-violinGroupDistance = {
+smallGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
 		#'((basic-distance . 12)
 			 (minimum-distance . 12)
@@ -289,7 +289,7 @@ violinGroupDistance = {
        (padding . -100)
 			 (stretchability . 0)) }
 
-stringGroupDistance = {
+normalGroupDistance = {
  	\override StaffGrouper.staffgroup-staff-spacing =
  		#'((basic-distance . 15)
  			 (minimum-distance . 15)
@@ -544,7 +544,8 @@ tocSection = #(define-music-function
 )
 
 
-tempoKyrie = \tempoMarkup "Allegro"
+tempoKyrie = \tempoMarkup "Andante"
+tempoChriste = \tempoMarkup "Adagio"
 
 
 \include "notes/cor1.ly"

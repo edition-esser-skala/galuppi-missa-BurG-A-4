@@ -122,6 +122,146 @@ KyrieBassoLyrics = \lyricmode {
 	son, e -- lei -- son. %90 finis
 }
 
+ChristeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoChriste
+		R2.*33 %33
+		r4 \mvTr g'\pE^\soloE f
+		e e8([ c)] d([ e)] %35
+		f4 f fis
+		g g, r
+		g' g g
+		d g r
+		R2.*3 %42
+		d4 fis e
+		d g fis
+		e d cis %45
+		d2^\critnote c4
+		h a g
+		d'2 r4
+		d e fis
+		g8([ fis)] g4 g %50
+		\once \tieDashed g2.~
+		\once \tieDashed g~
+		g
+		c,4 c h^\critnote
+		a2. %55
+		a2 a4
+		a2.
+		d2 r4
+		d fis g
+		d g r %60
+		r c,8([ d)] e([ fis)]
+		g4 g, g'
+		d2.
+		g,2 r4
+		R2.*13 %77
+		r4 g' f
+		e c f
+		e d c %80
+		f2 fis4
+		g2 r4
+		c,2.
+		c2 c4
+		f2. %85
+		c2 r4
+		R2.*3
+		c4 e d %90
+		c f e
+		d c h
+		c2.
+		R2.*4 %97
+		a'2.
+		a2 r4
+		g a( a,) %100
+		d2 r4
+		r g g,
+		r g' g,
+		f' g( g,)
+		c2 r4 %105
+		c c c
+		f c c
+		c d e8[ f]
+		g2.
+		c,2 c4 %110
+		f( g g,)
+		c2.
+		r4 f8([ g)] a([ h)]
+		c4 c, c
+		g'2( g,4) %115
+		c2.
+		R2.*10 %126
+		R2.\fermataMarkup \bar "||" %127 finis
+	}
+}
+
+ChristeBassoLyrics = \lyricmode {
+	Chri -- ste, %34
+	Chri -- ste e -- %35
+	lei -- son, e --
+	lei -- son,
+	Chri -- ste e --
+	lei -- son,
+
+	Chri -- ste e -- %43
+	lei -- _ _
+	_ _ _ %45
+	_ _
+	_ _ _
+	son,
+	Chri -- ste e --
+	lei -- son, e -- %50
+	lei --
+
+	son, Chri -- ste, %54
+	Chri -- %55
+	ste e --
+	lei --
+	son,
+	Chri -- ste e --
+	lei -- son, %60
+	Chri -- ste,
+	Chri -- ste e --
+	lei --
+	son.
+
+	Chri -- ste, %78
+	Chri -- ste e --
+	lei -- _ _ %80
+	_ _
+	son,
+	Chri --
+	ste e --
+	lei -- %85
+	son,
+
+	Chri -- ste e -- %90
+	lei -- _ _
+	_ _ _
+	son,
+
+	Chri -- %98
+	ste
+	e -- lei -- %100
+	son,
+	Chri -- ste,
+	Chri -- ste
+	e -- lei --
+	son, %105
+	Chri -- ste e --
+	lei -- son, e --
+	lei -- _ _
+	_
+	son, e -- %110
+	lei --
+	son,
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- %115
+	son. %116 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

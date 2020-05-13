@@ -101,3 +101,137 @@ KyrieViolinoII = {
 		d16. h32 h16. h32 h16. g32 g16. g32 g4 r\fermata \bar "||" %91 finis
 	}
 }
+
+ChristeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoChriste
+		e4\fE g f
+		e d c
+		a' a a
+		g8 a h4 r
+		g h a %5
+		g c h
+		a8 h a4 g
+		fis2 g4
+		f8 g f4 f
+		f e r %10
+		g'8[ g, g g] b8.( a32 b)
+		a8 a a a a c
+		r d[ d d] c8.( h!32 c)
+		h8 h h h h d
+		r d-! d( c h d) %15
+		r c c h^\critnote c e
+		r d, d c h d
+		r c e e e4
+		a,2.
+		g4 d'2 %20
+		c4 c h
+		c e'8.( d32 c) f8.( e32 d)
+		e16 g e c g4 d'
+		c c, r
+		e\p g f %25
+		e d c
+		a'2 a4
+		g2 r4
+		g h a
+		g c h %30
+		a8 h a4 g
+		fis2 g4
+		f8 g f4 e
+		e d r
+		g g8 e f g %35
+		a2 a4
+		a8 g g4 r
+		g g g
+		fis8 a \appoggiatura a4 g2
+		r4 g8 h d g %40
+		r4 fis,8 a d fis
+		e4 d cis
+		d fis, e
+		d g fis?
+		e d cis %45
+		d2 a'4
+		d c! h
+		h a a
+		d2 c4
+		h8 a h4 r %50
+		r c e
+		r d f!
+		r e d
+		d8 c c4 r
+		r fis, d' %55
+		r cis e
+		\tuplet 3/2 4 { e8 fis g } fis4 e
+		e d8 fis d a
+		fis4 a g
+		fis8 a \appoggiatura a4 g2-\critnote %60
+		c2.
+		h4 d r
+		R2.
+		r8 g[\fE g g] f!8.( e32 f)
+		e4 e8 g g gis %65
+		a[ a, a' a] g8.( fis32 g)
+		fis4 d8 fis fis a
+		g4 g8 fis g h
+		g,4 g8 fis g h
+		c16 d c h a g fis e d c h a %70
+		h d' h g d4 a'
+		g g, r
+		h\p d c
+		h e d
+		c8 d c4 h %75
+		a2 h4
+		c d c
+		\appoggiatura c h2 r4
+		e c f
+		e-\critnote d c %80
+		a'2 a4-\critnote
+		g g f!
+		r e g
+		r g b
+		f a f %85
+		\appoggiatura f e2 r4
+		f a g
+		f b a
+		g8 a g4 f
+		e e d %90
+		c f e
+		d c h
+		c2 r4
+		r f es
+		d8 cis d4 f %95
+		e!2 d4
+		cis cis8 e a cis
+		cis4 cis e
+		r cis e
+		e8 g f4 e %100
+		d cis d
+		r g, h!
+		r h d
+		\tuplet 3/2 4 { d8 e f } e4 d
+		c8 h c4 r %105
+		r c e
+		r c e
+		e d c
+		h r d
+		c8 d e4 e %110
+		d c h
+		c c8 h c e
+		f4 f f
+		e2 r4
+		R2. %115
+		r8 c[\fE c c] b8.( a32 b)
+		a8 a a a a c
+		r d[ d d] c8.( h!32 c)
+		h8^\critnote h h h h d
+		r h h h h d %120
+		r c c c c e
+		a,4 a a
+		g \tuplet 3/2 4 { g8 g h d c h }
+		c4 c h
+		c \tuplet 3/2 4 { c,8 d e f e d } %125
+		c4 c h
+		c2 r4\fermata \bar "||" %127 finis
+	}
+}

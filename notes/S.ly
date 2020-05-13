@@ -147,6 +147,169 @@ KyrieSopranoLyrics = \lyricmode {
 	son, e -- lei -- son. %90 finis
 }
 
+ChristeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoChriste
+		R2.*28 %28
+		\mvTr g'4\pE^\soloE h a
+		g c h %30
+		a8[ h] a4 g
+		fis2 g4
+		f8[( g]) f4 e
+		e d r
+		R2.*3 %37
+		g4 g g
+		fis8([ a)] \appoggiatura a4 g2
+		\tuplet 3/2 4 { h8([ a g)] } g2 %40
+		\tuplet 3/2 4 { a8([ g fis)] } fis2
+		g4 fis( e)
+		d2 r4
+		R2.*3 %46
+		r4 r h'
+		h a a
+		d2 c4
+		h8[ a] g4 r %50
+		d8([ e]) e2
+		e8([ f)] f!2
+		\tuplet 3/2 4 { f8([ g a)] } g4 f
+		f8([ e)] e4 r
+		e8([ fis)] fis2 %55
+		fis8([ g)] g2
+		\tuplet 3/2 4 { g8([ a h)] } a4 g
+		g fis r
+		fis( a) g
+		fis8([ a)] \appoggiatura a4 g2^\critnote %60
+		e2.
+		d2 g4
+		g( fis8[ e] fis4)
+		g2 r4
+		R2.*8 %72
+		g4 h a
+		g c h
+		a8[ h] a4 g %75
+		fis2 g4
+		f8[ g] f4 e
+		\appoggiatura e d2 r4
+		R2.*3 %81
+		r4 g f!
+		e8([ f)]^\critnote g2
+		g8([ a)] b2
+		a4 c( a) %85
+		\appoggiatura a g2 r4
+		f a g
+		f b a
+		g8[ a] g4 f
+		e2 f4 %90
+		e d c
+		f e d
+		e r r
+		r f es
+		d8([ cis)] d4 r %95
+		e!8([ f)] e4( d)
+		cis2 r4
+		cis8([ d)] e2
+		e8([^\critnote f)] g2
+		\tuplet 3/2 4 { g8([ a b)] } a4 g %100
+		f( e) d
+		\tuplet 3/2 4 { h!8([ c d)] } d2
+		\tuplet 3/2 4 { d8([ e f)] } f2
+		\tuplet 3/2 4 { f8([ g a)] } g4 f
+		e8([ d)] c4 r %105
+		\tuplet 3/2 4 { g'8([ f e)] } e2
+		\tuplet 3/2 4 { f8([ g a)] } g2
+		\tuplet 3/2 4 { g8([ a g)] } f4 e
+		\once \tieDashed d~ d8[ e d f]
+		e[ f] g2 %110
+		f4 e d
+		c2.
+		a'
+		g2 e4
+		d2. %115
+		c
+		R2.*10 %126
+		R2.\fermataMarkup \bar "||" %127 finis
+	}
+}
+
+ChristeSopranoLyrics = \lyricmode {
+	Chri -- ste e -- %29
+	lei -- _ _ %30
+	_ _ _
+	son, e --
+	lei -- \xE son, e --
+	lei -- \x son,
+
+	Chri -- ste e -- %38
+	lei -- son,
+	Chri -- ste, %40
+	Chri -- ste
+	e -- lei --
+	son,
+
+	e -- %47
+	lei -- son, e --
+	lei -- _
+	_ son, %50
+	Chri -- ste,
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste, %55
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste,
+	Chri -- ste, %60
+	Chri --
+	ste e --
+	lei --
+	son.
+
+	Chri -- ste e -- %73
+	lei -- _ _
+	_ _ _ %75
+	_ _
+	_ _ _
+	son,
+
+	Chri -- ste, %82
+	Chri -- ste,
+	Chri -- ste
+	e -- lei -- %85
+	son,
+	Chri -- ste e --
+	lei -- _ _
+	_ _ _
+	son, e -- %90
+	lei -- _ _
+	_ _ _
+	son,
+	Chri -- ste,
+	Chri -- ste %95
+	e -- lei --
+	son,
+	Chri -- ste,
+	Chri -- ste,
+	Chri -- ste e -- %100
+	lei -- son,
+	Chri -- ste,
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- son, %105
+	Chri -- ste,
+	Chri -- ste
+	e -- lei -- _
+	_
+	_ _ %110
+	_ _ _
+	son,
+	Chri --
+	ste e --
+	lei -- %115
+	son. %116 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -101,3 +101,137 @@ KyrieViola = {
 		d d d d d4 r\fermata \bar "||" %91 finis
 	}
 }
+
+ChristeViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoChriste
+		c2.\fE
+		c
+		f2 d4
+		d d c
+		h g r %5
+		g2.
+		c2 c4
+		d c h
+		a g g
+		g g'8 a g f %10
+		e4 f g
+		c,2 r4
+		fis g a
+		d,2 r4
+		g2 r4 %15
+		c,2 r4
+		g2 r4
+		c2 r4
+		d d d
+		d r8 h a g %20
+		g4 g' g
+		e c r
+		g g g
+		g2.
+		c2.\pE %25
+		c
+		f2 fis4
+		g h a
+		g2.
+		g, %30
+		c2 c4
+		d c h
+		a h c
+		g2.
+		c %35
+		f2 fis4
+		d h8 c d c
+		h4 g g'
+		d d d
+		r d d %40
+		r d d
+		g a a,
+		d2.
+		d
+		a %45
+		d2 c!4
+		h a g
+		d' d, r
+		d' e fis
+		g g, r %50
+		g8 g g g g g
+		g g g g g g
+		g4 g g
+		g e' d
+		cis8 a a a a a %55
+		a a a a a a
+		a2 a4
+		d d d
+		d2 d4
+		d d d %60
+		c c8 d e fis
+		g4 g, r
+		d'2.
+		h4\fE c d
+		g, e' d %65
+		cis d e
+		a, d d
+		d d r
+		d d r
+		c2 r4 %70
+		g'4 g f
+		g g, r
+		g2.\pE
+		g
+		a4 d d %75
+		d c h
+		a g g
+		g2.
+		c
+		c %80
+		f2 fis4
+		g h, d
+		c8 c c c c c
+		c c c c c c
+		c c c c c c %85
+		c c c d c b
+		a4 f2
+		f2.
+		b2 h4
+		c2. %90
+		c
+		f4 g g,
+		c2.
+		f
+		b, %95
+		e!2 g4
+		a a, a
+		a8 a a a a a
+		a a a a a a
+		g g a a a a %100
+		a2.
+		g8 g g g g g
+		g g g g g g
+		f f g g g g
+		g4 g' e %105
+		c c c
+		c c c
+		c d e8 f
+		g4 g, g
+		c c c %110
+		f g g,
+		c c, r
+		f' f, r
+		c'2^\critnote r4
+		g'2 g,4 %115
+		e'\fE f g
+		c,2 r4
+		fis g a
+		g g, r
+		g' g, r %120
+		c c, c'
+		a d c
+		h h g
+		c g' g,
+		c2^\critnote r4 %125
+		g'4 g g,
+		c2 r4\fermata \bar "||" %127 finis
+	}
+}

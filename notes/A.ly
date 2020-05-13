@@ -149,6 +149,171 @@ KyrieAltoLyrics = \lyricmode {
 	son, e -- lei -- son. %90 finis
 }
 
+ChristeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \autoBeamOff \tempoChriste
+		R2.*24 %24
+		\mvTr c4\pE^\soloE e d %25
+		c f e
+		d8[ e] d4 c
+		\appoggiatura c h2 r4
+		R2.*4 %32
+		r4 r c
+		c h r
+		r c b %35
+		a d8([ e)] d([ c)]
+		c([ h)] h4 r
+		h h h
+		a8([ c)] \appoggiatura c4 h2
+		\tuplet 3/2 4 { d8([ c h)] } h2 %40
+		\tuplet 3/2 4 { c8([ h a)] } a2
+		h8([ e)] d4( cis)
+		d2 g4
+		fis? e d
+		cis d e %45
+		d e fis
+		\once \tieDashed g2.~
+		g4 fis r
+		R2.*2 %50
+		h,8([ c)] c2
+		c8([ d)] d2
+		\tuplet 3/2 4 { d8([ e f)] } e4 d
+		d8([ c)] c4 r
+		cis8([ d)] d2 %55
+		d8([ e)] e2
+		\tuplet 3/2 4 { e8([ fis? g)] } fis4 e
+		e d r
+		d( c!) h
+		a8([ c)] \appoggiatura c4 h2 %60
+		c2.
+		h2 h4
+		a2.
+		g2 r4
+		R2.*8 %72
+		h4 d c
+		h e d
+		c8[ d] c4 h %75
+		a2 h4
+		c d c
+		\appoggiatura c h2 r4
+		c4 e d
+		c f e %80
+		d8[ e] d4 c
+		h2 r4
+		c8([ d)] e2
+		e8([ f)] g2
+		f4 a( f) %85
+		\appoggiatura f e2 r4
+		R2.*6 %92
+		r4 c b
+		a8([ g)] a4 a
+		b?2( a4) %95
+		g g( b)
+		a a r
+		a8([ h!)] cis2
+		cis8([ d)] e2
+		\tuplet 3/2 4 { e8([ f g)] } f4 e %100
+		d( cis) d
+		\tuplet 3/2 4 { g,8([ a h!)] } h2
+		\tuplet 3/2 4 { h8([ c d)] } d2
+		\tuplet 3/2 4 { d8([ e f)] } e4 d
+		c8([ h]) c4 r %105
+		\tuplet 3/2 4 { e8([ d c)] } c2
+		\tuplet 3/2 4 { d8([ e f)] } e2
+		\tuplet 3/2 4 { e8([ f e)] } d4 c
+		\once \tieDashed h4~ h8[ c h d]
+		c[ d] e2 %110
+		d4 c h
+		c2.
+		f
+		e2 c4
+		c( h8[ a] h4) %115
+		c2.
+		R2.*10 %126
+		R2.\fermataMarkup \bar "||" %127 finis
+	}
+}
+
+ChristeAltoLyrics = \lyricmode {
+	Chri -- ste e -- %25
+	lei -- _ _
+	_ _ _
+	son,
+
+	e -- %33
+	lei -- son,
+	Chri -- ste, %35
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste, %40
+	Chri -- ste
+	e -- lei --
+	son, e --
+	lei -- _ _
+	_ _ _ %45
+	_ _ _
+	_
+	son,
+
+	Chri -- ste, %51
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste, %55
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- son,
+	Chri -- ste,
+	Chri -- ste, %60
+	Chri --
+	ste e --
+	lei --
+	son.
+
+	Chri -- ste e -- %73
+	lei -- _ _
+	_ _ _ %75
+	_ _
+	_ _ _
+	son,
+	Chri -- ste e --
+	lei -- _ _ %80
+	_ _ _
+	son,
+	Chri -- ste,
+	Chri -- ste
+	e -- lei -- %85
+	son,
+
+	Chri -- ste, %93
+	Chri -- ste e --
+ 	lei -- %95
+	son, e --
+	lei -- son,
+	Chri -- ste,
+	Chri -- ste,
+	Chri -- ste e -- %100
+	lei -- son,
+	Chri -- ste,
+	Chri -- ste,
+	Chri -- ste e --
+	lei -- son, %105
+	Chri -- ste,
+	Chri -- ste
+	e -- lei -- _
+	_
+	_ _ %110
+	_ _ _
+	son,
+	Chri --
+	ste e --
+	lei -- %115
+	son. %116 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

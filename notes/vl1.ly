@@ -102,6 +102,140 @@ KyrieViolinoI = {
 	}
 }
 
+ChristeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoChriste
+		c'4\fE e d
+		c f e
+		d8 e d4 c
+		h8 c d4 fis
+		g8. a16 g4 c %5
+		h a g
+		e2 e4
+		d2 r4
+		r d d
+		d c r %10
+		g'8[ g, g g] b8.( a32 b)
+		a8 f' f f f a
+		r d,[ d d] c8.( h!32 c)
+		h8 g' g g g h
+		r f-! f( e d f) %15
+		r e e d e g
+		r f, f e d f
+		r e e g g4
+		fis c'8 fis, fis fis
+		g d' f,2 %20
+		e16 g e c g4 d'
+		c g''8.( f32 e) a8.( g32 f)
+		e16 g e c g4 d'
+		c c, r
+		c'\p e d %25
+		c f e
+		d8 e d4 c
+		\appoggiatura c h2 fis'4
+		g g c
+		h a g %30
+		e2 e4
+		d2 r4
+		r d c
+		c h r
+		r c b %35
+		a f'8^\critnote e d c
+		c h h4 r
+		h h h
+		a8 c \appoggiatura c4 h2
+		r4 h8 d g h %40
+		r4 a,8 c fis a
+		g4 fis e
+		d2 g4
+		fis? e d
+		cis d e %45
+		d e fis
+		g2.
+		g4 fis r
+		fis g a
+		g g, r %50
+		r e' c'
+		r f,! d'
+		r g, f
+		f8 e e4 r
+		r d fis %55
+		r e g
+		\tuplet 3/2 4 { g8 a h } a4 g
+		g fis8 a fis d
+		d4 c! h
+		a8 c \appoggiatura c4 h2^\critnote %60
+		e2.
+		d4 h' r
+		R2.
+		r8 g[\fE g g] f!8.( e32 f)
+		e4 e8 g g gis %65
+		a[ a, a' a] g8.( fis32 g)
+		fis4 fis8 a a c!
+		h4 h8 a h d
+		h,4 h8 a h d
+		e16 d c h a g fis e d c h a %70
+		h d' h g d4 a'
+		g g, r
+		g'\p h a
+		g c h
+		a8 h a4 g %75
+		fis2 g4
+		f8 g f4 e
+		\appoggiatura e d2 r4
+		c' e d
+		c f e %80
+		d8 e d4 c
+		h2 r4
+		r g e'
+		r b g'
+		a, f' a, %85
+		\appoggiatura a g2 r4
+		a, c b
+		a d c
+		d2 d4
+		e g f %90
+		e d c
+		f e d
+		e c' b
+		a8 a a a a a
+		b?2 a4 %95
+		g g b?
+		a e8 a cis e
+		e4 e g
+		r e g
+		g8 b a4 g %100
+		f e d
+		r h! d
+		r d f
+		\tuplet 3/2 4 { f8 g a } g4 f
+		e8 d c4 r %105
+		r e g
+		r e g
+		g f e
+		d r f
+		e8 f g4 c %110
+		f, e d
+		c e8 d e g
+		a4 a a
+		g2 r4
+		R2. %115
+		r8 c,[\fE c c] b8.( a32 b)
+		a8 f' f f f a
+		r d,[ d d] c8.( h!32 c)
+		h8 g' g g g h
+		r d, d d d f! %120
+		r e e e e g
+		fis4 c'8 fis, fis fis
+		\tuplet 3/2 4 { g fis g g, h d f e d }
+		e16 g e c g4 d'
+		c \tuplet 3/2 4 { e,8 f g a g f } %125
+		e16 g e c g4 d'
+		c2 r4\fermata \bar "||" %127 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

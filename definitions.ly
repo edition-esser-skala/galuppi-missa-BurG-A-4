@@ -546,6 +546,7 @@ tocSection = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Andante"
 tempoChriste = \tempoMarkup "Adagio"
+tempoKyrieII = \tempoMarkup "[Tempo deest]"
 
 
 \include "notes/cor1.ly"

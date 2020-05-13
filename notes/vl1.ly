@@ -236,6 +236,114 @@ ChristeViolinoI = {
 	}
 }
 
+KyrieIIViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoKyrieII
+		R1*5 %5
+		g''2.\fE g4
+		fis2 d
+		e4 fis g2~
+		g fis
+		e4 fis8 g a4 g %10
+		fis d e fis
+		g2 r
+		r e
+		d1
+		c2 a %15
+		h4 d d e
+		d2 fis
+		g4 a g2
+		e a
+		g e %20
+		d4 fis g \once \tieDashed a~
+		a g8 fis g2
+		r d
+		g e
+		fis r %25
+		R1
+		a2. a4
+		fis2 d
+		e4 fis g2~
+		g fis %30
+		e4 fis8 g a4 g
+		fis4 d fis gis
+		a2 a
+		a gis
+		a a %35
+		a gis
+		a a
+		g! fis
+		e4 gis \once \tieDashed a2~
+		a gis %40
+		a fis
+		e1
+		d2 r
+		R1
+		r2 a' %45
+		h a
+		fis e
+		\once \tieDashed fis1~
+		fis
+		fis2 h %50
+		h a!~
+		a g
+		fis1
+		e2 r
+		r a %55
+		a4 fis g a
+		g1
+		g2 g
+		fis g~
+		g4 f8 e f2 %60
+		e e
+		d1
+		c2 r
+		g'2. g4
+		e2 c %65
+		d c
+		h1
+		a2 d
+		d r
+		r e %70
+		d1
+		c2 a
+		h4 d d e
+		d2 fis
+		g4 fis e d %75
+		cis2 d
+		e1
+		d4 fis g a~
+		a2 g
+		fis \once \tieDashed g~ %80
+		g4 e fis2~
+		fis4 d \once \tieDashed e2~
+		e4 c? d2
+		d g
+		g1 %85
+		fis
+		e
+		fis2 \once \tieDashed g~
+		g fis
+		g g %90
+		fis g~
+		g fis
+		g g
+		\once \tieDashed g1~
+		\once \tieDashed g~ %95
+		g
+		g
+		r2 fis
+		g4 a g2~
+		g fis %100
+		g1
+		g
+		g2 fis4 e
+		fis1
+		g\fermata \bar "|." %105 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

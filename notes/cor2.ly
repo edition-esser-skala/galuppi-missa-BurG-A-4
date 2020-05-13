@@ -67,3 +67,39 @@ KyrieCornoII = {
 		c c c c c4 r\fermata \bar "||" %91 finis
 	}
 }
+
+KyrieIICornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoKyrieII
+		R1*72 %72
+		c'2.\fE c4
+		g2 g
+		c r %75
+		R1*2
+		g2 g
+		c2. c4
+		g1 %80
+		R1*5 %85
+		\tieDashed g1~
+		g~
+		g~
+		g~
+		g~ %90
+		g~
+		g
+		c2^\critnote c
+		c1~
+		\tieDashed c~ %95
+		c~ \tieSolid
+		c~
+		c2 d
+		d c
+		g1
+		c
+		c
+		\once \tieDashed g~
+		g
+		e\fermata \bar "|."
+	}
+}

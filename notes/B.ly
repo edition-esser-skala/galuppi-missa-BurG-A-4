@@ -262,6 +262,172 @@ ChristeBassoLyrics = \lyricmode {
 	son. %116 finis
 }
 
+KyrieIIBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/2 \autoBeamOff \tempoKyrieII
+		R1*15 %15
+		\mvTr g'2.\fE^\tuttiE g4
+		fis2 d
+		e4 fis \once \tieDashed g2~
+		g fis
+		e4 fis8[ g] a4 g %20
+		fis d e fis
+		g2 g
+		g fis
+		e a~
+		a g %25
+		fis2. d4
+		a1
+		d2 r
+		r h
+		cis d %30
+		a' a,
+		d r
+		R1*3 %35
+		e2. e4
+		cis2 a
+		h4 cis \once \tieDashed d2~
+		d cis
+		h4 cis8[ d] e4 d %40
+		cis2 d
+		a'2. g4
+		fis d fis gis
+		a2 r
+		r fis %45
+		gis4 e \once \tieDashed a2~
+		a g
+		fis h
+		fis1
+		h,2 r %50
+		R1*2
+		h'2. h4
+		g2 e
+		a2. g4 %55
+		fis d e fis
+		g2. fis4
+		e2 c
+		d g
+		d1 %60
+		c4 d e f
+		g1
+		c,2 r
+		R1*9 %72
+		g'2. g4
+		fis2 d
+		e4 fis \once \tieDashed g2~ %75
+		g fis
+		e4 fis8[ g] a4 g
+		fis d e fis
+		g a h c
+		d2. h4 %80
+		c2. a4
+		h2. g4
+		a2. fis4
+		g fis e d
+		cis1 %85
+		d
+		d
+		\tieDashed d~
+		d~
+		d~ %90
+		d~
+		d \tieSolid
+		g2 g
+		c,4 d e fis
+		g2 g %95
+		c,4 d e fis
+		g2 r
+		r d
+		e4 fis g2
+		d1 %100
+		g,
+		g
+		\once \tieDashed d'~
+		d
+		g,\fermata \bar "|." %105 finis
+	}
+}
+
+KyrieIIBassoLyrics = \lyricmode {
+	Ky -- ri -- %16
+	e e --
+	lei -- _ _
+	_
+	_ _ _ _ %20
+	_ _ _ _
+	son, e --
+	lei -- _
+	_ _
+	_ %25
+	_ _
+	_
+	son,
+	e --
+	lei -- _ %30
+	_ _
+	son,
+
+	Ky -- ri -- %36
+	e e --
+	lei -- _ _
+	_
+	_ _ _ _ %40
+	_ _
+	_ _
+	_ _ _ _
+	son,
+	e -- %45
+	lei -- _ _
+	_
+	_ _
+	_
+	son, %50
+
+	Ky -- ri -- %53
+	e e --
+	lei -- _ %55
+	_ _ _ _
+	_ _
+	_ _
+	_ _
+	_ %60
+	_ _ _ _
+	_
+	son,
+
+	Ky -- ri -- %73
+	e e --
+	lei -- _ _ %75
+	_
+	_ _ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _ %80
+	_ _
+	_ _
+	_ _
+	_ _ _ _
+	_ %85
+	son,
+	e --
+	lei --
+
+	son, e -- %93
+	lei -- _ _ _
+	son, e -- %95
+	lei -- _ _ _
+	son,
+	e --
+	lei -- _ _
+	_ %100
+	son,
+	e --
+	lei --
+
+	son. %105 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

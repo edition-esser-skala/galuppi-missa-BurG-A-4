@@ -235,3 +235,104 @@ ChristeViolinoII = {
 		c2 r4\fermata \bar "||" %127 finis
 	}
 }
+
+KyrieIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoKyrieII
+		d'2.\fE d4
+		h2 g
+		a4 h c2~
+		c h
+		a4 h8 c d4 c %5
+		h g h cis
+		d a d2
+		c! h
+		a4 cis \once \tieDashed d2~
+		d cis %10
+		d r4 d
+		d2 h
+		c4 h a g
+		fis d \once \tieDashed g2~
+		g fis %15
+		g4 h h e
+		a,1
+		g2 r
+		R1*3 %21
+		r2 d'
+		h4 cis \once \tieDashed d2~
+		d cis
+		h4 dis \once \tieDashed e2~ %25
+		e4 a, \once \tieDashed d2~
+		d cis
+		d r
+		r d
+		e \once \tieDashed d~ %30
+		d cis
+		d r4 h
+		a2 cis
+		d h
+		e cis? %35
+		h1
+		a2 r
+		R1*5 %42
+		d2. d4
+		cis2 a
+		h4 cis \once \tieDashed d2~ %45
+		d cis
+		h h
+		ais \once \tieDashed h~
+		h ais
+		h r %50
+		R1*3
+		e2. e4
+		c!2 a %55
+		d2. c4
+		h g a h
+		c g \once \tieDashed c2~
+		c h
+		a2. h4 %60
+		c2 r
+		R1
+		c2. c4
+		h2 g
+		g a4 g %65
+		fis! g \once \tieDashed a2~
+		a g~
+		g fis
+		g h
+		c4 h a g %70
+		fis2 \once \tieDashed g~
+		g fis
+		g r
+		R1*4 %77
+		r2 c!
+		h4 c d e
+		d1 %80
+		e2 c
+		d h
+		c a
+		h h
+		e1~ %85
+		e2 \once \tieDashed d~
+		d \once \tieDashed c~
+		c h
+		a1
+		g2 h %90
+		a h
+		a1
+		h2 d
+		e1
+		d4 c h d %95
+		c1
+		h4 a g h
+		a h \once \tieDashed c2~
+		c h
+		a1 %100
+		h
+		h
+		\once \tieDashed a~
+		a
+		h\fermata \bar "|." %105 finis
+	}
+}

@@ -651,6 +651,65 @@ GloriaSopranoLyrics = \lyricmode {
 	a. %108 finis
 }
 
+EtInTerraSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEtInTerra
+		R1*2
+		r4 \mvTr g'\fE^\tuttiE g8 a b a16([ g)]
+		a4 a g g
+		b b b8 a16([ g)] a4 %5
+		b8 b b b b4 as
+		g g g8. g16 g4
+		g8 g g g as4 as
+		c c h!8. h16 h4
+		h8 h h h h4 h %10
+		cis8 cis cis cis d4 d
+		r2 r4 a
+		a8 h c h16([ a)] h4 r
+		R1
+		r2 r4 g %15
+		g8 a b8 a16([ g)] a4 r
+		g g a8. a16 a4
+		a8 a a a a2
+		d cis
+		cis4 r d r %20
+		d d d8 c16([ h)] c4
+		c r b r
+		as r g r
+		f8 f f f e!8([ g)] g4
+		as r r2 %25
+		g1\fermata \bar "||" %26 finis
+	}
+}
+
+EtInTerraSopranoLyrics = \lyricmode {
+	Pax, pax ho -- mi -- ni -- %3
+	bus, in ter -- ra
+	pax ho -- mi -- ni -- bus %5
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis, %10
+	bo -- nae vo -- lun -- ta -- tis,
+	pax,
+	pax ho -- mi -- ni -- bus,
+
+	pax, %15
+	pax ho -- mi -- ni -- bus
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta --
+	tis, pax,
+	pax, pax, %20
+	pax ho -- mi -- ni -- bus,
+	pax, pax,
+	pax, pax
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, %25
+	pax. %26 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

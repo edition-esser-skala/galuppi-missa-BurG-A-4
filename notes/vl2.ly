@@ -454,3 +454,36 @@ GloriaViolinoII = {
 		g4 <d h'>8. q16 q4 r\fermata \bar "||" %111 finis
 	}
 }
+
+EtInTerraViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtInTerra
+		c'8\fE g e c g4 d''
+		r2 c8 g e c
+		b4 e r2
+		f8 a f f e g e e
+		g g g g g fis16 e fis4 %5
+		d16 d d d d d d d d d d d d d d d
+		es es es es g g g g f f f f f f f f
+		es es es es es es es es es es es es es es es es
+		es es es es f f f f d16. g32 h!16. d32 g16. d32 h16. d32
+		g,4 r r16 e gis16. h32 e16. e,32 e'16. d32 %10
+		cis4 r r16 d' a16. fis32 d16. d,32 fis16. a32
+		d8 a fis d c!4 r
+		r2 g'8 d h g
+		f'!4 r r2
+		c'8 g e c b4 r %15
+		r2 f''8 c a f
+		e16 e g g g g g g a a a a a a a a
+		a a a a a a a a a a a a a a a a
+		g g g g g g g g a a a a a a a a
+		e e e e e e e e f! f f f f f f f %20
+		f f f f f f f f e e e e e e e e
+		e e e e e e e e g g g g g g g g
+		f f f f f f f f e! e e e e e e e
+		f f f f f f f f e! e e e e e e e
+		f8(-. f-. f-. f-.) f(-. f-. e!-. d-.) %25
+		e! e e e e2\fermata \bar "||" %26 finis
+	}
+}

@@ -108,3 +108,33 @@ GloriaOboeII = {
 		g4 h8. h16 h4 r\fermata \bar "||" %111 finis
 	}
 }
+
+EtInTerraOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtInTerra
+		c'8\fE g e c r2
+		r c'8 g e c
+		R1
+		f8 a f f e g e e
+		g g g g g fis16 e fis4 %5
+		d8 d d d d d d d
+		es es g g f f f f
+		es es es es es es es es
+		es es f f d d d d
+		d4 r r8 gis gis gis %10
+		g4 r r8 fis fis fis
+		fis a fis d c!4 r
+		R1*4 %16
+		e8(-. g-. g-. g-.) \slurDashed a(-. a-. a-. a-.)
+		a(-. a-. a-. a-.) a(-. a-. a-. a-.) \slurSolid
+		g g g g a a a a
+		e4 r f! r %20
+		f8 f f f e e e e
+		e4 r g r
+		f r e! r
+		f8 f f f e! e e e
+		f4 r r2 %25
+		e!8 e e e e2\fermata \bar "||" %26 finis
+	}
+}

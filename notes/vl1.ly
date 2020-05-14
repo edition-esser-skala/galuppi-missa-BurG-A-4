@@ -462,6 +462,39 @@ GloriaViolinoI = {
 	}
 }
 
+EtInTerraViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoEtInTerra
+		c'8\fE g e c g4 d''
+		r2 c8 g e c
+		b4 g' r2
+		a8 f' a, a g e' g, g
+		b b b b b a16 g a4 %5
+		b16 b b b b b b b b b b b as as as as
+		g g g g g g g g g g g g g g g g
+		g g g g g g g g as as as as as as as as
+		c c c c c c c c h!16. g32 h!16. d32 g16. d32 h16. d32
+		g,4 r4 r16 e! gis16. h32 e16. e,32 e'16. d32 %10
+		cis4 r r16 d' a16. fis32 d16. d,32 fis16. a32
+		d8 a fis d c!4 r
+		r2 g'8 d h g
+		f'!4 r r2
+		c'8 g e c b4 r %15
+		r2 f''8 c a a
+		g16 c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		d d d d d d d d cis cis cis cis cis cis cis cis
+		cis cis cis cis cis cis cis cis d d d d d d d d %20
+		d d d d d d d d d^\critnote d d d c c c c
+		c c c c c c c c b b b b b b b b
+		as as as as as as as as g g g g g g g g
+		f f f f f f f f e! g g g g g g g
+		as8(-. as-. as-. as-.) as(-. as-. g-. f-.) %25
+		g g g g g2\fermata \bar "||" %26 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

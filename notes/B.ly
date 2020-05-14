@@ -553,6 +553,68 @@ GloriaBassoLyrics = \lyricmode {
 	a. %108 finis
 }
 
+EtInTerraBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \autoBeamOff \tempoEtInTerra
+		\mvTr c'8\fE^\tuttiE g e c g4 r
+		r2 c'8 g e c
+		b4 r r2
+		f'8 c a f c'4 c
+		cis4. cis8 d2 %5
+		b8 b b b b4 b
+		b b h8. h16 h4
+		c8 c c c as4 as
+		as f g8. g16 g4
+		g'8 g f f e!4 e %10
+		e8 e e e d4 d
+		d'8 a fis d c!4 r
+		r2 g'8 d h g
+		f!4 r r2
+		c''8 g e c b4 r %15
+		r2 f'8 c a f
+		c'4 c f8. f16 f4
+		es8 es es es d2
+		b a
+		a4 r d r %20
+		h! h c!8. c16 c4
+		c r c r
+		c r c r
+		des8 des des des c4 c
+		h! r r2 %25
+		c1\fermata \bar "||" %26 finis
+	}
+}
+
+EtInTerraBassoLyrics = \lyricmode {
+	Et in ter -- ra pax,
+	et in ter -- ra
+	pax,
+	et in ter -- ra pax ho --
+	mi -- ni -- bus %5
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis, %10
+	bo -- nae vo -- lun -- ta -- tis,
+	et in ter -- ra pax,
+	et in ter -- ra
+	pax,
+	et in ter -- ra pax %15
+	et in ter -- ra
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta --
+	tis, pax,
+	pax, pax, %20
+	pax ho -- mi -- ni -- bus,
+	pax, pax,
+	pax, pax
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, %25
+	pax. %26 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

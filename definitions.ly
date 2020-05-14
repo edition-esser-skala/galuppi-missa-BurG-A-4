@@ -549,6 +549,7 @@ tempoChriste = \tempoMarkup "Adagio"
 tempoKyrieII = \tempoMarkup "[Tempo deest]"
 
 tempoGloria = \tempoMarkup "Allegro"
+tempoEtInTerra = \tempoMarkup "Adagio"
 
 
 \include "notes/ob1.ly"

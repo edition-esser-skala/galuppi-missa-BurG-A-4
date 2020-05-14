@@ -450,3 +450,36 @@ GloriaViola = {
 		d d8. d16 d4 r\fermata \bar "||" %111 finis
 	}
 }
+
+EtInTerraViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 4/4 \tempoEtInTerra
+		c'8\fE g e c g4 g
+		g2 c'8 g e c
+		b4 r r2
+		f'8 c a f c'4 c
+		cis8 e e e d d d d %5
+		f!16 f f f f f f f f f f f f f f f
+		es es es es es es es es d d d d d d d d
+		c c c c c c c c c c c c c c c c
+		as as as as as as as as g8 g' g, g
+		g4 r r8 e'! e e %10
+		e4 r r8 a a a
+		d8 a fis d c!4 r
+		r2 g'8 d h g
+		f!4 r r2
+		c''8 g e c b4 r %15
+		r2 f'8 c a f
+		c'16 c e e e e e e f f f f f f f f
+		fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis fis
+		g g g g g g g g e e e e e e e e
+		a a a a a a a a a a a a a a a a %20
+		g g g g g g g g g g g g g g g g
+		g g g g g g g g e e e e e e e e
+		c c c c c c c c c c c c c c c c
+		b b b b h h h h c c c c c c c c
+		h!8 d d d c2 %25
+		c8 c c c c2\fermata \bar "||" %26 finis
+	}
+}

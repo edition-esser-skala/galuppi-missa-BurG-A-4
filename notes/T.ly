@@ -467,6 +467,65 @@ GloriaTenoreLyrics = \lyricmode {
 	a. %108 finis
 }
 
+EtInTerraTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 4/4 \autoBeamOff \tempoEtInTerra
+		r2 r4 \mvTr h\fE^\tuttiE
+		h8 c d c16([ h)] c4 r
+		R1
+		r4 c c c
+		e e d8. d16 d4 %5
+		d8 d d d d4 d
+		es es d8. d16 d4
+		c8 c c c c4 c
+		c as g8. g16 g4
+		g8 g g g gis4 gis %10
+		e8 e a a a4 a
+		R1*2
+		r4 h h8 c d c16([ h)]
+		c4 r r2 %15
+		R1
+		c4 c c8. c16 c4
+		c8 c c c \once \tieDashed c4~ c
+		d2 e
+		e4 r f! r4 %20
+		d g, g8. g16 g4
+		g r c r
+		c r c r
+		b?8 b h? h c4 c
+		d! r r2 %25
+		c1\fermata \bar "||" %26 finid
+	}
+}
+
+EtInTerraTenoreLyrics = \lyricmode {
+	Pax,
+	pax ho -- mi -- ni -- bus,
+	in ter -- ra
+	pax ho -- mi -- ni -- bus %5
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis, %10
+	bo -- nae vo -- lun -- ta -- tis,
+
+	pax, pax ho -- mi -- ni --
+	bus, %15
+
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta --
+	tis, pax,
+	pax, pax, %20
+	pax ho -- mi -- ni -- bus,
+	pax, pax,
+	pax, pax
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, %25
+	pax. %26 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

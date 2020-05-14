@@ -681,6 +681,68 @@ GloriaAltoLyrics = \lyricmode {
 	a. %108 finis
 }
 
+EtInTerraAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \autoBeamOff \tempoEtInTerra
+		r2 r4 \mvTr d\fE^\tuttiE
+		d8 e f e16([ d)] e4 r
+		r e e8 f g f16([ e)]
+		f4 f e e
+		g g g8 fis16([ e)] fis4 %5
+		f8 f f f f4 f
+		es g f8. f16 f4
+		es8 es es es es4 es
+		es f d8. d16 d4
+		d8 d d d e!4 e %10
+		g!8 g g g fis4 fis
+		r2 r4 fis
+		fis8 g a g16([ fis)] g4 r
+		r d d8 e f e16([ d)]
+		e4 r r e %15
+		e8 f g f16([ e)] f4 r
+		e e f8. f16 f4
+		fis8 fis fis fis \once \tieDashed fis4~ fis
+		g2 a
+		a4 r a r %20
+		g f e8. e16 e4
+		e r g r
+		f r e! r
+		f8 f f f e!4 e
+		f r r2 %25
+		e!1\fermata \bar "||" %26 finis
+	}
+}
+
+EtInTerraAltoLyrics = \lyricmode {
+	Pax,
+	pax ho -- mi -- ni -- bus,
+	pax, pax ho -- mi -- ni --
+	bus, in ter -- ra
+	pax ho -- mi -- ni -- bus %5
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta -- tis, %10
+	bo -- nae vo -- lun -- ta -- tis,
+	pax,
+	pax ho -- mi -- ni -- bus,
+	pax, pax ho -- mi -- ni --
+	bus, pax, %15
+	pax ho -- mi -- ni -- bus,
+	pax ho -- mi -- ni -- bus
+	bo -- nae vo -- lun -- ta --
+	tis, pax,
+	pax, pax, %20
+	pax ho -- mi -- ni -- bus,
+	pax, pax,
+	pax, pax
+	bo -- nae vo -- lun -- ta -- tis,
+	pax, %25
+	pax. %26 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -924,6 +924,68 @@ GloriaBassFigures = \figuremode {
 	r %111 finis
 }
 
+EtInTerraOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoEtInTerra
+		\mvTr c'8-!\fE-\tuttiE g-! e-! c-! g4 g
+		g2 c'8-! g-! e-! c-!
+		b4-! r r2
+		f'8-! c-! a-! f-! c' c c c
+		cis cis cis cis d d d d %5
+		b16 b b b b b b b b b b b b b b b
+		b b b b b b b b h h h h h h h h
+		c c c c c c c c as as as as as as as as
+		as as as as f f f f g8 g g g
+		g' g f f e! e e e %10
+		e e e e d d d4
+		d'8-! a-! fis-! d-! c!4 r
+		r2 g'8-! d-! h-! g-!
+		f!4 r r2
+		c''8-! g-! e-! c-! b4 r %15
+		r2 f'8-! c-! a-! f-!
+		c'16 c c c c c c c f f f f f f f f
+		es es es es es es es es d d d d d d d d
+		b b b b b b b b a a a a a a a a
+		a a a a a a a a d d d d d d d d %20
+		h! h h h h h h h c! c c c c c c c
+		c c c c c c c c c c c c c c c c
+		c c c c c c c c c c c c c c c c
+		des des des des des des des des c c c c c c c c
+		h!8 h h h c4 c %25
+		c8 c c c c2\fermata \bar "||" %26 finis
+	}
+}
+
+EtInTerraBassFigures = \figuremode {
+	r1
+	<5 3>8 <6 4> <7 5> <6 4>16 <5 3> r2
+	r1
+	r1
+	<7->2 <6- 4>4 <5 _+> %5
+	<5! 3>2. <7->4
+	<6 4->2 <6 5>
+	<_-> <5- 3>
+	r4 <_-> <_!>2
+	r4 <\t> <_+>2 %10
+	<6\\ _!> <_+>
+	r2 <4+ 2>
+	r1
+	<2>
+	r2 <2> %15
+	r1
+	r
+	<6 4 2+>2 <\t \t \t>
+	<6> <_+>
+	r <_!> %20
+	<6>4 <5> <9> <8>
+	r2 <7->
+	<6- 4> <5 _!>
+	<6->4 <6!> <_!>2
+	<7- _!> <6- 4>4 <5 _!>8 <4 2> %25
+	<5 _!>1 %26 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -710,6 +710,161 @@ EtInTerraSopranoLyrics = \lyricmode {
 	pax. %26 finis
 }
 
+LaudamusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \autoBeamOff \tempoLaudamus
+		\partial 4 r4 R2.*28 %28
+		r4 r \mvTr f\pE^\soloE
+		c'2 d8([ b)] %30
+		b4( a) c8 a
+		g2 g8 a
+		b4 a g
+		a8([ c)] a4 c8 a
+		g2 g8([ a)] %35
+		b4 a g
+		a8 g f4 r8 f
+		a2 f4
+		c'2.
+		h4 d f, %40
+		f( e) g8 e
+		e4( d8[ a')] g f
+		f4( e) g8 e
+		e4( d8[ a')] g([ f)]
+		f4( e) g %45
+		g( a) b!
+		a2 r4
+		r8 f16[ g] a8[ g16 f] c'8[ h16 a]
+		h2 r4
+		r8 g16[ a] h8[ a16 g] d'8[ c16 h] %50
+		c4 r8 c16[ d] e8[ d16 c]
+		d4 r8 d16[ e] f8[ e16 d]
+		e8[ c h a] g([ fis])
+		g2 r8 f
+		e([ g f a)] g([ b!)] %55
+		a([ c)] h([ d)] c4
+		r r r8 c
+		a g16([ f)] e4 d
+		c2.
+		R2.*8 %67
+		r4 r c
+		g'2 a8([ f)]
+		f4( e) g8 e %70
+		d2 d8 e
+		f4 e d
+		e8([ f)] g4 c8 a
+		g2 g8([ a)]
+		b!4 a g %75
+		a8 g f4 r8 f
+		a2 g8([ f)]
+		b2.
+		a4 c es,
+		es( d) r8 f %80
+		f4( es) d
+		g2 r4
+		r8 es16[ f] g8[ f16 es] b'8[ a16 g]
+		a2 r4
+		r8 f16[ g] a8[ g16 f] c'8[ b16 a] %85
+		b2 r4
+		r8 b16[ c] d8[ c16 b] e!8[ d16 c]
+		f8[ c d b g f]
+		e4 r8 e16[ f] g8[ f16 e]
+		f4 r8 f16[ g] a8[ g16 f] %90
+		g4 r8 g16[ a] b8[ a16 g]
+		a2 b8[ a]
+		g2 f4
+		f( e) c'8([ a)]
+		g2( a8[ f)] %95
+		f4( e) c'8([ a)]
+		g2 a8 f
+		f e e4 c
+		b'2 b4
+		a8([ c b d)] c f %100
+		d b a4 g
+		f2 r4
+		R2.
+		r4 r8 f f f
+		f8.[(\fermata g16] g4.) g8 %105
+		f2 r4
+		R2.*5 %111
+		R2.\fermataMarkup \bar "||" %112 finsi
+	}
+}
+
+LaudamusSopranoLyrics = \lyricmode {
+	Lau -- %29
+	da -- mus %30
+	te, __ be -- ne --
+	di -- ci -- mus
+	te, ad -- o --
+	ra -- mus, ad -- o --
+	ra -- mus %35
+	te, be -- ne --
+	di -- ci -- mus, glo --
+	ri -- fi --
+	ca --
+	_ _ mus %40
+	te, be -- ne --
+	di -- ci -- mus
+	te, __ ad -- o --
+	ra -- mus
+	te, __ glo -- %45
+	ri -- fi --
+	ca --
+	_ _ _
+	_
+	_ _ _ %50
+	_ _ _
+	_ _ _
+	_ mus
+	te, glo --
+	ri -- fi -- %55
+	ca -- mus te,
+	glo --
+	ri -- fi -- ca -- mus
+	te.
+
+	Lau -- %68
+	da -- mus
+	te, __ be -- ne -- %70
+	di -- ci -- mus
+	te, ad -- o --
+	ra -- mus, ad -- o --
+	ra -- mus
+	te, be -- ne -- %75
+	di -- ci -- mus, glo --
+	ri -- fi --
+	ca --
+	_ _ mus
+	te, __ glo -- %80
+	ri -- fi --
+	ca --
+	_ _ _
+	_
+	_ _ _ %85
+	_
+	_ _ _
+	_
+	_ _ _
+	_ _ _ %90
+	_ _ _
+	_ _
+	_ mus
+	te, ad --
+	o -- %95
+	ra -- mus
+	te, be -- ne --
+	di -- ci -- mus, glo --
+	ri -- fi --
+	ca -- mus, glo -- %100
+	ri -- fi -- ca -- mus
+	te,
+
+	glo -- ri -- fi --
+	ca -- mus %105
+	te. %106 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

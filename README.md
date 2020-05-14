@@ -1,4 +1,4 @@
-# Florian Leopold Gassman: Missa in G major
+# Baldassare Galuppi: Missa in G major BurG App. 4
 
 Engraving files for LilyPond 2.18.0
 

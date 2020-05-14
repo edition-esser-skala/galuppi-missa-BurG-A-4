@@ -483,3 +483,122 @@ EtInTerraViola = {
 		c8 c c c c2\fermata \bar "||" %26 finis
 	}
 }
+
+LaudamusViola = {
+	\relative c' {
+		\clef alto
+		\key f \major \time 3/4 \tempoLaudamus
+		\partial 4 r4 f\pE f, f
+		f f' f
+		d c c
+		c2.
+		c4 c c %5
+		d c c
+		c2.
+		c4 c8 d c b
+		a4\fE c c
+		g' f e %10
+		f d h
+		g g' c,
+		c c d
+		g e c
+		c g' f %15
+		e c8 d c b!
+		a4 f r
+		c' e g
+		c, c, r
+		c' c c %20
+		c c r
+		c c c
+		a a c
+		d c c
+		c a g %25
+		a a c
+		d c c
+		c c b
+		a2 r4
+		f'\pE f f %30
+		f f f
+		b, c c
+		c2.
+		f4 f, f'
+		d c c %35
+		c2 c4
+		f a8 b a g
+		f4 a f
+		e d c
+		d h g %40
+		c c c
+		g' g, r
+		c c, c'
+		g' g, r
+		c c c %45
+		c2.
+		f4 f, f'
+		f f f
+		f f f
+		f f f %50
+		e e e
+		h h h
+		c2 d4
+		g, a h
+		c d e %55
+		f g e8 d
+		c2.
+		f4 g g,
+		c c, c'\fE
+		c c, r %60
+		g' h d
+		g,2 r4
+		c g' g
+		a a a
+		g e d %65
+		e e e
+		f g8 e d f
+		e2 r4
+		c4\pE c c
+		c c c %70
+		f g g,
+		g2.-\critnote
+		c4 c c
+		c c c
+		c2. %75
+		c4 a'8 g f4
+		f f es
+		d d d
+		c a f
+		b b' b, %80
+		b2.
+		es4 es es
+		es es es
+		es es es
+		es es es %85
+		d d d
+		b b b
+		a b h
+		c c b
+		a f f' %90
+		e e e
+		f f, r
+		b b h
+		c c, r
+		c' c, r %95
+		c' c, r
+		c' c, r
+		c' c, r
+		c' d e
+		f g a %100
+		b c c,
+		f r8 f16 g a8 f16 e
+		d4 r8 d16 e f8 d16 c
+		h8 h h h h h
+		c2.\fermata %105
+		a4\fE a c
+		d d d
+		c a g
+		a c c
+		d f e %110
+		f c' c,
+		f f, r\fermata \bar "||" %112 finis
+	}
+}

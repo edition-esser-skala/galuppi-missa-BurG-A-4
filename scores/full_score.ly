@@ -342,78 +342,137 @@
 	% 		\midi { \tempo 4 = 120 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2.2"
+	% 		title = "E T   I N   T E R R A   P A X"
+	% 	}
+	% 	\tocSection "2.2" "Et in terra pax"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe I"
+	% 						\EtInTerraOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe II"
+	% 						\EtInTerraOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\EtInTerraViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\EtInTerraViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\EtInTerraViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Soprano"
+	% 					\new Voice = "Soprano" { \dynamicUp \EtInTerraSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \EtInTerraSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \EtInTerraAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \EtInTerraAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \EtInTerraTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \EtInTerraTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \EtInTerraBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \EtInTerraBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Organo" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\EtInTerraOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \EtInTerraBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2.2"
-			title = "E T   I N   T E R R A   P A X"
+			number = "2.3"
+			title = "L A U D A M U S   T E"
 		}
-		\tocSection "2.2" "Et in terra pax"
+		\paper {
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			top-system-spacing.basic-distance = #15
+			top-system-spacing.minimum-distance = #15
+			top-markup-spacing.basic-distance = #0
+			top-markup-spacing.minimum-distance = #0
+			systems-per-page = #2
+		}
+		\tocSection "2.3" "Laudamus te"
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\EtInTerraOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\EtInTerraOboeII
-						}
+					\new Staff <<
+						\set Staff.instrumentName = "Oboe I, II"
+						\partcombine \LaudamusOboeI \LaudamusOboeII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\EtInTerraViolinoI
+							\LaudamusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\EtInTerraViolinoII
+							\LaudamusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\EtInTerraViola
+						\LaudamusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EtInTerraSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \LaudamusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \EtInTerraSopranoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EtInTerraAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \EtInTerraAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EtInTerraTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \EtInTerraTenoreLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EtInTerraBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \EtInTerraBassoLyrics
+					\new Lyrics \lyricsto Soprano \LaudamusSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Organo" "e Basso" } }
 						% \transpose c c,
-						\EtInTerraOrgano
+						\LaudamusOrgano
 					}
 				>>
-				\new FiguredBass { \EtInTerraBassFigures }
+				\new FiguredBass { \LaudamusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

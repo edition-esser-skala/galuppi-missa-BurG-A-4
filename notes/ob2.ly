@@ -138,3 +138,43 @@ EtInTerraOboeII = {
 		e!8 e e e e2\fermata \bar "||" %26 finis
 	}
 }
+
+LaudamusOboeII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoLaudamus
+		\partial 4 r4 R2.*16 %16
+		a'2\fE g8 f
+		g2.
+		g2 f8 e
+		f2 f4 %20
+		e2 f8 g
+		f a f4-\critnote e
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		g4 f e
+		f8 a f4 e %25
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		g4 f e
+		\tuplet 3/2 4 { f8 c' b a g f g f e }
+		f2 r4
+		R2.*30 %59
+		e'2\fE d8 c %60
+		d2 r4
+		d2 c8 h^\critnote
+		c2 r4
+		d2 a'8 f
+		\tuplet 3/2 4 { e g e } c4 h %65
+		\tuplet 3/2 4 { c8 e g, g g g gis gis gis }
+		\tuplet 3/2 4 { a f' d } c4 h
+		c2 r4
+		R2.*36 %104
+		R2.\fermataMarkup %105
+		\tuplet 3/2 4 { f,8\fE f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g d' b }
+		\tuplet 3/2 4 { a c a } f4 e
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g a b } %110
+		\tuplet 3/2 4 { a c f, } f4 e
+		f2 r4\fermata \bar "||" %112 finis
+	}
+}

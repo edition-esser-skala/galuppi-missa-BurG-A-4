@@ -138,3 +138,43 @@ EtInTerraOboeI = {
 		g8 g g g g2\fermata \bar "||" %26 finis
 	}
 }
+
+LaudamusOboeI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoLaudamus
+		\partial 4 r4 R2.*16 %16
+		c'2\fE b8 a
+		b2.
+		b2 a8 g
+		a2 a4 %20
+		g2 a8 b
+		a c a4 g
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g a b }
+		\tuplet 3/2 4 { a c a } \pa f4 e \pd %25
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g a b }
+		\tuplet 3/2 4 { a c b a g f g f e }
+		f2 r4
+		R2.*30 %59
+		g'2\fE f8 e %60
+		f2 r4
+		f2 e8 d
+		e2 r4
+		d2 a'8 f
+		\tuplet 3/2 4 { e g e } c4 h %65
+		\tuplet 3/2 4 { c8 e g, g g g gis gis gis }
+		\tuplet 3/2 4 { a f' d } c4 h
+		c2 r4
+		R2.*36 %104
+		R2.\fermataMarkup %105
+		\tuplet 3/2 4 { f,8\fE f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g d' b }
+		\tuplet 3/2 4 { a c a } f4 e
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g a b } %110
+		\tuplet 3/2 4 { a c f, } f4 e
+		f2 r4\fermata \bar "||" %112 finis
+	}
+}

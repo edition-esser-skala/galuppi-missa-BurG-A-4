@@ -487,3 +487,122 @@ EtInTerraViolinoII = {
 		e! e e e e2\fermata \bar "||" %26 finis
 	}
 }
+
+LaudamusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/4 \tempoLaudamus
+		\partial 4 f'4\pE a2 b8 g
+		\once \slurDashed g4( f) a8 f
+		f4( e) e8 f
+		g4 f e
+		\once \slurDashed f8( a) f4 \once \slurDashed a8( f) %5
+		f4 e e8 f
+		g4 f e
+		\tuplet 3/2 4 { f8 e f } f2
+		\tuplet 3/2 4 { a8\f g f f f f f g a }
+		\tuplet 3/2 4 { g c, c c c c c c c } %10
+		\tuplet 3/2 4 { h c d d e f f f f }
+		\tuplet 3/2 4 { f f f e e e g g g }
+		\tuplet 3/2 4 { a g f a h c h c d }
+		\tuplet 3/2 4 { c g g g f e e d c }
+		\tuplet 3/2 4 { a' g f e d c h c d } %15
+		c4 c, r
+		a'2 g8 f
+		\tuplet 3/2 4 { g b g g g g g g g }
+		g2 f8 e
+		\tuplet 3/2 4 { f a f f f f f f f } %20
+		e2 f8 g
+		f a f4-\critnote e
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		g4 f e
+		f8 a f4 e %25
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		g4 f e
+		\tuplet 3/2 4 { f8 c' b a g f g f e }
+		f2 f'4\p
+		a2 b8 g %30
+		g4( f) a8 f
+		f4 e e8 f
+		g4 f e
+		f8 a f4 a8 f
+		f4 e e8 f %35
+		g4 f e
+		f f, r
+		a c a
+		g f e
+		f d d' %40
+		d c e8 c
+		c4( h8) f'-! e-! d-!
+		\once \slurDashed d4( c) \once \slurDashed e8( c)
+		c4( h8) f'-! e-! d-!
+		d4 c e %45
+		e f g
+		f f8 c c a
+		a4 a a
+		d, d d
+		d d d %50
+		g g g
+		g g g
+		g2 r4
+		h, c d
+		c c c %55
+		c r g'8 e'
+		c e g, c e, g
+		f e16 d c4 h
+		c2 c'8\f e
+		e2 d8 c %60
+		\tuplet 3/2 4 { d f d d d d d d d }
+		d2 c8 h
+		\tuplet 3/2 4 { c e c c c c c c c }
+		d2 a'8 f
+		\tuplet 3/2 4 { e g e } c4 h %65
+		\tuplet 3/2 4 { c8 e g, g g g gis gis gis }
+		\tuplet 3/2 4 { a f' d } c4 h
+		c c, c'\p
+		e2 f8 d
+		d4( c) e8 c %70
+		c4 h h8 c
+		d4 c h
+		c8 d e4 a8 f
+		f4 e e8 f
+		g4 f e %75
+		f c8 b a4
+		c c c
+		f f f
+		es es a,
+		c b8. d16 d4 %80
+		d c b
+		b b b
+		b b b
+		a a a
+		a a a %85
+		b b b
+		d b g
+		f d d
+		c g' g
+		c c c %90
+		c c c
+		c c r
+		d d d
+		d c a'8 f
+		e2 f8 d %95
+		d4 c a'8 f
+		e2 f8 d
+		d c c4 r
+		e, f g
+		a b c %100
+		b8 g f4 e
+		f r8 f16 g a8 f16 e
+		d4 r8 d16 e f8 d16 c
+		h8 h h h h h
+		c2.\fermata %105
+		\tuplet 3/2 4 { f8\fE f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g d' b }
+		\tuplet 3/2 4 { a c a } f4 e
+		\tuplet 3/2 4 { f8 f' f, f f f fis fis fis }
+		\tuplet 3/2 4 { g g' g, g g g g a b } %110
+		\tuplet 3/2 4 { a c f, } f4 e
+		f2 r4\fermata \bar "||" %112 finis
+	}
+}

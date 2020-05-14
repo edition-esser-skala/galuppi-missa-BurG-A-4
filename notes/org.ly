@@ -692,6 +692,238 @@ KyrieIIBassFigures = \figuremode {
 	r
 }
 
+GloriaOrgano = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \tempoGloria
+		\mvTr g'8-!\fE-\soloE h16-! a-! g8-! d-! g-! d-! g-! h-!
+		g h16 a g8 d g d g h
+		g4 r8 g d'4 d,
+		g r8 g, g'4 g,
+		d'8 fis16 e d8 a d a d fis %5
+		d fis16 e d8 a d a d fis
+		d4 r8 d d4 g
+		d d d fis
+		g g8 a h a h g
+		c c, c' d c a h cis %10
+		d4 d, d d
+		d d d8 e fis d
+		a' a, a a a a a a
+		a a a a a a a a
+		d d d d d d d d %15
+		d d d d d d d d
+		e4 e8 d cis h cis a
+		d4 d8 e fis e fis d
+		g e g h a a a, a
+		d d d d d d' a fis %20
+		d4 d d d
+		d4 a'8 g fis e fis d
+		g4 g, g g
+		g' g8 a h a h g
+		c c c, c g' g g, g %25
+		c c h c d d d, d
+		g'-! h16-! a-! g8-! d-! g-! d-! g-! h-!
+		g-! h16-! a-! g8-! d-! g-! d-! g-! h-!
+		g4 g,8. g16 g4 r
+		g'8-\tuttiE h16 a g8 d g d g h %30
+		g h16 a g8 d g d g h
+		g4 r8 g d' d d, d
+		g4 r8 g g4 g,
+		d'8 fis16 e d8 a d a d fis
+		d fis16 e d8 a d a d fis %35
+		d4 d d d
+		d d d fis
+		g8 g, g g g4 r
+		g'8 h16 a g8 e a a16 h a8 g
+		fis fis16 e d8 a d a d fis %40
+		g g16 fis g8 e a a16 g a8 a,
+		d4 r8 d-\soloE a'4 a,
+		d r8 d a'4 a,
+		d fis8 g a4 r
+		e cis d r8 g %45
+		a4 a, d8 d, d'4
+		d8\pE d d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		a' a a a a a a a %50
+		a, a a a a a a a
+		a4 r r8 cis d d,
+		a'4 r r8 cis d d,
+		d'4 d a'8\fE e cis e
+		a,-\tuttiE a a a d d d d %55
+		a' a a a d a fis d
+		d' d d d cis cis cis cis
+		h h h h a a a a
+		e4 e8 e e2
+		e8 e e e a e cis? a %60
+		e' e e e a e cis a
+		d d16 cis d8 fis d h cis? d
+		e e e e e, e e e
+		a4 r8 a-\soloE e' e e, e
+		a4 r8 a e' e e, e %65
+		a a a a a a a a
+		d d d d a' a cis, d
+		e e e gis a a, a a
+		d fis e e, a a' a,4
+		a8\pE a a a a a a a %70
+		a a a a a a a a
+		a a a a a a a a
+		e' e e e e e e e
+		a a, a a a a a a
+		a4 a r8 cis d d, %75
+		a' a' a, a a a' e cis
+		\mvTr a\fE-\tuttiE a a a d a fis d
+		a' a a a d a fis d
+		d' d d d g d h g
+		d' d d d g d h g %80
+		g' h16 a g8 d g d g h
+		c e16 d c8 g c h a g
+		fis a16 g fis8 c fis c fis a
+		h d16 c h8 fis h a g fis
+		e g16 fis e8 h e h e g %85
+		a c16 h a8 e a g fis e
+		d fis16 e d8 a d a d fis
+		g h16 a g8 d g d g h
+		d, c'16 h a8 d, fis d fis a
+		d, h'16 a g8 d g d g h %90
+		d4 d,8 d d e fis d
+		g g g g f f f f
+		e e16 d c8 g c g c e
+		a a a a g g g g
+		fis fis16 e d8 a d a d fis %95
+		d fis16 e d8 a d a d fis
+		d fis16 e d8  fis g g h h
+		a a a a d, d d d
+		g h16 a g8 d g d g h
+		g g g g g g g g %100
+		e e e e e e e e
+		c c c c c c c c
+		cis? cis cis cis cis cis cis cis
+		d d d d d d d d
+		d d d d g g g g %105
+		e e e e c c c c
+		d d d d d, d d d
+		g h'16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		g4 g, g g %110
+		g8 g' g, g g4 r\fermata \bar "||" %111 finis
+	}
+}
+
+GloriaBassFigures = \figuremode {
+	r1
+	r
+	r2 <6 4>4 <5 3>
+	r1
+	r %5
+	r
+	<7>
+	q2. <7>8 <6>
+	r2 <6>
+	<6 5>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff %10
+	r1
+	r
+	<7 _+>
+	<\t \t>
+	r %15
+	r
+	r2 <6 5>
+	r <6>
+	q4. q8 <6 4>4 <5 4>8 <\t _+>
+	r1 %20
+	<7!>
+	<\t>2 <6 5>
+	r1
+	r2 <6>
+	r1 %25
+	r4 <6>8 q <6 4>4 <5 3>
+	r1
+	r
+	r
+	r %30
+	r
+	r2 <6 4>4 <5 3>
+	r1
+	r
+	r %35
+	<7 5>2. <6 4>4
+	<5 3> <7>2 <6 5>4
+	r1
+	r2 <_+>
+	<6>1 %40
+	<6 5>2 <4>4. <_+>8
+	r2 <6 4>4 <5 _+>
+	r2 <6 4>4 <5 _+>
+	r4 <6> <_+>2
+	r4 <6 5> r4. <6>8 %45
+	<6 4>4 <5 _+>2.
+	r1
+	<6 4>
+	<\t \t>4 <5 3>2.
+	<7 _+>1 %50
+	<6 4>
+	<_+>2 r8 <6 5>4.
+	<_+>2 r8 <6 5>4.
+	r2 <_+>
+	q1 %55
+	q
+	r2 <6>
+	<6\\> <_+>
+	q1
+	q2 q %60
+	q q
+	<6 5>2.. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<4>2 <_+>
+	q2 <6+ 4>4 <5 _+>
+	<_+>2 <6+ 4>4 <5 _+> %65
+	<8 _+>2. <7! \t>4
+	r2 <_+>4 <6>8 <5>
+	<_+>4. <6 5>8 <_+>2
+	<6>4 <6+ 4>8 <5 _+> <_+>2
+	q1 %70
+	<6 4>
+	<\t \t>4 <5 _+>2.
+	<7 _+>1
+	<_+>
+	q2 r8 <6 5!>4. %75
+	<_+>1
+	q
+	q
+	r
+	r %80
+	r
+	r
+	<7>
+	q
+	q %85
+	q
+	q
+	r
+	<7 5>
+	<6 4> %90
+	<5 3>
+	r2 <2>
+	<6>1
+	<_+>2 <\t>
+	<6>1 %95
+	r
+	<7>2. <6>4
+	<7>2 q
+	r1
+	r %100
+	r
+	r
+	<7->
+	<5 3>2 <6! 4>
+	<7>1 %105
+	r
+	<4>2 <3>
+	r1
+	r
+	r %110
+	r %111 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -103,3 +103,96 @@ KyrieIICornoI = {
 		c\fermata \bar "|." %105 finis
 	}
 }
+
+GloriaCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoGloria
+		c'8\fE e16 d c8 g c g c e
+		c e16 d c8 g c g c e
+		e4 e8 g g4 f
+		e r8 e e4 g8 e
+		d4 r g, g %5
+		g r g g
+		g r8 f' f4 e
+		d8 d16 e f8 f f4 f
+		e c8 c c2
+		r4 d8 d d4 r %10
+		d d8 d d4 d8 d
+		d4 d8 d d d16 d d4
+		R1
+		d2 d
+		d r %15
+		d d
+		c4 r c r
+		d r g, r
+		e' r d d
+		d d8 d d4 d %20
+		d1
+		f4 r f8 f f f
+		e1
+		e4 r c8 c c c
+		c4 r c r %25
+		r r8 f e4 d
+		c8 e16 d c8 g c g c e
+		c e16 d c8 g c g c e
+		c4 e8. e16 e4 r
+		e e e r %30
+		e e e r
+		e e8 g g4 f
+		e e8 g g4 e
+		d d d r
+		d d d r %35
+		d f8 f f4 e
+		d f8 f f4 r
+		e e8 e e4 r
+		e2 d
+		d d %40
+		e d4 d
+		d r r2
+		d4 r d r
+		d r r2
+		R1 %45
+		d4 d d8 d16 d d8 r
+		R1*8 %54
+		r2 d8\fE d d4 %55
+		r2 d4 d
+		d2 r
+		R1*19 %76
+		r2 d8\fE d16 d d4
+		r2 d8 d16 d d4
+		d8 d d d e e e e
+		d d d d e e e e %80
+		e4 r e e
+		f r r2
+		f4 r r2
+		e4 r r2
+		e4 r r2 %85
+		f4 r r2
+		d8 d d d d2
+		e8 e e e e2
+		f8 f f f f2
+		e8 e e e e2 %90
+		d8 d d d d4 r
+		c2 c
+		c4 r r2
+		d d
+		d4 r d d %95
+		d r d d
+		d2 e
+		f f
+		e8 e16 d c8 g c g c e
+		e2 e %100
+		e e
+		f f4 r
+		R1
+		d2 e
+		f e %105
+		e f
+		d d
+		c8 e16 d c8 g c g c e
+		c e16 d c8 g c g c e
+		c4 e e e %110
+		e e8. e16 e4 r\fermata \bar "||" %111 finis
+	}
+}

@@ -344,6 +344,124 @@ KyrieIIViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \tempoGloria
+		g'8\fE h16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		d8.( c32 h) g'8 d d c16 h c8 h16 a
+		h8 h'16 a g8 d d c16 h d8 c16 h
+		a8 fis16 e d8 a d a d fis %5
+		d fis16 e d8 a d a d fis
+		c'8.( h32 a) a'8 c, c h16 a h8.( a32 h)
+		a8 a'16 h c8 c, c h16 a e'8 d16 c
+		h8 h'16 a g8 g g g g g
+		a c16 h a8 a a g16 fis g8 g %10
+		fis a16 g fis8 fis fis a16 g fis8 fis
+		fis d a fis d4 r8 d'
+		cis2( e4.) g8~
+		g e4 cis a g8
+		fis2( a4.) a'8~ %15
+		a fis4 d a fis8
+		g h16 a g8 g g g g g
+		fis a16 g fis8 d' d d d d
+		e g16 fis e8 d a4 e'
+		d16 a fis d fis d fis a d4 r8 d, %20
+		d a''4 fis c! a8
+		c e16 d c8 c c c c c
+		h h'4 g d h8
+		h d16 c h8 g' g g g g
+		e16 d e fis g e d c h a h c d h a g %25
+		e4 d8. c'16 h4 a
+		g8 h16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		g4 <d h' g'>8. q16 q4 r
+		g8 h16 a g8 d g d g h %30
+		g h16 a g8 d g d g h
+		d c16 h g'8 d d c16 h c8 h16 a
+		h8 h'16 a g8 d d c16 h d8 c16 h
+		a8 fis16 e d8 a d a d fis
+		d fis16 e d8 a d a d fis %35
+		c'8.( h32 a) a'8 c, c h16 a h8.( a32 h)
+		a8 a'16 h c8 c, c h16 a e'8 d16 c
+		h4 g'8. g16 g8 h16 g d8 h
+		g h16-\critnote a g8 e a a16 h a8 g
+		fis fis16 e d8 a d a d fis %40
+		g g16 fis g8 e a a16 g a8 a,
+		d16 fis a d fis8 a a g16 fis g8 fis16 e
+		fis8 fis16 g a8 d a g16 fis g8 fis16 e
+		fis e fis g a fis e d cis h cis d e cis h a
+		g fis g a h g fis e fis e fis g a g fis e %45
+		a,8 d' e, cis' d a16 fis d8 r
+		r a''\p a \tuplet 3/2 8 { e16 fis g } fis d a fis d8 a''
+		r16 h,( d g h g d h) r h( d g h g d h)
+		r d( g h a fis d a) r a( d fis a fis d a)
+		r g( fis g e' g, a g) r-\critnote e( g cis e cis g e) %50
+		r fis( e fis d' fis, g fis) r d( fis a d a fis d)
+		r4 r8 e' g4 fis
+		e8 r r e g4 fis
+		fis r r16 a,\f cis e a e cis a
+		cis a cis e a e cis a fis d fis a d a fis d %55
+		cis' a cis e a e cis a fis d fis a d a fis d
+		fis' a, d fis a fis d a e' a, cis e a e cis a
+		d h d gis h gis d h cis a cis e a e cis a
+		<e h' e>4 q8. q16 q8 gis h e
+		gis16 e gis h gis e d h cis a cis e a e cis a %60
+		gis' e gis h gis e d h cis a cis e a e cis a
+		h8 h h h h h h h
+		h h h h h h h h
+		a cis16 d e8 a e d16 cis d8 cis16 h
+		cis8 cis16 d e8 a e d16 cis d8 cis16 h %65
+		cis8 a4 cis e g!8
+		fis16 e fis gis a fis e d cis h cis d e cis h a
+		gis a h a gis fis e d cis a cis e a e cis a
+		h8 a' h, gis' a a, a4
+		r8 e''4\p d8 cis16 a e cis a8 e'' %70
+		r16 fis,( a d fis d a fis) r fis( a d fis d a fis)
+		r a( d fis e cis a e) r e( a cis e cis a e)
+		r d'( cis d h' d, e d) r h( d gis h gis d h)
+		r cis( h cis a' cis, d cis) r a( cis e a e cis a)
+		r4 r8 g'! g4 fis %75
+		e16 a, cis e a e cis e a, e cis e a,4
+		cis'16\f a cis e a e cis a fis d fis a d a fis d
+		cis' a cis e a e cis a fis d fis a d a fis d
+		fis' d fis a d a fis d h g h d g d h g
+		fis d fis a d a fis d h g h d g d h g %80
+		g'8 h16 a g8 d g d g h
+		c e16 d c8 g c h a g
+		fis a16 g fis8 c fis c fis a
+		h8 d16 c h8 fis h a g fis
+		e g16 fis e8 h e h e g %85
+		a c16 h a8 e a g fis e
+		d fis16 e d8 a d a d fis
+		g h16 a g8 d g d g h
+		d, c'16 h a8 d, fis d fis a
+		d, h'16 a g8 d g d g h %90
+		d <fis a, d,> q q q4 r
+		h,16 g h d g d h g h g h d g d h g
+		c8 e,16 d c8 g-\critnote c g c e
+		cis'16 a cis e a e cis a cis a cis e a e cis a
+		d8 fis,16 e d8 a d a d fis %95
+		d fis16 e d8 a d a d fis
+		a16 d, fis a d a fis d h' d, g h d h g d
+		c8 c' c c c16 d, fis a c a fis d
+		g8 h16 a g8 d g d g h
+		h16 d, g h d h g d g d g h d h g d %100
+		g e g h e h g e g e g h e h g e
+		g e g c e c g e g e g c e c g e
+		g e g b e b g e g e g b e b g e
+		fis d fis a d a fis d g d g h d h g d
+		fis d fis a d a fis d h' d, g h d h g d %105
+		g e g h e h g e g e g c e c g e
+		d8 a' a a a a a a
+		g' h,16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		d g h g d g d h %110
+		g4 <d h' g'>8. q16 q4 r\fermata \bar "||" %111 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

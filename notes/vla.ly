@@ -332,3 +332,121 @@ KyrieIIViola = {
 		d\fermata \bar "|." %105 finis
 	}
 }
+
+GloriaViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 4/4 \tempoGloria
+		g'8\fE h16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		g4 r8 g, d'4 d
+		d r8 g, g'4 g,
+		d'8 fis16 e d8 a d a d fis %5
+		d fis16 e d8 a d a d fis
+		d4 r8 d d4 d
+		d d d fis
+		g h,8 c d c d h
+		e4 e8 fis e c d e %10
+		d4 d d d
+		d d fis8 g a fis
+		a a, a a a a a a
+		a a a a a a a a
+		a a a a a a a a %15
+		a a a a a a a a
+		e'4 g8 fis e d e cis
+		d4 fis8 g a g a fis
+		g e g h a d, d cis
+		d d d d d d' a fis %20
+		d4 d d d
+		d4 a'8 g fis e fis d
+		d4 d d d
+		d h8 c d c d h
+		g4 r g' r %25
+		g,8 g g a d d d d
+		g h16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		g4 d8. d16 d4 r
+		g8 h16 a g8 d g d g h %30
+		g h16 a g8 d g d g h
+		d,4 r8 d d8 d d d
+		d4 r8 g g4 g,
+		d'8 fis16 e d8 a d a d fis
+		d fis16 e d8 a d a d fis %35
+		d4 d d d
+		d d d d
+		d8 d d d d4 r
+		g8 h16 a g8 e a a16 h a8 g
+		fis fis16 e d8 a d a d fis %40
+		g g16 fis g8 e a a16 g a8 a,
+		d4 r8 d a'4 a,
+		d r8 d a'4 a,
+		d fis8 g a4 r
+		e cis d r8 h' %45
+		a4 a, d8 d, d'4
+		d8\pE d d d d d d d
+		d d d d d d d d
+		d d d d d d d d
+		a' a a a a a a a %50
+		a, a a a a a a a
+		a4 r r8 a a a
+		a4 r r8 a a a
+		a4 r a'8\fE e cis e
+		a, a a a a a a a %55
+		a a a a a a a a
+		d d' d d cis cis cis cis
+		h h h h a a a a
+		e4 e8 e e2
+		e8 e e e e e e e %60
+		e e e e e e e e
+		fis fis16 e fis8 fis fis d e fis
+		e e e e e e e e
+		e4 r8 e e e e e
+		e4 r8 e e e e e %65
+		e cis cis a a a a a
+		a a a a a a cis d
+		e e e gis a a, a a
+		d fis e e a, a' a,4
+		a8\p a a a a a a a %70
+		a a a a a a a a
+		a a a a a a a a
+		e' e e e gis gis gis gis
+		a a, a a a a a a
+		a4 a r8 a a a %75
+		a a' a, a a a' e cis
+		a\fE a a a a a a a
+		a a a a a a a a
+		d d d d d d d d
+		d d d d d d d d %80
+		g h16 a g8 d g d g h
+		c e16 d c8 g c h a g
+		fis a16 g fis8 c fis c fis a
+		h d16 c h8 fis h a g fis
+		e g16 fis e8 h e h e g %85
+		a c16 h a8 e a g fis e
+		d fis16 e d8 a d a d fis
+		g h16 a g8 d g d g h
+		d, c'16 h a8 d, fis d fis a
+		d, h'16 a g8 d g d g h %90
+		d4 d,8 d fis g a fis
+		g g g g g g g g
+		g e16 d c8 g c g c e
+		a a a a a a a a
+		a fis16 e d8 a d a d fis %95
+		d fis16 e d8 a d a d fis
+		d d d d d d d d
+		c a a a d d d d
+		g h16 a g8 d g d g h
+		g g g g g g g g %100
+		e e e e e e e e
+		c c c c c c c c
+		cis? cis cis cis cis cis cis cis
+		d d d d d d d d
+		d d d d d d d d %105
+		e e e e g g g e
+		d d d d d d d d
+		d h'16 a g8 d g d g h
+		g h16 a g8 d g d g h
+		g4 d d d %110
+		d d8. d16 d4 r\fermata \bar "||" %111 finis
+	}
+}

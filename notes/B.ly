@@ -428,6 +428,131 @@ KyrieIIBassoLyrics = \lyricmode {
 	son. %105 finis
 }
 
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 4/4 \autoBeamOff \tempoGloria
+		R1*29 %29
+		\mvTr g'4.\fE^\tuttiE g8 g4 r %30
+		g4. g8 g4 r
+		g g d' d,
+		g2 g
+		d4. d8 d4 r
+		d4. d8 d4 r %35
+		d d d' d,
+		d2~ d4 fis
+		g4. g8 g4 r
+		g g a a
+		fis2 d %40
+		g4 e a4. a8
+		d,4 r r2
+		R1*13 %55
+		a'8 a a a d4 d,
+		d'2 cis
+		h a
+		e4. e8 e2
+		e8 e e e a4 a, %60
+		e'8 e e e a4 a,
+		d2 d
+		e2. e4
+		a, r r2
+		R1*12 %76
+		a'8 a a a d4 d,
+		a'8 a a a d4 d,
+		d8 d d d g4 g
+		d8 d d d g4 g %80
+		g2 g
+		c~ c8[ h] a([ g)]
+		fis2 fis
+		h~ h8[ a] g([ fis)]
+		e4. e8 e2 %85
+		a2 a8([ g fis e)]
+		d1
+		d
+		d
+		d %90
+		d4. d8 d2
+		g4 g f f
+		e2 c
+		a'8. a16 a4 g g
+		fis2 d %95
+		d d
+		c' h
+		a d,
+		g4. g8 g2
+		g4. g8 g2 %100
+		e4. e8 e2
+		c4. c8 c2
+		cis?4. cis8 cis2
+		d d
+		d g %105
+		e c
+		d2. d4
+		g,2 r
+		R1*2 %110
+		R1\fermataMarkup \bar "||" %111 finis
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	Glo -- ri -- a, %30
+	glo -- ri -- a
+	in ex -- cel -- sis
+	De -- o,
+	glo -- ri -- a,
+	glo -- ri -- a %35
+	in ex -- cel -- sis
+	De -- o,
+	glo -- ri -- a
+	in ex -- cel -- sis
+	\xE De -- o, \x %40
+	De -- o glo -- ri --
+	a.
+
+	In ex -- cel -- sis De -- o, %56
+	\xE De -- o,
+	De -- o,
+	\x glo -- ri -- a
+	in ex -- cel -- sis De -- o, %60
+	in ex -- cel -- sis De -- o,
+	De -- o
+	glo -- ri --
+	a.
+
+	In ex -- cel -- sis De -- o, %77
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o, %80
+	in ex --
+	cel -- sis
+	De -- o,
+	De -- o,
+	glo -- ri -- a %85
+	in ex --
+	cel --
+	sis
+	De --
+	o, %90
+	glo -- ri -- a
+	in ex -- cel -- sis
+	De -- o,
+	glo -- ri -- a in ex --
+	cel -- sis, %95
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- a,
+	glo -- ri -- a, %100
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a
+	in ex --
+	cel -- sis %105
+	De -- o,
+	glo -- ri --
+	a. %108 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

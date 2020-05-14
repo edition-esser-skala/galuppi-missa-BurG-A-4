@@ -508,6 +508,149 @@ KyrieIISopranoLyrics = \lyricmode {
 	son. %105 finis
 }
 
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 4/4 \autoBeamOff \tempoGloria
+		R1*29 %29
+		\mvTr h'4.\fE^\tuttiE h8 h4 r %30
+		h4. h8 h4 r
+		g h h a
+		g( h2) h4
+		a4. a8 a4 r
+		a4. a8 a4 r %35
+		a c2( h4)
+		a a c c
+		h4. h8 h4 r
+		h2 cis
+		d d %40
+		e4 e d4. cis8
+		d4 r r2
+		R1*4 %46
+		\mvTr a4.\pE^\solo g8 fis2
+		h h
+		h4( a) a2
+		g4.( a8) g2 %50
+		fis4.( g8) fis2
+		e8[ fis e g] g4 fis
+		e8[ fis e g] g4 fis
+		fis a8 g16([ fis]) e4 r
+		\mvTr a8\fE^\tuttiE a a a a4 a %55
+		a8 a a a a4 a
+		a2 a
+		gis a
+		gis4. gis8 gis2
+		gis8 gis gis gis a4 a %60
+		gis8 gis gis gis a4 a
+		a2 a
+		a( gis4.) gis8
+		a4 r r2
+		R1*12 %76
+		a8 a a a a4 a
+		a8 a a a a4 a
+		a8 a a a h4 h
+		a8 a a a h4 h %80
+		h2 h
+		c c
+		c c
+		h h
+		h4. h8 h2 %85
+		a a
+		a1
+		h
+		c
+		h %90
+		a4. a8 a2
+		h8. h16 h4 h h
+		c2 c
+		cis8. cis16 cis4 cis cis
+		d2 d %95
+		d a
+		a h
+		c c
+		h4. h8 h2
+		h4. h8 h2 %100
+		h4. h8 h2
+		c4. c8 c2
+		b?4. b8 b2
+		a2 h
+		c h %105
+		h c
+		a2. a4
+		h2 r
+		R1*2 %110
+		R1\fermataMarkup \bar "||" %111 finis
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	Glo -- ri -- a, %30
+	glo -- ri -- a
+	in ex -- cel -- sis
+	De -- o,
+	glo -- ri -- a,
+	glo -- ri -- a %35
+	in ex --
+	cel -- sis De -- o,
+	glo -- ri -- a
+	in ex --
+	cel -- sis %40
+	De -- o glo -- ri --
+	a.
+
+	Glo -- ri -- a %47
+	in ex --
+	cel -- sis
+	De -- o, %50
+	De -- o,
+	glo -- _ _
+	_ _ _
+	_ _ ri -- a
+	in ex -- cel -- sis De -- o, %55
+	in ex -- cel -- sis De -- o,
+	\xE De -- o,
+	De -- o,
+	\x glo -- ri -- a
+	in ex -- cel -- sis De -- o, %60
+	in ex -- cel -- sis De -- o,
+	De -- o
+	glo -- ri --
+	a.
+
+	In ex -- cel -- sis De -- o, %77
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o, %80
+	in ex --
+	cel -- sis
+	De -- o,
+	De -- o,
+	glo -- ri -- a %85
+	in ex --
+	cel --
+	sis
+	De --
+	o, %90
+	glo -- ri -- a,
+	glo -- ri -- a in ex --
+	cel -- sis,
+	glo -- ri -- a in ex --
+	cel -- sis, %95
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- a,
+	glo -- ri -- a, %100
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a
+	in ex --
+	cel -- sis %105
+	De -- o,
+	glo -- ri --
+	a. %108 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

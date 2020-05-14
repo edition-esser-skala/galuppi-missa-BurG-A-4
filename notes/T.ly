@@ -328,6 +328,145 @@ KyrieIITenoreLyrics = \lyricmode {
 	\x son. %105 finis
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 4/4 \autoBeamOff \tempoGloria
+		R1*29 %29
+		\mvTr d4.\fE^\tuttiE d8 d4 r %30
+		d4. d8 d4 r
+		h d d c
+		h( d2) d4
+		d4. d8 d4 r
+		d4. d8 d4 r %35
+		d2 d
+		d4 d d d
+		d4. d8 d4 r
+		d( h) a2
+		a a %40
+		h4 h a4. a8
+		a4 r r2
+		R1*13 %55
+		cis8 cis cis cis d4 d
+		a2 a
+		d e
+		e4. e8 e2
+		h8 h h h cis?4 cis %60
+		h8 h h h cis4 cis
+		h2 h
+		h2. h4
+		cis r r2
+		R1*5 %69
+		\mvTr cis4.\pE^\soloE h8 a2 %70
+		d d
+		d4( cis) cis2
+		h4.( cis8) h2
+		a4.( h8) cis2
+		cis8[ d cis e] e4 d %75
+		cis4. cis8 cis2
+		\mvTr cis8\fE^\tuttiE cis cis cis d4 d
+		cis8 cis cis cis d4 d
+		d8 d d d d4 d
+		d8 d d d d4 d %80
+		d2 d
+		e e
+		e e
+		d d
+		d4. d8 d2 %85
+		c c
+		c1
+		h
+		a
+		g %90
+		d'4. d8 d2
+		d8. d16 d4 d d
+		e2 e
+		e8. e16 e4 e e
+		fis2 fis %95
+		fis d
+		d d
+		c d
+		d4. d8 d2
+		d4. d8 d2 %100
+		e4. e8 e2
+		e4. e8 e2
+		e4. e8 e2
+		a,4( d) d2
+		d d %105
+		e e
+		\once \tieDashed d~ d4. d8
+		d2 r
+		R1*2 %110
+		R1\fermataMarkup \bar "||" %111 finis
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	Glo -- ri -- a, %30
+	glo -- ri -- a
+	in ex -- cel -- sis
+	De -- o,
+	glo -- ri -- a,
+	glo -- ri -- a %35
+	in ex --
+	cel -- sis De -- o,
+	glo -- ri -- a
+	in __ ex --
+	cel -- sis %40
+	De -- o glo -- ri --
+	a.
+
+	In ex -- cel -- sis De -- o, %56
+	\xE De -- o,
+	De -- o,
+	\x glo -- ri -- a
+	in ex -- cel -- sis De -- o, %60
+	in ex -- cel -- sis De -- o,
+	De -- o
+	glo -- ri --
+	a.
+
+	Glo -- ri -- a %70
+	in ex --
+	cel -- sis
+	De -- o,
+	De -- o,
+	glo -- _ _ %75
+	_ ri -- a
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o,
+	in ex -- cel -- sis De -- o, %80
+	in ex --
+	cel -- sis
+	De -- o,
+	De -- o,
+	glo -- ri -- a %85
+	in ex --
+	cel --
+	sis
+	De --
+	o, %90
+	glo -- ri -- a,
+	glo -- ri -- a in ex --
+	cel -- sis,
+	glo -- ri -- a in ex --
+	cel -- sis, %95
+	in ex --
+	cel -- sis
+	De -- o,
+	glo -- ri -- a,
+	glo -- ri -- a, %100
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a
+	in __ ex --
+	cel -- sis %105
+	De -- o,
+	glo -- ri --
+	a. %108 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -606,3 +606,162 @@ LaudamusViolinoII = {
 		f2 r4\fermata \bar "||" %112 finis
 	}
 }
+
+GratiasViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \tempoGratias
+		a''8.(\fE g16 f8) e8.( d16 cis8)
+		d8. e16 f8 e4.
+		g8. a16 b8 b8. a16 g8
+		f8. e16 d8 d4\trill cis16 d
+		e8 a e cis e cis %5
+		a e cis a4 r8
+		d'8. es16 d8 c'4.
+		b8. c16 d8 g, fis g
+		c,8. d16 c8 b'4.
+		a8 b c f, e f %10
+		d cis d g4 f8
+		b, a g a c a
+		f4. g'4 f8
+		b, a g f4.
+		f'8 e f a, f' d %15
+		e dis e a, e' cis
+		d cis d d cis h
+		cis d e a,4.
+		b'4. b8 a g16 f
+		e8. d16 cis8 d8 f a %20
+		b4. a8. f16 d8
+		g8. e16 cis8 d4.
+		a'8.\p g16 f8 e8. d16 cis8
+		d cis d \appoggiatura d cis4.
+		e8. f16 g8 g8. f16 e8 %25
+		f8. e16 d8 d4 cis16 d
+		e8 a\fE e cis e cis
+		a e cis a4.
+		a'\pE a
+		a g %30
+		fis8 g a g fis g
+		fis e fis g4.
+		fis g
+		g es'?
+		d8 c b a g a %35
+		g d' b g4.
+		d'8. c16 b8 a8. g16 fis8
+		g fis g fis4.
+		a8 b c c b a
+		g8. fis16 g8 g4(-\critnote fis16 g) %40
+		fis8 d''\fE a fis a fis
+		d a fis d4.
+		d\pE d
+		d' c
+		c, c %45
+		c' b
+		a8 f g a b c
+		b a c b4.
+		a8 f g a b c
+		b a b a4. %50
+		b8 b b as as as
+		g g g f f f
+		es? es es d d d
+		es?4. c
+		d8 f d b4 r8 %55
+		f'4\fE g8 f g as
+		g4 g8 g4.
+		g4 a8 g a b
+		a4 a8 a4.
+		f8 f f f f f %60
+		e c' e e4 c8
+		h8. c16 d8 d4 c8
+		h g' d h d h
+		c h d c d e
+		g, h d c e g, %65
+		a g a g f g
+		f e f e4 c'8
+		c4 c8 c4 h8
+		c g e c4 c'8
+		g'8. f16 e8 d c h %70
+		c d e d4.
+		f8 g a a g f
+		e8. d16 c8 c4.
+		c,8 a' f g f g
+		c, b' g a g f %75
+		f f' e d cis d
+		c4. h
+		f' e8 g c,
+		d8. c16 h8 c e g
+		f4. e8. g16 c,8 %80
+		d8. f16 h,8 c4 r8
+		e8.\pE d16 c8 a4 h8
+		c4 c8 h4.
+		d8 e f f e d
+		c8. h16 c8 c4 h16 c %85
+		h8 g'\fE d h d h
+		g d h g4.
+		g'\pE e
+		e8 e' f g4.
+		f8 a g f e d %90
+		c d e e4.
+		f8 a g f e d
+		c f e e4.
+		c'8. b16 a8 g8. f16 e8
+		f e f e4. %95
+		g8 a b b a g
+		f e f f4 e16 f
+		e8 c'\fE g e g e
+		c g e c4 r8
+		f8.\pE g16 f8 f a c %100
+		d b d c4.
+		a8 a a c c c
+		b c d b f' b,
+		c c c c b a
+		b a b a4. %105
+		g8 g g a a a
+		b g b a4.
+		\once \tieDashed a'~ a8 g f
+		f4 e8 r4 r8
+		f,\fE a f g e c %110
+		a'4. g
+		f8 a f r4 r8
+		a4. g8 f e
+		f a f r4 r8
+		f'4. e %115
+		d8 f d r4 r8
+		f4. e8 d cis
+		d f d r4 r8
+		g,4. f!
+		e e8 f g %120
+		f4. es
+		d8 es f \once \tieDashed es4.~
+		es8 f g \once \tieDashed f4.~
+		f8 g a \once \tieDashed g4.~
+		g8 as? b as?4. %125
+		a8 b c b4.
+		b8 a g f e f
+		e c' g e g e
+		c e e e f g
+		f e f e c e %130
+		e g e e f g
+		f e f e g cis
+		d4. cis8 d e
+		d cis d cis4.
+		\once \tieDashed cis~ cis8 d e %135
+		d cis d cis4.
+		f8 f f e e e
+		e e e d d d
+		d cis d d cis d
+		cis a' e cis e cis %140
+		a4. a
+		b a4 d8
+		cis cis cis d d d
+		d d d cis cis cis
+		d f d e dis e %145
+		a, e' cis d cis d
+		d cis d d cis h
+		cis d e a,4.
+		e d
+		f' e %150
+		d8 f d e8. g16 cis,8
+		d a f d4 r8\fermata \bar "||" %152 finis
+	}
+}

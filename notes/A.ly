@@ -743,6 +743,163 @@ EtInTerraAltoLyrics = \lyricmode {
 	pax. %26 finis
 }
 
+GratiasAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \autoBeamOff \tempoGratias
+		R2.*55 %55
+		\mvTr f4\fE^\tuttiE g8 f([ g)] as
+		g4 g8 g4.
+		g4 a!8 g4 g8
+		a4 a8 a4.
+		f f %60
+		e4( g8) g4.
+		g8. g16 g8 g4.
+		g r4 r8
+		f4 f8 e([ f)] g
+		f4 f8 e4. %65
+		a8([ g a)] g([ f g)]
+		f4. e
+		a8. g16 a8 g4.
+		g r4 r8
+		R2.*12 %81
+		\mvTr g8.\pE^\soloE f16 e8 d8. c16 h8
+		c([ d e)] d4.
+		f8([ g)] a a([ g)] f
+		e8. d16 c8 c4( h16[ c)] %85
+		d4. r4 r8
+		R2.
+		c8. d16 c8 c e g
+		c([ g a)] b!4.
+		a8([ f)] g a([ g)] f %90
+		e([ f)] g g4.
+		a8([ f)] g a g f
+		e([ a g)] g4.
+		R2.*8 %101
+		c,4. es
+		d8([ es f)] d4.
+		\once \tieDashed es?4.~ es8 d c
+		d([ c d)] c4. %105
+		e! f
+		g8([ e g)] f4.
+		\once \tieDashed a~ a8 g f
+		f4 e8 r4 r8
+		R2. %110
+		\mvTr a4.\fE^\tuttiE g
+		f8([ a)] f r4 r8
+		a4.( g8) f e
+		f([ a)] f r4 r8
+		f4. e %115
+		d8([ f)] d r4 r8
+		f4.( e8) d cis
+		d([ f)] d r4 r8
+		g4. f!
+		e e8([ f g)] %120
+		f4. es
+		d8[ es f] \once \tieDashed es4.~
+		es8[ f g] \once \tieDashed f4.~
+		f8[ g a] \once \tieDashed g4.~
+		g8[ as b] as4. %125
+		a8[ b] c b4.
+		b8([ a g] f[ e f)]
+		e4. r4 r8
+		\once \tieDashed e4.~ e8[ f] g
+		f([ e f)] e4. %130
+		\once \tieDashed e~ e8 f g
+		f([ e f)] e4.
+		d( cis8[ d)] e
+		d([ cis d)] cis4.^\critnote
+		\once \tieDashed cis~ cis8 d e %135
+		d([ cis d)] cis4.
+		f e
+		e d
+		\once \tieDashed d~ d8 cis d
+		cis4. cis %140
+		d d
+		d f
+		e4 e8 f4.
+		e2.
+		d4. r4 r8 %145
+		R2.*6 %151
+		R2.\fermataMarkup \bar "||" %152 finis
+	}
+}
+
+GratiasAltoLyrics = \lyricmode {
+	Pro -- pter ma -- gnam %56
+	glo -- ri -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am,
+	pro -- pter %60
+	ma -- gnam
+	glo -- ri -- am tu --
+	am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, %65
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am tu --
+	am.
+
+	Gra -- ti -- as a -- gi -- mus %82
+	ti -- bi
+	pro -- pter ma -- gnam
+	glo -- ri -- am tu -- %85
+	am,
+
+	gra -- ti -- as a -- gi -- mus
+	ti -- bi
+	pro -- pter ma -- gnam %90
+	glo -- ri -- am,
+	ma -- gnam glo -- ri -- am
+	tu -- am,
+
+	pro -- pter %102
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, %105
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	%110
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter %115
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam %120
+	glo -- _
+	_ _
+	_
+	_
+	_ %125
+	_ ri -- am
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam %130
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %135
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, %140
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am. %145 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

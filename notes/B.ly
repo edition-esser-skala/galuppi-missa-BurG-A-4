@@ -615,6 +615,169 @@ EtInTerraBassoLyrics = \lyricmode {
 	pax. %26 finis
 }
 
+GratiasBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \minor \time 6/8 \autoBeamOff \tempoGratias
+		R2.*22 %22
+		\mvTr a'8.\pE^\soloE g16 f8 e8. d16 cis8
+		d([ e f)] e4.
+		g8.([ a16)] b8 b8.([ a16)] g8 %25
+		f8. e16 d8 d4( cis16[ d)]
+		e2.
+		R
+		d8. es16 d8 d fis a
+		c4. b %30
+		a8([ b)] c b([ a)] g
+		fis g a b4.
+		a r8 d, d
+		es4. c'
+		b8. a16 g8 d4. %35
+		g r4 r8
+		R2.*10 %46
+		r8 f g a([ b)] c
+		b([ a)] c b4.
+		a8([ f)] g a b c
+		b([ a b)] a4. %50
+		b as
+		g f
+		es4 es8 d4.
+		c8([ d es] f[ es f])
+		b,4. r4 r8 %55
+		\mvTr b4\fE^\tuttiE es?8 b4 b8
+		es?4 es8 es4.
+		c4 c8 c4 c8
+		f4 f8 f4.
+		f d %60
+		c c
+		g'8. g16 g8 g([ h c)]
+		g4. r4 r8
+		g4 g8 c,4 c8
+		g'4 g8 c,4. %65
+		f8([ e f)] e([ d e)]
+		d4. c
+		f8. e16 f8 g4.
+		c, r4 r8
+		R2.*40 %109
+		\mvTr a'4.\fE^\tuttiE g %110
+		f8([ a)] f r4 r8
+		a4.( g8) f e
+		f([ a)] f r4 r8
+		f4. e
+		d8([ f)] d r4 r8 %115
+		f4.( e8) d cis
+		d([ f)] d r4 r8
+		d4. d8([ e fis)]
+		g4. g
+		c, c8([ d e)] %120
+		f4. f
+		b,8[ c d] es4 d8
+		c[ d es] f4 es8
+		d[ es f] g4 f8
+		es[ f g] as?4 g8 %125
+		f[ g] a b4.
+		e,!( f)^\critnote
+		c r4 r8
+		c4. c
+		c c %130
+		c4 c8 c4.
+		c c
+		d a
+		a a
+		a4 a8 a4. %135
+		a a
+		a a
+		a a
+		a4 a8 gis4.
+		a a %140
+		d f
+		g d
+		a'4 a8 a4.
+		a( a,)
+		d r4 r8 %145
+		R2.*6 %151
+		R2.\fermataMarkup \bar "||" %152 finis
+	}
+}
+
+GratiasBassoLyrics = \lyricmode {
+	Gra -- ti -- as a -- gi -- mus %23
+	ti -- bi
+	pro -- pter ma -- gnam %25
+	glo -- ri -- am tu --
+	am,
+
+	gra -- ti -- as a -- gi -- mus
+	ti -- bi %30
+	pro -- pter ma -- gnam
+	glo -- ri -- am tu --
+	am, pro -- pter
+	ma -- gnam
+	glo -- ri -- am tu -- %35
+	am,
+
+	pro -- pter ma -- gnam %47
+	glo -- ri -- am,
+	ma -- gnam glo -- ri -- am
+	tu -- am, %50
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am, %55
+	pro -- pter ma -- gnam %56
+	glo -- ri -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am,
+	pro -- pter %60
+	ma -- gnam
+	glo -- ri -- am tu --
+	am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, %65
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am tu --
+	am.
+
+	Pro -- pter %110
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam %115
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam,
+	pro -- pter %120
+	ma -- gnam
+	glo -- _ _
+	_ _ _
+	_ _ _
+	_ _ _ %125
+	_ ri -- am
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam %130
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %135
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, %140
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am. %145 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

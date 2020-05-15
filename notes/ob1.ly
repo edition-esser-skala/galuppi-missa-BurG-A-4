@@ -178,3 +178,55 @@ LaudamusOboeI = {
 		f2 r4\fermata \bar "||" %112 finis
 	}
 }
+
+GratiasOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \tempoGratias
+		R2.*55 %55
+		b'4.\fE b
+		b b8 a! b
+		c4. c
+		c c8 h c
+		a4. h %60
+		c c
+		h8. c16 d8 d4 c8
+		h4. r4 r8
+		h4 h8 c4 c8
+		h4 h8 c4. %65
+		c c
+		d e
+		d8. e16 d8 d4.
+		c r4 r8
+		R2.*49 %118
+		g4.\fE g8 a h
+		c4. c %120
+		f, f8 g a
+		b4 b8 g a b
+		c b c a b c
+		d c d b c d
+		es d es c d e %125
+		f e f d4.
+		d8 c b a g a
+		g c g e g e
+		c g' g g a b
+		a g a g c, e %130
+		g e' g, g a b
+		a g a g c e
+		f4. e8 f g
+		f e f e4.
+		\once \tieDashed e~ e8 f g %135
+		f e f e4.
+		a8 a a g g g
+		g g g f f f
+		f e f f e f
+		e a e cis e cis %140
+		d d' d, d d' d,
+		d d' d, f f f
+		e a, e' f a, f'
+		e e e e e e
+		d4. r4 r8 %145
+		R2.*6 %151
+		R2.\fermataMarkup \bar "||" %152 finis
+	}
+}

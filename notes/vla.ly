@@ -602,3 +602,162 @@ LaudamusViola = {
 		f f, r\fermata \bar "||" %112 finis
 	}
 }
+
+GratiasViola = {
+	\relative c' {
+		\clef alto
+		\key d \minor \time 6/8 \tempoGratias
+		f4\fE a8 b4 a8
+		a4 a8 a4 cis,8
+		cis4 e8 e4 a,8
+		a4. b4 d8
+		cis4. e %5
+		a8 e cis a4 r8
+		a'4. fis8 g a
+		d,4. d8 c b
+		g'4. e8 f g
+		c,4. c8 b a %10
+		b4. g8 c c
+		c4 c8 c4 c8
+		b4. g'8 e f
+		c'4 c,8 c a cis
+		d4. a %15
+		a a
+		a gis
+		a a8 cis d
+		e d e f4 a8
+		g f e f d r %20
+		g g e f4 a8
+		b4 a8 a4.
+		f4\pE a8 b4 a8
+		a4. a8 e cis
+		a4. cis %25
+		d b
+		a a\fE
+		a'8 e cis a a' g
+		fis4.\pE fis
+		d8 e fis g4 g,8 %30
+		d'4. d4 es?8
+		d4. g8 es cis
+		d d, c' b a g
+		c h c a g fis
+		g4 b8 d4 d,8 %35
+		g4. g'8 d b
+		g4 b8 c4 d8
+		d4. fis8 e d
+		d4. fis
+		g es %40
+		d d\fE
+		d'8 a fis d d c
+		h4.\pE h
+		g8 a h c c b
+		a4. f' %45
+		f8 g a b b, b'
+		f4. f
+		f b8 f f,
+		f'4. f
+		f f %50
+		b,8 b b d d d
+		es es es b b b
+		b b a b b b
+		c d es? f es? f
+		b, f' d b4. %55
+		d4\fE es8 d es f
+		es4 es8 es4.
+		e4 f8 e4 e8
+		f4 f8 f4.
+		f8 f f d d d %60
+		c4 c8 c4 c8
+		g'4. g8 h c
+		g4. g,
+		g'4 g,8 c4 c,8
+		g''4 g,8 c4 c8 %65
+		f e f e d e
+		d c d c4 e8
+		f8. e16 f8 g4 g,8
+		c g e c4 r8
+		e'4 g8 a4 g8 %70
+		e4 c8 h?4.
+		d8 e f f e d
+		g8. f16 e8 e g f
+		e c c c4.
+		c c %75
+		c a'
+		a8 g fis g d h
+		h c d c4 g'8
+		f8. e16 d8 g4 e8
+		d d h g4 g'8 %80
+		f4 d8 e4 r8
+		c4\pE e8 f4 g8
+		c,4. g'8 d h
+		g4. h
+		c a %85
+		g g\fE
+		g'8 d h g g' f
+		e4.\pE e
+		c c8 d e
+		f4. f %90
+		c' c,8 e c
+		c4. c
+		c c8 c' b
+		a g f d4 c8
+		c4 c8 g' f e %95
+		e4. e
+		f d
+		c c\fE
+		c'8 g e c c b
+		a\pE f f' f,4. %100
+		f'8 f f f f f
+		f f f f f f
+		f4. f8 f f
+		f4 f8 f,4 f'8
+		e!4. f8 a f %105
+		c c c c c c
+		c4. c8 c b
+		a4 f8 f'4 f8
+		c4. c8 c b
+		a4\fE f'8 g e c %110
+		f4 f,8 r r c'
+		f4 f8 c'4 c,8
+		f a f c'4 c,8
+		f4. cis
+		d a8 cis a %115
+		d4. a
+		d8 f d a'4 a,8
+		d4. fis8 g a
+		d,4. h8 c d
+		c4. b %120
+		a a8 b c
+		b4. b
+		es? c
+		f d
+		g f %125
+		f f
+		g c,
+		c8 c' g e g e
+		c4. c
+		c c %130
+		c c
+		c c4 r8
+		d d d a'4.^\critnote
+		a, a8 a a
+		a a a a4. %135
+		a a8 a a
+		a a a a a a
+		a a a a a a
+		a4. gis
+		a a %140
+		d f
+		g d
+		a' a
+		a a,
+		d a %145
+		a a
+		a gis
+		a a'8 e cis
+		a h cis d f a
+		d, f d e cis a %150
+		d4 a'8 b4 a8
+		a a f d4 r8\fermata \bar "||" %152 finis
+	}
+}

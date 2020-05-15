@@ -865,6 +865,153 @@ LaudamusSopranoLyrics = \lyricmode {
 	te. %106 finis
 }
 
+GratiasSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \autoBeamOff \tempoGratias
+		R2.*55 %55
+		\mvTr b'4\fE^\tuttiE b8 b4 b8
+		b4 b8 b4.
+		c4 c8 c4 c8
+		c4 c8 c4.
+		a h %60
+		c c
+		h8. c16 d8 d4( c8)
+		h4. r4 r8
+		h4 h8 c4 c8
+		h4 h8 c4. %65
+		c c
+		d e
+		d8. e16 d8 d4.
+		c r4 r8
+		R2.*24 %93
+		\mvTr c8.\pE^\soloE b16 a8 g8. f16 e8
+		f([ g a)] g4. %95
+		b8([ c)] d d([ c)] b
+		a g f f4( e16[ f)]
+		g4. r4 r8
+		R2.
+		f8. g16 f8 f a c %100
+		d([ b d)] c4.
+		a c
+		b8([ c d)] b4.
+		\once \tieDashed c4.~ c8 b a
+		b([ a b)] a4. %105
+		g a
+		b8([ g b)] a4.
+		\once \tieDashed c4.~ c8 b a
+		a4 g8 r4 r8
+		R2. %110
+		\mvTr c4.\fE^\tuttiE b
+		a8([ c)] a r4 r8
+		c4.( b8) a g
+		a([ c)] a r4 r8
+		a4. g %115
+		f8([ a)] f r4 r8
+		a4.( g8) f e
+		f([ a)] f r4 r8
+		g4. g8([ a h)]
+		c4. c %120
+		\once \tieDashed f,~ f8[ g a]
+		b!4 b8 g[ a b]
+		c[ b c] a[ b c]
+		d[ c d] b[ c d]
+		es[ d es] c[ d e] %125
+		f[ e] f d4.
+		d8[( c b] a[ g a])
+		g4. r4 r8
+		\once \tieDashed g4.~ g8[ a] b
+		a([ g a)] g4. %130
+		\once \tieDashed g~ g8 a b
+		a([ g a)] g4.
+		f( e8[ f)] g
+		f([ e f)] e4.
+		\once \tieDashed e4.~ e8 f g %135
+		f([ e f)] e4.
+		a g
+		g f
+		\once \tieDashed f~ f8 e f
+		e4. e %140
+		d a'
+		b a
+		a4 a8 a4.
+		a2.
+		a4. r4 r8 %145
+		R2.*6 %151
+		R2.\fermataMarkup \bar "||" %152 finis
+	}
+}
+
+GratiasSopranoLyrics = \lyricmode {
+	Pro -- pter ma -- gnam %56
+	glo -- ri -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am,
+	pro -- pter %60
+	ma -- gnam
+	glo -- ri -- am tu --
+	am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, %65
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am tu --
+	am.
+
+	Gra -- ti -- as a -- gi -- mus %94
+	ti -- bi %95
+	pro -- pter ma -- gnam
+	glo -- ri -- am tu --
+	am,
+
+	gra -- ti -- as a -- gi -- mus %100
+	ti -- bi
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, %105
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	%110
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter %115
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam %120
+	glo --
+	_ _ _
+	_ _
+	_ _
+	_ _ %125
+	_ ri -- am
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam %130
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %135
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, %140
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am. %145 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

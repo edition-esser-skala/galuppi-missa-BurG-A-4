@@ -526,6 +526,159 @@ EtInTerraTenoreLyrics = \lyricmode {
 	pax. %26 finis
 }
 
+GratiasTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \minor \time 6/8 \autoBeamOff \tempoGratias
+		R2.*36 %36
+		\mvTr d8.\pE^\soloE c16 b8 a8. g16 fis8
+		g([ a b)] a4.
+		c8([ d)] es es([ d)] c
+		b8. a16 g8 g4( fis16[ g)] %40
+		a4. r4 r8
+		R2.
+		g8. as16 g8 g h d
+		f4. es
+		f,8. g16 f8 f a c %45
+		es4. d
+		c8([ a)] b c([ d)] es?
+		d([ c)] es d4.
+		c8([ a)] b c d es?
+		d8([ c d)] c4. %50
+		d f
+		es? d
+		c4 c8 b4.
+		c( a)
+		b r4 r8 %55
+		\mvTr d4\fE^\tuttiE es?8 d([ es?)] f
+		es?4 es8 es4.
+		e4 f8 e4 e8
+		f4 f8 f4.
+		c d %60
+		c4( e8) e4.
+		d8. e16 f8 f4( e8)
+		d4. r4 r8
+		d4 d8 c8([ d)] e
+		d4 d8 c4. %65
+		c c
+		c4( h8) c4.
+		c8. c16 c8 c4( h8)
+		c4. r4 r8
+		R2.*40 %109
+		\mvTr c4.\fE^\tuttiE b %110
+		a8([ c)] a r4 r8
+		c4.( b8) a g
+		a([ c)] a r4 r8
+		a4. g
+		f8([ a)] f r4 r8 %115
+		a4.( g8) f e
+		f([ a)] f r4 r8
+		d'4. c!
+		b h8([ c d)]
+		c4. b %120
+		a a8([ b c)]
+		b4. b
+		es c
+		f d
+		g f %125
+		f4 f8 f4.
+		g( c,)
+		c r4 r8
+		c4. c
+		c c %130
+		c4^\critnote c8 c4.
+		c c
+		a a
+		a a
+		a4 a8 a4. %135
+		a a
+		a cis
+		cis d
+		d4^\critnote d8 d4.
+		e a, %140
+		a d
+		d d
+		cis4 cis8 d4.
+		d( cis)
+		d r4 r8 %145
+		R2.*6 %151
+		R2.\fermataMarkup \bar "||" %152 finis
+	}
+}
+
+GratiasTenoreLyrics = \lyricmode {
+	Gra -- ti -- as a -- gi -- mus %37
+	ti -- bi
+	pro -- pter ma -- gnam
+	glo -- ri -- am tu -- %40
+	am,
+
+	gra -- ti -- as a -- gi -- mus
+	ti -- bi,
+	gra -- ti -- as a -- gi -- mus %45
+	ti -- bi
+	pro -- pter ma -- gnam
+	glo -- ri -- am,
+	ma -- gnam glo -- ri -- am
+	tu -- am, %50
+	\xE pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am, %55
+	\x pro -- pter ma -- gnam %56
+	glo -- ri -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am,
+	pro -- pter %60
+	ma -- gnam
+	glo -- ri -- am tu --
+	am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, %65
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am tu --
+	am.
+
+	Pro -- pter %110
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam %115
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam,
+	pro -- pter %120
+	ma -- gnam,
+	pro -- pter
+	ma -- gnam
+	glo -- _
+	_ _ %125
+	_ ri -- am
+	tu --
+	am,
+	pro -- pter
+	ma -- gnam %130
+	glo -- ri -- am
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am %135
+	tu -- am,
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu -- am, %140
+	pro -- pter
+	ma -- gnam
+	glo -- ri -- am
+	tu --
+	am. %145 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

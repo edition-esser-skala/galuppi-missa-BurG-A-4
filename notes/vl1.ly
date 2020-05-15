@@ -614,6 +614,165 @@ LaudamusViolinoI = {
 	}
 }
 
+GratiasViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \minor \time 6/8 \tempoGratias
+		a''8.(\fE g16 f8) e8.( d16 cis8)
+		d8. e16 f8 e4.
+		g8. a16 b8 b8. a16 g8
+		f8. e16 d8 d4\trill cis16 d
+		e8 a e cis e cis %5
+		a e cis a4 r8
+		d'8. es16 d8 c'4.
+		b8. c16 d8 g, fis g
+		c,8. d16 c8 b'4.
+		a8 b c f, e f %10
+		d cis d b'4 a8
+		g f e f a f
+		d cis d b'4 a8
+		g f e f4.
+		a8 gis a a, a' f %15
+		g fis g a, g' e
+		f e f f e d
+		cis d e a,4.
+		b'4. b8 a g16 f
+		e8. d16 cis8 d8 f a %20
+		b4. a8. f16 d8
+		g8. e16 cis8 d4.
+		a'8.\p g16 f8 e8. d16 cis8
+		d e f \appoggiatura f e4.
+		g8. a16 b8 b8. a16 g8 %25
+		f8. e16 d8 d4 cis16 d
+		e8 a\fE e cis e cis
+		a e cis a4.
+		d'8.\pE es16 d8 d fis a
+		c,4. b %30
+		a8 b c b a g
+		fis g a b4.
+		a d
+		es c'
+		b4 g,8 d4 fis'8 %35
+		g d b g4.
+		d'8. c16 b8 a8. g16 fis8
+		g a b a4.
+		c8 d es es d c
+		b8. a16 g8 g4 fis16 g %40
+		a8 d'\fE a fis a fis
+		d a fis d4.
+		g8.\pE as16 g8 g h d
+		f4. es
+		f,8. g16 f8 f a c %45
+		es4. d
+		c8 a b c d es?
+		d c es? d4.
+		c8 a b c d es
+		d c d c4. %50
+		d8 d d f f f
+		es? es es d d d
+		c c c b b b
+		c4.^\critnote a
+		b8 f d b4 r8 %55
+		b'\fE b' b, b b' b,
+		b b' b, b a! b
+		c c' c, c c' c,
+		c c' c, c h c
+		a a a h h h %60
+		c e g g4 e8
+		d8. e16 f8 f4 e8
+		d g d h d h
+		g d' f e f g
+		g, d' f e g c, %65
+		c4. c
+		d e
+		d8. e16 d8 d4.
+		c8 g e c4 c'8
+		g'8. f16 e8 d c h %70
+		c d e d4.
+		f8 g a a g f
+		e8. d16 c8 c4.
+		c,8 c' a b! a b
+		c, b' g a g f %75
+		f a' g f e f
+		e4. d
+		f e8 g c,
+		d8. c16 h8 c e g
+		f4. e8. g16 c,8 %80
+		d8. f16 h,8 c4 r8
+		g'8.\pE f16 e8 d8.^\critnote c16 h8
+		c d e d4.
+		f8 g a a g f
+		e8. d16 c8 c4 h16 c %85
+		d8 g\fE d h d h
+		g d h g4.
+		c'8.\pE d16 c8 c e g
+		c g a b!4.
+		a8 f g a g f %90
+		e f g g4.
+		a8 f g a g f
+		e a g g4.
+		c8. b16 a8 g8. f16 e8
+		f g a g4. %95
+		b8 c d d c b
+		a g f f4 e16 f
+		g8 c\fE g e g e
+		c g e c4 r8
+		f8.\pE g16 f8 f a c %100
+		d b d c4.
+		c8 c c es es es
+		d es f d b' d,
+		es es es es d c
+		d c d c4. %105
+		e!8 e e f f f
+		g e g f4.
+		\once \tieDashed c'~ c8 b a
+		a4 g8 r4 r8
+		f,\fE a f g e c %110
+		c'4. b
+		a8 c a r4 r8
+		c4. b8 a g
+		a c a r4 r8
+		a'4. g %115
+		f8 a f r4 r8
+		a4. g8 f e
+		f a f r4 r8
+		g,4. g8 a h
+		c4. c %120
+		f, f8 g a
+		b4 b8 g a b
+		c b c a b c
+		d c d b c d
+		es d es c d e %125
+		f e f d4.
+		d8 c b a g a
+		g c g e g e
+		c g' g g a b
+		a g a g c, e %130
+		g e' g, g a b
+		a g a g c e
+		f4. e8 f g
+		f e f e4.
+		\once \tieDashed e~ e8 f g %135
+		f e f e4.
+		a8 a a g g g
+		g g g f f f
+		f e f f e f
+		e a e cis e cis %140
+		d d' d, d d' d,
+		d d' d, f f f
+		e a, e' f a, f'
+		e e e e e e
+		d a' f g fis g %145
+		a, g' e f e f
+		f e f f e d
+		cis d e a,4.
+		g f
+		a' g %150
+		f8 a d, e8. g16 cis,8
+		d a f d4 r8\fermata \bar "||" %152 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -761,3 +761,133 @@ GratiasViola = {
 		a a f d4 r8\fermata \bar "||" %152 finis
 	}
 }
+
+DomineDeusViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 2/2 \tempoDomineDeus
+		r4 b8\fE c d4 d
+		es d2 r4
+		r f f f
+		f b,8 c b4 b
+		b b d b %5
+		r f' f,2
+		r4 f' a a
+		r b b,2
+		r4 d d2
+		r4 c c c %10
+		b2 r4 b
+		f' f f r
+		f, f' f f
+		r f f f
+		g2 f %15
+		f4 f f r
+		r f f, f'
+		r f f f
+		g2 f
+		f4 f f r %20
+		r b,8\pE c d4 d
+		es d d r
+		r f f f
+		f f8 es d4 b
+		b f' f f %25
+		f f f,2
+		r4 f' f f
+		r b b,2
+		r4 b' b,2
+		r4 a' a,2 %30
+		b4 b b b
+		f' f, f r
+		f' f f f
+		f f f f
+		e e e e %35
+		f f a f
+		c c c c
+		f f a a
+		b b h h
+		c g e g %40
+		e e e e
+		f f f f
+		f f f f
+		d d d d
+		d d d d %45
+		a a a a
+		a a a a
+		b b b b
+		b b b b
+		c2 c4 d %50
+		e2 c
+		r4 c d e
+		f f b, b
+		c c c, c
+		f f a a %55
+		b b b b
+		c c c, c
+		f f\fE a f
+		c' c, c c'
+		c c e c %60
+		c c c f
+		f f f g
+		g g g c,
+		c c c r
+		r2 r4 f %65
+		e e f c
+		f f c' c,
+		f f, f r
+		f'\pE f f f
+		g g a a %70
+		b f f f
+		f^\critnote f f8 g f es!
+		d4 b8 c d4 d
+		es d d r
+		r f f f %75
+		b, b' b, r
+		r b' b, b
+		r f' f, f
+		r f' f f
+		r f f2 %80
+		r4 b, b b
+		f' f a f
+		r g e c
+		f f, f'8 es d c
+		b1 %85
+		es4 es es es
+		d d d d
+		es es8 f es4 d
+		c1
+		f4 f f f %90
+		e e e e
+		f f8 g a4 g
+		f f f f
+		b b, b b
+		b b' b b %95
+		a a a a
+		a a a a
+		g g g f
+		e e e e
+		f f es es %100
+		d d b b
+		a a f f
+		b b b b
+		a a a a
+		b b es es %105
+		f f f, f
+		b b' b8 a g f
+		e4 g g g
+		g f f f
+		g g g g %110
+		g f f r
+		r f g a
+		b2 es,
+		f4 f f, f
+		b d\fE es f %115
+		f, f' f f
+		r f f f
+		es es f f
+		f f f r
+		f f f f %120
+		r f f f
+		g2 f
+		f4 f b, r\fermata \bar "||" %123 finis
+	}
+}

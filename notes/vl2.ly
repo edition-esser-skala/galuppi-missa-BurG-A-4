@@ -765,3 +765,133 @@ GratiasViolinoII = {
 		d a f d4 r8\fermata \bar "||" %152 finis
 	}
 }
+
+DomineDeusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoDomineDeus
+		r4 d8\fE es f4 f
+		g f2 r4
+		r a2 c4
+		b b,8 c b4 r
+		d8 c16 b d4 f b %5
+		\tuplet 3/2 4 { a8 f g } a4 r a
+		f a2 c4
+		\tuplet 3/2 4 { c8 a b } b4 r \tuplet 3/2 4 { f'8 d a }
+		b4 f2 \tuplet 3/2 4 { g'8 es h }
+		c4 f,2 \tuplet 3/2 4 { es'8 d c } %10
+		b d d f d es d b
+		b4 a r a8 f
+		f d' c2 a4
+		f8 c' b2 f4
+		es d2 c4 %15
+		d8 b' a c b4 f
+		f8 d' c2 a4
+		f8 c' b2 f4
+		es d2 c4
+		d f b, r %20
+		r d8\pE es f4 f
+		g f f r
+		a2 a4 c
+		\tuplet 3/2 4 { b8 a b } b4 r d,8 c16 b
+		d4 d2 b'4 %25
+		b a r a8 f
+		a4 a2 c4
+		c8 a b4 r \tuplet 3/2 4 { f'8 d a }
+		b4 d,2 \tuplet 3/2 4 { f'8 d h }
+		c4 c,2 c'4 %30
+		b d2 d8 b
+		b4 a a8 c a a
+		a2 a8 g g f
+		b4 b b b
+		b b b8 a a g %35
+		g4 f \tuplet 3/2 4 { f'8 f, f f[ f f] }
+		e4 e e e
+		f f c c
+		d d d d
+		c r \tuplet 3/2 4 { g''8 e c h[ c d] } %40
+		c4 g g g
+		a a a a
+		a a a a
+		b b b b
+		b b b b %45
+		c c c c
+		c c c c
+		d d d d
+		g, g g g
+		f a2 h4 %50
+		c g2 a4
+		b! e, f g
+		f e8 f g4 f8 e
+		f4 f2 e4
+		f f f f %55
+		f f d'8 b a g
+		f4 a g g
+		f a2\fE f'4
+		\tuplet 3/2 4 { e8 c d } e4 r g
+		\tuplet 3/2 4 { e8 d c } e2 g4 %60
+		\tuplet 3/2 4 { g8 e f } f4 a, c
+		c8( b) b( a) a( b) d4
+		d8( c) c( h) h( c) g'4
+		g8( f) f( e) e( f) f( g)
+		g( a) a( b) b2 %65
+		b a8 g f e
+		f4 a, g2
+		f4 f' f, r
+		a\p a a a
+		b b c c %70
+		b b b b
+		a2 r
+		r4 d,8 es f4 f
+		g f f r
+		r a a c %75
+		b b, r d8 c16 b
+		d4 d f b
+		b a r f
+		a a2 c4
+		c8 a b4 r f8 b %80
+		b4 b b8 f d' b
+		b4 a a a
+		g g g g
+		f2 r
+		d4 f es d %85
+		es g g g
+		f f f f
+		f es r f
+		e g f e
+		f a a a %90
+		c c c g
+		g f r2
+		a4 a a a
+		f f d' d
+		d d d d %95
+		c c c c
+		c c c c
+		b b b a
+		g c c c
+		c c c c %100
+		f f f f
+		f f f es
+		d b b g
+		f f f f
+		f f g g %105
+		f b2 a4
+		b b, r2
+		\tuplet 3/2 4 { g''8-! e-! c-! g[-! e-! c]-! e-! g-! c-! e[-! g-! b]-! }
+		b4( a) \tuplet 3/2 4 { f,8[-! a-! c]-! f-! a-! f-! }
+		\tuplet 3/2 4 { g8-! e-! c-! g[-! e-! c]-! e-! g-! c-! e[-! g-! b]-! } %110
+		\once \tieDashed b4( a) f,8 a a b
+		c4 c c b8 a
+		b4 d es c
+		b b a a
+		b f\f b, f' %115
+		f8 d' c2 a4
+		f8 c' b2 f4
+		g8 es d2 c4
+		d8 b' a c b4 f
+		f8 d' c2 a4 %120
+		f8 c' b2 f4
+		es d2 c4
+		d f b, r\fermata \bar "||" %123 finis
+	}
+}

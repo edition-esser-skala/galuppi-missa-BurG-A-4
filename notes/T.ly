@@ -679,6 +679,191 @@ GratiasTenoreLyrics = \lyricmode {
 	am. %145 finis
 }
 
+DomineDeusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 2/2 \autoBeamOff \tempoDomineDeus
+		R1*20 %20
+		\once \tieDashed \mvTr b1~\pE^\soloE
+		b2. h4
+		c2 c4 es
+		\tuplet 3/2 4 { d8([ c b)] } b4 r2
+		f4( b2) d4 %25
+		d8([ b)] c4 r2
+		f,4( c'2) es4
+		es8([ c)] d4 r2
+		\once \tieDashed b2~ b4 h
+		c f,2 es'4 %30
+		d2( b'4.) d,8
+		d4( c) r2
+		c c8([ b)] b([ a)]
+		b4( d) d2
+		\once \tieDashed d~ d8[ c] c([ b)] %35
+		b4 a r2
+		g2. a8([ b)]
+		a2 \appoggiatura g8 f4 f
+		f2. e8([ f)]
+		e2 r %40
+		g2. a8([ b)]
+		a[ g a b] a4 r
+		r8 f[ g f] a[ f c' a]
+		b[ a b c] b4 r
+		r8 f[ g f] b[ f d' b] %45
+		c[ h c d] c4 r
+		r8 f,[ g f] c'[ a es' c]
+		d[ c d es] d4 r
+		e8[ d e f] e4 r
+		f a,2 h4 %50
+		c g2 a4
+		b!2 b4 b
+		a g8[ a] b4 a8[ g]
+		f4. g8 g2
+		f4 c'2 c4 %55
+		d2 f8([ d)] c([ b)]
+		a2 g
+		f1
+		R1*10 %68
+		f'1
+		e2 es %70
+		d2. c8([ d)]
+		c2 r
+		\once \tieDashed b1~^\critnote
+		b2. h4
+		c2 c4 es %75
+		d8([ c)] b4 r2
+		f4( b2) d4
+		d8([ b)] c4 r2
+		f,4( c'2) es4
+		es8([ c)] d4 r2 %80
+		\once \tieDashed d~ d8[ b] f'([ d)]
+		d([ b)] c2 c4
+		b2. a8([ b)]
+		a2 r
+		b4( as) g f %85
+		g4.( as8) b2
+		f'( es8[ d)] c[( b)]
+		as4 g r2
+		c4( b a) g
+		a4.( b8) c2 %90
+		g'( f8[ e)] d([ c)]
+		b4 a r2
+		c2. d8([ es)]
+		d[ c d es] d4 r
+		r8 b[ c b] d[ b f' d] %95
+		c[ h c d] c4 r
+		r8 f,[ g f] a[ f c' a]
+		b[ c b a] b4 r
+		r8 c,[ d c] g'[ e b' g]
+		a[ g a b] a4 r %100
+		b8[ a b c] b4 r
+		c8[ b c d] c4 r
+		d8[ c d es] d4 e
+		f4 c2 es4
+		d c8[ d] es4 d8[( c]) %105
+		b4.( c8) c2
+		b r
+		c g4. b8
+		b4 a r2
+		c g4.( b8) %110
+		b4 a r2
+		es'!2. d8([ c)]
+		d4( b') g es
+		d2 c
+		b r %115
+		R1*7 %122
+		R1\fermataMarkup \bar "||" %123 finis
+	}
+}
+
+DomineDeusTenoreLyrics = \lyricmode {
+	Do -- %21
+	_
+	_ mi -- ne
+	De -- us,
+	Rex coe -- %25
+	le -- stis,
+	Rex coe --
+	le -- stis,
+	De -- us
+	Pa -- ter o -- %30
+	mni -- po --
+	tens,
+	Do -- mi -- ne
+	De -- us,
+	Rex __ coe -- %35
+	le -- stis,
+	De -- us
+	Pa -- ter o --
+	mni -- po --
+	tens, %40
+	De -- us
+	Pa -- _
+	_ _
+	_ _
+	_ _ %45
+	_ _
+	_ _
+	_ _
+	_ _
+	_ _ _ %50
+	_ _ _
+	_ ter o --
+	mni -- _ _ _
+	_ _ po --
+	tens, De -- us %55
+	Pa -- ter o --
+	mni -- po --
+	tens.
+
+	Do -- %69
+	_ %70
+	_ mi --
+	ne,
+	Do --
+	_ _
+	_ mi -- ne %75
+	De -- us,
+	Rex coe --
+	le -- stis,
+	Rex coe --
+	le -- stis, %80
+	De -- us
+	Pa -- ter o --
+	mni -- po --
+	tens,
+	Do -- mi -- ne %85
+	De -- us,
+	Rex __ coe --
+	le -- stis,
+	Rex __ coe --
+	le -- stis, %90
+	De -- us
+	Pa -- ter
+	De -- us
+	Pa -- _
+	_ _ %95
+	_ _
+	_ _
+	_ _
+	_ _
+	_ _ %100
+	_ _
+	_ _
+	_ _ _
+	_ _ _
+	_ _ ter o -- %105
+	mni -- po --
+	tens,
+	Do -- mi -- ne
+	De -- us,
+	Rex coe -- %110
+	le -- stis,
+	De -- us
+	Pa -- ter o --
+	mni -- po --
+	tens. %115 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

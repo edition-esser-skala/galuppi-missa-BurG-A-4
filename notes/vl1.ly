@@ -773,6 +773,136 @@ GratiasViolinoI = {
 	}
 }
 
+DomineDeusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoDomineDeus
+		b'1\fE
+		b2.( h4)
+		c2. es4
+		d b,8 c b4 r
+		f'8 es16 d b'2 d4 %5
+		\tuplet 3/2 4 { c8 a b } c4 r c
+		a8 g16 f c'2 es4
+		\tuplet 3/2 4 { es8 c d } d4 r \tuplet 3/2 4 { f8 d a }
+		b4 f2 \tuplet 3/2 4 { g'8 es h }
+		c4 f,2 \tuplet 3/2 4 { g'8 f es } %10
+		\tuplet 3/2 4 { d c b f'[ es d] b' a g f[ es d] }
+		\tuplet 3/2 4 { d b d }c4 r c8 a
+		f f' es2 c4
+		f,8 es' d2 b4
+		g8 c b2 a4 %15
+		b8 d c es d4 f,
+		f8 f' es2 c4
+		f,8 es' d2 b4
+		g8 c b2 a4
+		b f b, r %20
+		b'1\pE
+		b2.( h4)
+		c2 c4 es
+		\tuplet 3/2 4 { d8 c b } b4 r f8 es16 d
+		f4 b2 d4 %25
+		d8 b c4 r c8 a
+		f4 c'2 es4
+		es8 c d4 r \tuplet 3/2 4 { f8 d a }
+		b4 f2 \tuplet 3/2 4 { f'8 d h }
+		c4 f,2 es'4 %30
+		\tuplet 3/2 4 { d8 c b f'[ es d] b' a g f[ es d] }
+		d4 c f8 a f c
+		c2 c8 b b a
+		d4 d d d
+		d d d8 c c b %35
+		b4 a \tuplet 3/2 4 { f'8 f, f f[ a a] }
+		g4 g g g
+		a a f' f
+		f f f f
+		e2 \tuplet 3/2 4 { g8 e c h[ c d] } %40
+		c4 c c c
+		c c c c
+		c c c c
+		f f f f
+		f f f f %45
+		f f f f
+		f f f f
+		f f f f
+		e e e e
+		f a,2 h4 %50
+		c g2 a4
+		b!2 b
+		a4 g8 a b4 a8 g
+		f4. g8 g2
+		f4 c'2 c4 %55
+		d2 f8 d c b
+		a4 f' f e
+		f, f'2\fE a4
+		\tuplet 3/2 4 { g8 e f } g4 r g
+		\tuplet 3/2 4 { e8 d c } g'2 b4 %60
+		\tuplet 3/2 4 { b8 g a } a4 r f8 es
+		es( d) d( c) c( d) g( f)
+		f( e) e( d) d( e) c'( b)
+		b( a) a( g) g( a) a( b)
+		b( c) c( d) d2 %65
+		d c8 b a g
+		a c f,2 e4
+		f f, f r
+		f'\p f f f
+		e e es es %70
+		d d d d
+		c2 r
+		b1
+		b2. h4
+		c2 c4 es %75
+		d8 c b4 r f8 es16 d
+		f4 b2 d4
+		d8 b c4 r a8 g16 f
+		c'4 c2 es4
+		es8 c d4 r b8 d %80
+		d4 d d8 b f' d
+		d4 c c c
+		b b b b
+		a2 r
+		b4 as g f %85
+		g b b b
+		b b b b
+		as g r h
+		c b a g
+		a c c c %90
+		g'2 f8 e d c
+		b4 a r2
+		c4 c c c
+		d d f f
+		f f f f %95
+		f f f f
+		f f f f
+		f e e f
+		g g g g
+		a a a a %100
+		b b b b
+		c c c c
+		b d,2 e4
+		f c2 es4
+		d c8 d es4 d8 c %105
+		b4. c8 c2
+		b4 b, r2
+		\tuplet 3/2 4 { g''8-! e-! c-! g[-! e-! c]-! e-! g-! c-! e[-! g-! b]-! }
+		b4( a) \tuplet 3/2 4 { f,8[-! a-! c]-! f-! a-! f-! }
+		\tuplet 3/2 4 { g8-! e-! c-! g[-! e-! c]-! e-! g-! c-! e[-! g-! b]-! } %110
+		\once \tieDashed b4( a) f,8 a c d
+		es!4 es es d8 c
+		d4 f g es
+		d d c c
+		b f\f b, f' %115
+		f8 f' es2 c4
+		f,8 es' d2 b4
+		g8 c b2 a4
+		b8 d c es d4 f,
+		f8 f' es2 c4 %120
+		f,8 es' d2 b4
+		g8 c b2 a4
+		b f b, r\fermata \bar "||" %123 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

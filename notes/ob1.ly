@@ -230,3 +230,92 @@ GratiasOboeI = {
 		R2.\fermataMarkup \bar "||" %152 finis
 	}
 }
+
+DomineFiliOboeI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoDomineFili
+		d'2.\fE
+		fis
+		a4 g fis
+		d' cis8 h a g
+		fis8. e16 d4 r %5
+		d2.
+		d
+		e
+		fis8 g g8.( fis32 g) a4
+		d d8 fis, fis fis %10
+		fis4 e r8 a
+		gis16 a h a h a gis fis e d cis h
+		cis d e d e d cis h a cis e a
+		gis a h a h a gis fis e d cis h
+		cis d e d e d cis h a cis e a %15
+		fis e fis g! fis e fis g fis e fis gis
+		a gis a h a gis fis e d cis h a
+		a fis' e d cis d cis a h cis h gis
+		a2 r4
+		fis' fis8 g a a %20
+		g4 e r
+		e e8 fis g g
+		fis g a4 r
+		R2.
+		r4 e8 e e4 %25
+		R2.
+		r4 fis8 fis fis4
+		e e2
+		fis4 fis2
+		e4 e g
+		fis fis a
+		h16 ais h c h a g fis e d cis h
+		a8. e'16 e2\trill
+		d8 d,16 d d8 d fis a
+		d fis,16 fis fis8 fis a d %35
+		fis4 fis8 a fis a
+		fis4 r r
+		R2.*9 %46
+		r4 cis\pE cis
+		cis r r
+		R2.*39 %87
+		r2 a'4\fE
+		gis16 a h a h a gis fis e d cis h
+		cis d e d e d cis h a cis e a %90
+		gis a h a h a gis fis e d cis h
+		cis d e d e d cis h a cis e a
+		fis8 a,16 a a8 a d fis
+		e a,16 a a8 a cis e
+		d e,16 e e8 e h' d %95
+		cis4 cis16 h cis d e8 e
+		a4 a8 cis, cis cis
+		cis4 h r
+		h h8 cis d d
+		cis4 e r %100
+		h h8 cis d d
+		cis4 a r
+		fis'16 e fis g! fis e fis g fis e fis gis
+		a gis a h a gis fis e d cis h a
+		a fis' e d cis d cis a h cis h gis %105
+		a2.
+		cis
+		cis4 cis8 e e e
+		e4 r r
+		R2.*57 %166
+		fis4\fE fis8 g a a
+		g4 e r
+		e e8 fis g g
+		fis g a4 r %170
+		R2.
+		r4 e8 e e4
+		R2.
+		r4 d8 d d4
+		cis4 e2 %175
+		fis4 fis2
+		e4 e e
+		fis fis a
+		h16 ais h c h a g fis e d cis h
+		a8. d32 e e2 %180
+		d8 d,16 d d8 d fis a
+		d fis,16 fis fis8 fis a d
+		fis4 fis8 a fis a
+		fis4 r r\fermata \bar "||" %184 finis
+	}
+}

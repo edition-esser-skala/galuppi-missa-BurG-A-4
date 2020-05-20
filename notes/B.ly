@@ -778,6 +778,239 @@ GratiasBassoLyrics = \lyricmode {
 	am. %145 finis
 }
 
+DomineFiliBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoDomineFili
+		R2.*37 %37
+		\mvTr d2.\pE^\soloE
+		fis
+		a4 g fis %40
+		d' cis8([ h)] a([ g)]
+		fis8.([ e16)] d4 r
+		d( g) h
+		a fis d
+		g2. %45
+		fis4 d' fis,
+		fis e r
+		a, cis e
+		a8([ gis)] a4 r
+		gis( h) e, %50
+		d4. cis8 h4
+		cis( a') cis,
+		cis h r
+		cis( a') cis,
+		cis h r %55
+		a'2( g!4
+		fis4.) e8 d4
+		h'4. h8 a4
+		gis4.( fis8) e4
+		r e fis %60
+		gis4. a8 h4
+		cis a e
+		a, cis'2
+		h4 gis h
+		e, h'2 %65
+		a4 fis dis
+		h a'2
+		gis h4
+		e, gis h
+		a2 cis4 %70
+		e, a cis
+		h2 d4
+		e, h' d
+		cis h a
+		gis fis e %75
+		dis2.
+		e2 r4
+		e d! cis
+		a' e r
+		e( d) cis %80
+		a'4. e8 e4
+		fis2.
+		d'4 h gis
+		a2.
+		a, %85
+		d2 cis8([ d)]
+		e2.
+		a,4 r r
+		R2.*21 %109
+		a'2. %110
+		g!
+		fis4 d' fis,
+		fis8([ d)] e4 r
+		a2.
+		g %115
+		fis4 d' fis,~
+		fis8 d e4 r
+		g2.
+		fis4 e d
+		h'2. %120
+		a4 g fis
+		e d8[ e] fis([ g])
+		a4 a, r
+		d2.
+		fis %125
+		a4 g fis
+		d' cis8([ h)] a([ g)]
+		fis([ e)] d4 r
+		d( fis) d
+		a'4. a8 a4 %130
+		a2.
+		h,4 fis' a
+		g8([ fis)] e4 r
+		h' g e
+		dis2 e4 %135
+		h( fis') a
+		g4. fis8 e4
+		g( e) d!
+		cis2 d4
+		h'( a) g %140
+		fis8([ e)] d4 r
+		d a' c
+		h4.( d8) g,4
+		d( a') c
+		h4. d8 g,4 %145
+		h8[ a g fis e d]
+		cis2 e4
+		a, cis e
+		d2 fis4
+		a, d fis %150
+		e2 g4
+		a, e' g
+		fis d fis
+		a fis a
+		d2. %155
+		d,
+		gis4 h d,
+		cis( e) a
+		gis( h) d,
+		cis4. e8 a4 %160
+		g!2.
+		fis4 a d
+		g,2.
+		gis
+		a( %165
+		a,)
+		d
+		R2.*16 %183
+		R2.\fermataMarkup \bar "||" %184 finis
+	}
+}
+
+DomineFiliBassoLyrics = \lyricmode {
+	Do -- %38
+	_
+	_ _ _ %40
+	_ mi -- ne
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te,
+	Je -- %45
+	_ _ su
+	Chri -- ste,
+	Do -- mi -- ne
+	Fi -- li
+	u -- ni -- %50
+	ge -- ni -- te,
+	Je -- su
+	Chri -- ste,
+	Je -- su
+	Chri -- ste, %55
+	Do --
+	mi -- ne,
+	Do -- mi -- ne
+	Fi -- li
+	u -- ni -- %60
+	ge -- ni -- te,
+	Je -- _ _
+	_ _
+	_ _ _
+	_ _ %65
+	_ _ _
+	_ _
+	_ _
+	_ _ _
+	_ _ %70
+	_ _ _
+	_ _
+	_ _ _
+	_ _ _
+	_ _ su %75
+	Chri --
+	ste,
+	Do -- mi -- ne
+	Fi -- li
+	u -- ni -- %80
+	ge -- ni -- te,
+	Je --
+	_ _ su
+	Chri --
+	ste, %85
+	Je -- su
+	Chri --
+	ste.
+
+	Do -- %110
+	_
+	_ mi -- ne
+	Fi -- li
+	u --
+	ni -- %115
+	ge -- _ _
+	ni -- te,
+	Je --
+	_ _ _
+	_ %120
+	_ _ _
+	_ _ su
+	Chri -- ste,
+	Do --
+	_ %125
+	_ _ _
+	_ mi -- ne
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te, %130
+	Je --
+	_ _ su
+	Chri -- ste,
+	Do -- mi -- ne
+	Fi -- li %135
+	u -- ni --
+	ge -- ni -- te,
+	Je -- su,
+	Je -- su,
+	Je -- su %140
+	Chri -- ste,
+	Do -- mi -- ne
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te, %145
+	Je --
+	_ _
+	_ _ _
+	_ _
+	_ _ _ %150
+	_ _
+	_ _ _
+	_ _ _
+	_ _ su
+	Chri -- %155
+	ste,
+	Do -- mi -- ne
+	Fi -- li
+	u -- ni --
+	ge -- ni -- te, %160
+	Je --
+	_ _ su,
+	Je --
+	su
+	Chri -- %165
+
+	ste. %167 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

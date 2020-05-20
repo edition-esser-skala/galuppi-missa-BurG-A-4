@@ -553,6 +553,7 @@ tempoEtInTerra = \tempoMarkup "Adagio"
 tempoLaudamus = \tempoMarkup "[Tempo deest]"
 tempoGratias = \tempoMarkup "[Tempo deest]"
 tempoDomineDeus = \tempoMarkup "[Tempo deest]"
+tempoDomineFili = \tempoMarkup "Allegro"
 
 
 \include "notes/ob1.ly"

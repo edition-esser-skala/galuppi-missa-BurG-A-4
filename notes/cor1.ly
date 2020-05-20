@@ -196,3 +196,93 @@ GloriaCornoI = {
 		e e8. e16 e4 r\fermata \bar "||" %111 finis
 	}
 }
+
+DomineFiliCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDomineFili
+		c'2\fE r4
+		e2 r4
+		g f e
+		e d d^\critnote
+		e c8 c c4 %5
+		c2.
+		c
+		r4 r f
+		e f g
+		g e e %10
+		e d8 d d d
+		d4 r r
+		d r r
+		d r r
+		d r r %15
+		e e e
+		d r r
+		e d d
+		d2 r4
+		R2. %20
+		r4 d8 d d4
+		R2.
+		r4 g8 g g4
+		e e8 f g g
+		f4 d r %25
+		d d8 e f f
+		e4 c e
+		d d8 d d d
+		e4 e r
+		d d2 %30
+		e4 e r
+		R2.
+		e4 d2
+		c2.
+		e %35
+		e4 e e
+		e r r
+		R2.*9 %46
+		r4 d8\pE d d d
+		d4 r r
+		R2.*40 %88
+		d4\fE r r
+		d r r %90
+		d r r
+		d r d
+		e2.
+		d4 r d
+		d r r %95
+		d r d
+		d r r
+		r d8 d d4
+		R2.
+		d4 d8 d d4 %100
+		R2.
+		d4 d8 d d4
+		e2 r4
+		d r r
+		e d d %105
+		d2.~
+		d
+		d4 d8 d d d
+		d4 r r
+		R2.*13 %122
+		r4 d\pE d
+		e2.
+		R2.*43 %167
+		r4 d8\fE d d4
+		R2.
+		r4 e8 g g4 %170
+		e e8 f g g
+		f4 d r
+		d d8 e f f
+		e4 c r
+		d d d %175
+		e e e
+		d d d
+		e e8 e e4
+		R2.
+		e4 d2 %180
+		c2 e4
+		e2 g4
+		e e e
+		e r r\fermata \bar "||" %184 finis
+	}
+}

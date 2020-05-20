@@ -891,3 +891,194 @@ DomineDeusViola = {
 		f4 f b, r\fermata \bar "||" %123 finis
 	}
 }
+
+DomineFiliViola = {
+	\relative c' {
+		\clef alto
+		\key d \major \time 3/4 \tempoDomineFili
+		d4\fE d d
+		d d d
+		d2.
+		fis4 e e
+		fis a fis %5
+		d h' h
+		d, a' a
+		g e cis
+		a a a
+		a d8 e fis gis %10
+		a4 a,8 h cis a
+		e'4 e e
+		a a, r
+		e' e e
+		a a, r %15
+		a' a a
+		e e r
+		fis e e
+		e cis8 e d cis
+		d4 d, d' %20
+		a' a,8 a a4
+		a2 r4
+		r d8 d d4
+		d2 r4
+		a' a,8 a a4 %25
+		a2 r4
+		d'4 d,8 d d4
+		a'8 a, a a a a
+		a a a a a a
+		a a a a a a %30
+		d d d d d d
+		g g g g g g
+		fis fis a a a, a
+		a4 a a
+		a a a %35
+		a a a
+		a2 r4
+		d\pE d d
+		d d d
+		d d d %40
+		d a' a,
+		d a' fis
+		g g g
+		fis fis fis
+		e cis a %45
+		d d8 e fis gis
+		a4 a, a
+		a r r
+		cis e fis
+		gis e r %50
+		e2.
+		a4 a,8 h cis dis
+		e4 e, e'
+		a, cis a
+		e' e, d' %55
+		cis8 cis cis cis cis cis
+		d d d d d d
+		dis dis dis dis dis dis
+		e4 e e
+		e2 r4 %60
+		e e e
+		a8 a a a a a
+		a a a a a a
+		gis gis gis gis gis gis
+		gis gis gis gis gis gis %65
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		e e e e e e
+		e e e e d! d
+		cis cis cis cis cis cis %70
+		cis cis cis cis a a
+		gis gis gis gis gis gis
+		gis gis gis gis gis gis
+		a2.
+		e' %75
+		fis8 fis fis fis fis fis
+		e4 e8 fis e d!
+		cis4 r r
+		a e'8 fis e d
+		e4 r r %80
+		a, a a
+		a a a
+		d d d
+		cis cis d
+		cis h a %85
+		a h cis8 d
+		e4 e e,
+		a\fE cis a
+		e' e e
+		e2 r4 %90
+		e e e
+		a a e
+		d fis fis
+		a, e' e
+		h h gis %95
+		e e' a,
+		a e' fis
+		e e,8 e e4
+		e' e e
+		a a,8 a a4 %100
+		e' e e
+		a, a a
+		a a h
+		e2 r4
+		fis e d %105
+		cis a a
+		a a a
+		a a a
+		a r r
+		a8\pE a a a a a %110
+		cis cis cis cis cis cis
+		d d d d d d
+		a4 cis8 d e d
+		a a a a a a
+		cis cis cis cis cis cis %115
+		d d d d d d
+		a a a a a a
+		a a h h cis cis
+		d2 r4
+		g g,8 a h cis %120
+		d2.
+		cis4 d8 e fis g
+		a a, a' g fis e
+		d4 d d
+		d d d %125
+		d2.
+		d4 a' a,
+		d d, d'
+		d8 d d d d d
+		cis cis cis cis cis cis %130
+		c c c c c c
+		h h h h h h
+		e4 g8 a g fis
+		e2 g8 a
+		h4 a g %135
+		dis dis dis
+		e h g
+		e e' fis8 g
+		a4 g fis
+		g a a, %140
+		d d8 e fis g
+		fis d d d c c
+		h g' g g g g
+		fis d d d c c
+		h g' g g g g %145
+		g2 g4
+		a8 a a a a a
+		a a a a g g
+		fis fis fis fis fis fis
+		fis fis fis fis d d %150
+		cis cis cis cis cis cis
+		cis cis cis cis cis cis
+		d4 r r
+		d r r
+		d d d %155
+		d d8 e d cis
+		h4-\critnote gis e
+		a  a8 h cis d
+		e2 gis4
+		a a, a %160
+		a h cis
+		d2 fis4
+		g8 g g g g g
+		gis gis gis gis gis gis
+		a a a a a a %165
+		a, a a a a a
+		d4 r d\fE
+		a' a,8 a a4
+		a r a
+		d d' d, %170
+		d2.
+		a'4 a,8 a a4
+		a2.
+		d4 fis d
+		a' a, a %175
+		a a a
+		a a a
+		d d d
+		g g g
+		a a a, %180
+		d d d
+		d d d
+		d d d
+		d r r\fermata \bar "||" %184 finis
+	}
+}

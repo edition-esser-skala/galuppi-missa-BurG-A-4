@@ -196,3 +196,93 @@ GloriaCornoII = {
 		c c8. c16 c4 r\fermata \bar "||" %111 finis
 	}
 }
+
+DomineFiliCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoDomineFili
+		e2\fE r4
+		c'2 r4
+		e d c
+		c g g
+		c e,8 e e4 %5
+		c'2.
+		c
+		r4 r d
+		c d e
+		e c c %10
+		c g8 g g g
+		d'4 r r
+		g, r r
+		d' r r
+		g, r r %15
+		c c c
+		g r r
+		c8 e d4 d
+		g,2 r4
+		R2. %20
+		r4 g8 g g4
+		R2.
+		r4 e'8 e e4
+		c c8 d e e
+		d4 g, r %25
+		g g8 c d d
+		c g e4 c'
+		g g8 g g g
+		c4 c r
+		g g2 %30
+		c4 c r
+		R2.
+		c4 g2
+		e2.
+		c' %35
+		c4 c c
+		c r r
+		R2.*9 %46
+		r4 g8\pE g g g
+		g4 r r
+		R2.*40 %88
+		d'4\fE r r
+		g, r r %90
+		d' r r
+		g, r g
+		c2.
+		g4 r g
+		d' r r %95
+		g, r g
+		g r r
+		r d'8 d d4
+		R2.
+		g,4 g8 g g4 %100
+		R2.
+		g4 g8 g g4
+		c2 r4
+		g r r
+		c d d %105
+		g,2.~
+		g
+		g4 g8 g g g
+		g4 r r
+		R2.*13 %122
+		r4 g\pE g
+		c2.
+		R2.*43 %167
+		r4 g8\fE g g4
+		R2.
+		r4 c8 e e4 %170
+		c c8 d e e
+		d4 g, r
+		g g8 c d d
+		c4 c, r
+		g' g g %175
+		c c c
+		g g g
+		c c8 c c4
+		R2.
+		c4 g2 %180
+		e c'4
+		c2 e4
+		c c c
+		c r r\fermata \bar "||" %184 finis
+	}
+}

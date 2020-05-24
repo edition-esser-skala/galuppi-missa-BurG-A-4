@@ -1262,6 +1262,134 @@ DomineDeusAgnusViolinoI = {
 	}
 }
 
+QuiTollisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoQuiTollis
+		c8\fE es' c, es' es d d16 es d c
+		h8 f' g,, f'' es16 d c8 r4
+		\kneeBeam c,8 b'' c,, b'' as as,16 b c8 as
+		\kneeBeam b, as'' b,, as'' g g,16 as b8 g
+		f16( d) as'( f) g( es) es'( g,) f( d) as'( f) g( es) es'( g,) %5
+		g4. f16 g f4 r16 f g as
+		\kneeBeam g8 b' as,, as'' \kneeBeam b,, g'' b,, f''
+		es b16 c b8 as g4 r
+		g8 g' g, g' \kneeBeam b,, f'' h,, f''
+		c, es' fis, es' d16( fis) fis( g) g,4 %10
+		\kneeBeam g,8 f'' h,, f'' c,16 es' d c h c h c
+		r as' g f e f e f r d es f es8 d
+		c es,16 f es8 d c4 r
+		c'16( es) c( es) c( es) c( es) c( es) h( d) h( d) c( es)
+		d( f) d( f) d( f) d( f) d( f) c( es) c( es) c( es) %15
+		c( es) c( es) c( es) c( es) c( es) c( es) c( es) c( es)
+		h( d) h( d) h( d) h( d) d,( f) d( f) d( f) d( f)
+		e( c') e,( c') e,( c') e,( c') g( b) g( b) g( b) g( b)
+		as( c) as( c) as( c) as( c) g( c) g( c) g( c) g( c)
+		f,( c') f,( c') f,( b) f( b) e,( c') e,( c') g( b) g( b) %20
+		as( f') as,( c) as( c) as( c) as( des) as( des) as( des) as( des)
+		b( des) b( des) b( des) b( des) as( c) as( c) as( c) as( c)
+		as( c) as( c) as( c) as( c) b( es) b( es) b( es) b( es)
+		as,( es') as,( es') as,( es') as,( es') as,( d!) as( d) as( d) as( d)
+		g,( es') g,( es') g,( es') g,( es') ges,( es' ges, es' ges, es' ges, es') %25
+		f,( d' f, d' ges, es' ges, es' f, es' f, es' f, d' f, d')
+		es,8 g'! es, g' g f f16 g f es
+		d8 as' h,, as'' as g g16 as g f
+		e8 g des, g' \kneeBeam c,, g'' b,,! g''
+		\kneeBeam as,, as'' des,, as'' \kneeBeam c,, as'' h,, as'' %30
+		c,, g'' b,!4 as8 f' as,4
+		g16 as g f e8 b'' r16 as g f e f e f
+		r des c b as c e, g f8 c f4
+		\slurDashed as16( f') as,( f') as,( f') as,( f') as,( f') as,( f') as,( f') as,( f')
+		\slurSolid g,( es') g,( es') g,( es') g,( es') g,( es') g,( es') g,( es') g,( es') %35
+		f,( d') f,( d') f,( d') f,( d') f,( d') f,( d') f( d) b( as)
+		g( es') g,( es') g,( es') g,( es') g,( es') g,( es') g,( es') g,( es')
+		b( des) b( des) b( des) b( des) b( des) b( des) b( des) b( des)
+		g,( c) g( c) b( g') b,( g') as,( f') as,( f') as,( f') as,( f')
+		a,( c) a( c) a( c) a( c) a( c) a( c) a( c) a( c) %40
+		a( c) a( c) g( b) g( b) g( a) g( a) fis( a) fis( a)
+		\slurDashed g( b) g( b) g( b) g( b) g( b) g( b) g( b) g( b)
+		g( h) g( h) g( h) g( h) c( es) c( es) c( es) c( es)
+		c( es) c( es) c( es) c( es) c( es) c( es) c( es) c( es) \noBreak \slurSolid c4 h8 a h2\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter b,4\fE es es8 b f' b, \noBreak
+		g'4 g as
+		b2 as4
+		g8 f g4 es'
+		b2 as4 %50
+		g8 f es4 r
+		g, es'8 as, as as
+		g4 es'8 as, as as
+		g4 es'8 as, as as
+		as4 g b^\critnote\pE %55
+		es es8 b f' b,
+		g'2 as4
+		b2 as4
+		g8 f g4 es'
+		b2 as4 %60
+		g8 f es g b d
+		es g es b g g
+		f es f4 d
+		es4. d8 c4
+		d8 c d4 r %65
+		b'2.
+		as!
+		g
+		f
+		f' %70
+		es!
+		d
+		c
+		d4 f d
+		d2 d4 %75
+		c2.
+		b2 f8\f es
+		d4 b'8 es,8 es es
+		d4 b'8 es, es es
+		d4 b'8 es, es es %80
+		es4 d f\pE
+		b b8 f c' f,
+		d'2 es4
+		f2 es4
+		d8 c d4 b' %85
+		f2 es4
+		d8 c b4 r
+		b2 as!4
+		g8 f g4 b
+		b4. as8 g4 %90
+		g f b'
+		b4. as8 g4
+		g f r
+		es,2.
+		g %95
+		as
+		as
+		as
+		as
+		g %100
+		f
+		g~
+		g
+		\once \tieDashed f~
+		f %105
+		es4 es8\fE as, as as
+		g4 es'8 as, as as
+		g4 es'8 as, as as
+		as4 g g'\pE
+		f8 es f4 f'8 g %110
+		as4. g8 f4
+		g8 as g4 g,
+		f8 es f4 f'8 g
+		as4. g8 f4 \noBreak
+		g f r\fermata \bar "||" %115
+		\time 3/4 \tempoMiserere \slurDashed f,16(\fE b) f( b) f( b) f( b) g( b) g( b) g( b) g( b) \noBreak
+		g( b) g( b) g( b) g( b) g( b) g( b) g( b) g( b)
+		f( as) f( as) f( as) f( as) e( g) e( g) e( g) e( g)
+		e( g) e( g) e( g) e( g) f( as) f( as) f( as) f( as)
+		as( c) as( c) as( c) as( c) d,( h') d,( h') es,( c') f,( c') %120
+		d,( h') d,( h') d,( h') d,( h') es,( c') es,( c') es,( c') es,( c')
+		c4 h8 a h2\fermata \bar "||" %122 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

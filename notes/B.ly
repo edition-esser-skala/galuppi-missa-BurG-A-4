@@ -1011,6 +1011,148 @@ DomineFiliBassoLyrics = \lyricmode {
 	ste. %167 finis
 }
 
+QuiTollisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+		R1*13 %13
+		\mvTr c2\fE^\tuttiE g'4 g8 g,
+		g4 h c c8 b %15
+		as4 as fis2
+		g r
+		c c
+		c c
+		des c %20
+		r r8 f4 f8
+		g2 as4 as~
+		as as g2
+		f b,
+		es a,4 a %25
+		b es b2
+		es4 r r2
+		R1*6 %33
+		f2 f4 f8 f
+		es!4 es es2 %35
+		b r
+		es4. es8 es2
+		es4. es8 es2
+		e8 e e e f4 f
+		f8 f f f es4 es %40
+		d1
+		g4 r g8. g16 g4
+		g8 g f f es4 es
+		as8 as as g fis4 fis \noBreak
+		g2 g\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter r4 R2.*9 %54
+		r4 r \mvTr b,\pE^\soloE %55
+		es2( f4)
+		g2 as4
+		b2( as4
+		g8[ f]) g4 es
+		b'4. b8 as4 %60
+		g8([ f)] es4 r
+		es2.
+		b'4 b, b'
+		c4. b8 a4
+		b b, r %65
+		b'2.
+		as!
+		g
+		f
+		f %70
+		a
+		b
+		a
+		b4( d) b
+		b2 b4 %75
+		b( a8[ g] a4)
+		b2 r4
+		R2.*31 %108
+		r4 r es,
+		b' b, r %110
+		R2.
+		r4 r es
+		b' b, r
+		R2. \noBreak
+		R\fermataMarkup \bar "||" %115
+		\time 4/4 \tempoMiserere \mvTr b4\fE^\tuttiE b es es \noBreak
+		des des c c
+		c2^\critnote c
+		c4 c f f
+		f f f es!8([ f)] %120
+		g2 fis
+		g g\fermata \bar "||" %122 finis
+	}
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+	Qui tol -- lis pec -- %14
+	ca -- ta mun -- di, pec -- %15
+	ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re, mi --
+	se -- re --
+	_ _
+	re, mi -- se -- %25
+	re -- re no --
+	bis.
+
+	Qui tol -- lis pec -- %34
+	ca -- ta mun -- %35
+	di:
+	Su -- sci -- pe,
+	su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %40
+	no --
+	stram, su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram. %45
+
+	Qui %55
+	se --
+	des, \xE qui \x
+	se --
+	des ad
+	dex -- te -- ram %60
+	Pa -- tris,
+	qui
+	se -- des ad
+	dex -- te -- ram
+	Pa -- tris: %65
+	Mi --
+	se --
+	re --
+	re,
+	mi -- %70
+	se --
+	re --
+	re,
+	mi -- se --
+	re -- re %75
+	no --
+	bis.
+
+	Qui %109
+	se -- des %110
+
+	qui
+	se -- des
+
+	Mi -- se -- re -- re, %116
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %120
+	no -- _
+	_ bis. %122 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

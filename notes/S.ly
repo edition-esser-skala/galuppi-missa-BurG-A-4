@@ -1219,6 +1219,151 @@ DomineDeusAgnusSopranoLyrics = \lyricmode {
 	tris. %150 finis
 }
 
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+		R1*13 %13
+		\mvTr c'2\fE^\tuttiE c8([ h)] h c
+		d4 d d8([ c)] c c %15
+		c4 c c2
+		h r
+		c b
+		as g
+		f g %20
+		r r8 as4 as8
+		b2 as4 \once \tieDashed c~
+		c c b2
+		as1
+		g2 ges4 ges %25
+		f ges f2
+		es4 r r2
+		R1*6 %33
+		c'2 d!4 d8 d
+		es4 es es2 %35
+		d r
+		es4. es8 es2
+		des4. des8 des2
+		c8 c c c c4 c
+		c8 c c c c4 c %40
+		c b a?2
+		b4 r b8. b16 b4
+		h8 h h h c4 c
+		c8 c c c c4 c \noBreak
+		c( h8[ a?]) h2\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter r4 R2.*36 %81
+		r4 r \mvTr f\pE^\soloE
+		b2( c4)
+		d2 c4
+		b8([ a?)] b4 b %85
+		d4. d8 c4
+		b8([ a)] b4 r
+		b2( as4)
+		g8([ f)] g4 g
+		g4. f8 es4 %90
+		es d g
+		g4. f8 es4
+		es d r
+		es2.
+		g %95
+		as
+		as
+		as
+		as
+		g %100
+		f
+		g~
+		g
+		\once \tieDashed f~^\critnote
+		f %105
+		es4 r r
+		R2.*3
+		r4 r f8([ g)] %110
+		as4. g8 f4
+		g8([ as)] g4 r
+		r r f8([ g)]
+		as4. g8 f4 \noBreak
+		g f r\fermata \bar "||" %115
+		\time 4/4 \tempoMiserere \mvTr b4\fE^\tuttiE b b b \noBreak
+		b b b b
+		as2 g^\critnote
+		R1
+		c4 c h c %120
+		h2 \once \tieDashed c~
+		c4 h8[ a?] h2\fermata \bar "||" %122 finis
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+	Qui tol -- lis pec -- %14
+	ca -- ta mun -- di, pec -- %15
+	ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re, mi --
+	se -- re --
+	_
+	re, mi -- se -- %25
+	re -- re no --
+	bis.
+
+	Qui tol -- lis pec -- %34
+	ca -- ta mun -- %35
+	di:
+	Su -- sci -- pe,
+	su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %40
+	no -- _ _
+	stram, su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram. %45
+
+	Qui %82
+	se --
+	des, qui
+	se -- des ad %85
+	dex -- te -- ram
+	Pa -- tris,
+	qui __
+	se -- des ad
+	dex -- te -- ram %90
+	Pa -- tris, ad
+	dex -- te -- ram
+	Pa -- tris:
+	Mi --
+	se -- %95
+	re --
+	re,
+	mi --
+	se --
+	re -- %100
+	re
+	no --
+
+	_
+	%105
+	bis.
+
+	Ad %110
+	dex -- te -- ram
+	Pa -- tris,
+	ad
+	dex -- te -- ram
+	Pa -- tris: %115
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+
+	mi -- se -- re -- re %120
+	no -- _
+	_ bis. %122 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

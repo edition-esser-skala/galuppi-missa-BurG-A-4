@@ -1122,8 +1122,147 @@ DomineDeusAgnusAltoLyrics = \lyricmode {
 	Pa --
 	_
 	tris. %150 finis
+}
 
-	% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+QuiTollisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+		R1*13 %13
+		\mvTr g'2\fE^\tuttiE g4 g8 g
+		g4 g g g8 g %15
+		as4 as a2
+		g r
+		g g
+		f e
+		f e %20
+		r r8 f4 f8
+		f4( es) es es~
+		es es \once \tieDashed es2~
+		es d!
+		es es4 es %25
+		d es es( d)
+		es r r2
+		R1*6 %33
+		as2 as4 as8 as
+		g4 g g2 %35
+		f r
+		g4. g8 g2
+		g4. g8 g2
+		g8 g g g as4 as
+		f8 f f f f4 f %40
+		fis \once \tieDashed g~ g fis
+		g r g8. g16 g4
+		g8 g g g g4 g
+		as8 as as as a4 a \noBreak
+		g2 g\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter r4 R2.*10 %55
+		r4 r \mvTr b,\pE^\soloE
+		es2( f4)
+		g2 f4
+		es8([ d)] es4 es
+		g4. g8 f4 %60
+		es8([ d)] es4 r
+		g2.
+		f8([ es)] f4 d
+		es4. d8 c4
+		d8([ c)] d4 r %65
+		g2.
+		f
+		e
+		f
+		f %70
+		es!
+		d
+		c
+		d4( f) d
+		d2 d4 %75
+		c2.
+		b
+		R2.*31 %108
+		r4 r g'
+		f8([ es)] f4 d8([ es)] %110
+		f4. es8 d4
+		es8([ f)] es4 g
+		f8([ es)] f4 d8([ es)]
+		f4. es8 d4 \noBreak
+		es d r\fermata \bar "||" %115
+		\time 4/4 \tempoMiserere \mvTr f4\fE^\tuttiE f g g \noBreak
+		g g g g
+		f2 e
+		g4 g as as
+		as as g g %120
+		g2 a
+		g g\fermata \bar "||" %122 finis
+	}
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+	Qui tol -- lis pec -- %14
+	ca -- ta mun -- di, pec -- %15
+	ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re
+	no -- bis, %20
+	mi -- se --
+	re -- re, mi --
+	se -- re --
+	_
+	re, mi -- se -- %25
+	re -- re no --
+	bis.
+
+	Qui tol -- lis pec -- %34
+	ca -- ta mun -- %35
+	di:
+	Su -- sci -- pe,
+	su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %40
+	no -- _ _
+	stram, su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram. %45
+
+	Qui %56
+	se --
+	des, qui
+	se -- des ad
+	dex -- te -- ram %60
+	Pa -- tris,
+	qui
+	se -- des ad
+	dex -- te -- ram
+	Pa -- tris: %65
+	Mi --
+	se --
+	re --
+	re,
+	mi -- %70
+	se --
+	re --
+	re,
+	mi -- se --
+	re -- re %75
+	no --
+	bis.
+
+	Qui %109
+	se -- des ad %110
+	dex -- te -- ram
+	Pa -- tris, qui
+	se -- des ad
+	dex -- te -- ram
+	Pa -- tris: %115
+	Mi -- se -- re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %120
+	no -- _
+	_ bis. %122 finis
 }
 
 % AltoNotes = {

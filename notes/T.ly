@@ -864,6 +864,153 @@ DomineDeusTenoreLyrics = \lyricmode {
 	tens. %115 finis
 }
 
+QuiTollisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 4/4 \autoBeamOff \tempoQuiTollis
+		R1*13 %13
+		\mvTr es2\fE^\tuttiE es8([ d)] d es
+		f4 f f8([ es)] es es %15
+		es4 es es2
+		d r
+		e e
+		c c
+		c4( b) c2 %20
+		r8 c4 c8 des2~
+		des c4 \once \tieDashed c~
+		c c es2
+		\once \tieDashed f~ f
+		es c4 c %25
+		d! b b2
+		b4 r r2
+		R1*6 %33
+		f'2 f4 f8 d
+		b4 b b2 %35
+		b r
+		b4. b8 b2
+		b4. b8 b2
+		b8 b b b as4 f
+		a8 a a a a4 a %40
+		a b d2
+		d4 r d8. d16 d4
+		d8 d d d es4 es
+		es8 es es es es4 es \noBreak
+		es( d8[ c)] d2\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter r4 R2.*35 %80
+		r4 r \mvTr f,\pE^\soloE
+		b2( c4)
+		d2 es4
+		f2( es4
+		d8[ c)] b4 b %85
+		f'4. f8 es4
+		d8([ c)] d4 r
+		d2.
+		es8([ d)] es4 b
+		b4. as8 g4 %90
+		g f b
+		b4. as8 g4
+		g f r
+		b2.
+		b %95
+		es2( des4)
+		c2.
+		d!
+		f
+		es %100
+		d
+		\tieDashed es~
+		es~ \tieSolid
+		es
+		d %105
+		b4 r r
+		R2.*2
+		r4 r es
+		d8([ c)] d4 r %110
+		R2.
+		r4 r es
+		d8([ c)] d4 r
+		R2. \noBreak
+		R\fermataMarkup \bar "||" %115
+		\time 4/4 \tempoMiserere \mvTr d4\fE^\tuttiE d es es \noBreak
+		es es e e
+		c2 c
+		e4 e f f
+		f f d c8([ d)] %120
+		d2 \once \tieDashed es~
+		es4 d8[ c] d2\fermata \bar "||" %122 finis
+	}
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+	Qui tol -- lis pec -- %14
+	ca -- ta mun -- di, pec -- %15
+	ca -- ta mun --
+	di:
+	Mi -- se --
+	re -- re
+	no -- bis, %20
+	mi -- se -- re --
+	re, mi --
+	se -- re --
+	_
+	re, mi -- se -- %25
+	re -- re no --
+	bis.
+
+	Qui tol -- lis pec -- %34
+	ca -- ta mun -- %35
+	di:
+	Su -- sci -- pe,
+	su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem %40
+	no -- _ _
+	stram, su -- sci -- pe
+	de -- pre -- ca -- ti -- o -- nem,
+	de -- pre -- ca -- ti -- o -- nem
+	no -- stram. %45
+
+	Qui %81
+	se --
+	des, qui
+	se --
+	des ad %85
+	dex -- te -- ram
+	Pa -- tris,
+	qui
+	se -- des ad
+	dex -- te -- ram %90
+	Pa -- tris, ad
+	dex -- te -- ram
+	Pa -- tris:
+	Mi --
+	se -- %95
+	re --
+	re,
+	mi --
+	se --
+	re -- %100
+	re
+	no --
+
+	_ %105
+	bis.
+
+	Qui %109
+	se -- des %110
+
+	qui
+	se -- des
+
+	Mi -- se -- re -- re, %116
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se -- re -- re,
+	mi -- se -- re -- re %120
+	no -- _
+	_ bis. %122 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

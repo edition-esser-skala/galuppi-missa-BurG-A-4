@@ -1250,3 +1250,132 @@ DomineDeusAgnusViola = {
 		g d' g,4\fermata \bar "||" %161 finis
 	}
 }
+
+QuiTollisViola = {
+	\relative c' {
+		\clef alto
+		\key c \minor \time 4/4 \tempoQuiTollis
+		c8\fE r c r g' g, g g
+		g r g r r es' g16 as g f
+		e8 r c r c4 r
+		b8 r b r b4 r
+		b8 r b r b r b r %5
+		r es g a b b, b4
+		es8 r as,! r b r b r
+		es r es r es es, b'16 c b as
+		g8 r es' r b r h r
+		c r fis r g g, g g %10
+		g r h r c4 r
+		f r g8 g g, g
+		c g' g g c, g c,4
+		g''8 g g g g g g g
+		g g g g g g g g %15
+		as as as as a a a a
+		g g g g g4 g,
+		g'8 g g g g g g g
+		c, c c c c c c c
+		des des des des c c c c %20
+		f, f' f f f f f f
+		f f es^\critnote es es es es es
+		as as as as g g g g
+		f f f f f f f f
+		es es es es c c c c %25
+		d b b b b b b b
+		b r es r b' b, b b
+		b r h r c c c c
+		c r des r c r b r
+		as r des r c r h r %30
+		c c c c c c h^\critnote h
+		c c c c f r r4
+		b,8 des c c c c f4
+		f8 f f f f f f f
+		b b, b b b b b b %35
+		b b b b b b b b
+		b b b b b b b b
+		b b b b b b b b
+		c c c c c c c c
+		f f f f es! es es es %40
+		d d d d d d d d
+		g g g g g g g g
+		g g f f es es es es
+		as as as g a a a a \noBreak
+		g g g g g2\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter r4 es\fE g d \noBreak
+		es es, r
+		es' g b
+		es, es, r
+		es' g b %50
+		es, b as
+		g b d
+		es b d
+		es b d
+		d es r %55
+		es\pE g d
+		es es, r
+		es' g b
+		es, es, r
+		es' g b %60
+		es, es, r
+		es' es8 f g a
+		b4 b, b'
+		f f, f'
+		b b8 as! g f %65
+		es4 es es
+		b b h
+		c c b
+		c b as
+		a a b %70
+		c b a
+		b d e
+		f f, f'
+		b,2 r4
+		b b8 c d e %75
+		f4 f, f'
+		b,2 r4
+		b\fE f' a
+		b f f
+		f d c %80
+		c b r
+		b\pE d a
+		b b' r
+		b, d f
+		b b, r %85
+		b d f
+		b b,8 c d b
+		b4 b b
+		es es, r
+		es' es, es' %90
+		b' b, r
+		es es, es'
+		b' b, b'
+		g g f
+		es es des %95
+		c c b
+		as as as
+		b b b
+		b b b
+		b b b %100
+		b b b
+		es es es
+		g g g
+		as as as
+		b b b %105
+		g, b\fE d
+		es b d
+		es b f'
+		f es b\pE
+		b b r %110
+		b b b
+		b b b
+		b b r
+		b b b \noBreak
+		b b r\fermata \bar "||" %115
+		\time 4/4 \tempoMiserere f'8\fE f d d es es es es \noBreak
+		es es es es e e c c
+		c c c c c c c c
+		c c c c c c c c
+		f f f f f f es! f %120
+		g g g g a a a a
+		g g g g g2\fermata \bar "||" %122 finis
+	}
+}

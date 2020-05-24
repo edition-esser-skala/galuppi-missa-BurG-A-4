@@ -542,8 +542,8 @@ tocSection = #(define-music-function
 		)
 	)
 )
-
-
+partialQuarter =
+\set Timing.measurePosition = #(ly:make-moment -1/4)
 tempoKyrie = \tempoMarkup "Andante"
 tempoChriste = \tempoMarkup "Adagio"
 tempoKyrieII = \tempoMarkup "[Tempo deest]"
@@ -555,6 +555,9 @@ tempoGratias = \tempoMarkup "[Tempo deest]"
 tempoDomineDeus = \tempoMarkup "[Tempo deest]"
 tempoDomineFili = \tempoMarkup "Allegro"
 tempoDomineDeusAgnus = \tempoMarkup "Andante"
+tempoQuiTollis = \tempoMarkup "Grave"
+	tempoQuiSedes = \tempoMarkup "Andante"
+	tempoMiserere = \tempoMarkup "[Grave]"
 
 
 \include "notes/ob1.ly"

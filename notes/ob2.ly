@@ -319,3 +319,47 @@ DomineFiliOboeII = {
 		d4 r r\fermata \bar "||" %184 finis
 	}
 }
+
+QuiTollisOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoQuiTollis
+		R1*13 %13
+		es8\fE es es es es d d es
+		f f f f f es es es %15
+		es es es es es es es es
+		d d d d d d d f
+		e e e e g g g g
+		f f f f e e e e
+		f f f f e e e e %20
+		f as as as as as as as
+		b b b b as as as as
+		as es es es es es es es
+		es es es es d! d d d
+		es es es es es es es es %25
+		d d es es es es d d
+		es r r4 r2
+		R1*6 %33
+		as8 as as as as as as as
+		g g g g g g g g %35
+		f f f f f f f f
+		g g g g g g g g
+		g g g g g g g g
+		g g g g f f f f
+		f f f f f a a a %40
+		a a g g g g fis fis
+		g g g g g g g g
+		g g g g g g g g
+		es es es es c' c c c \noBreak
+		c4 h8 a h2\fermata \bar "||" %45
+		\time 3/4 \tempoQuiSedes \partialQuarter r4 R2.*69 \noBreak %114
+		R2.\fermataMarkup \bar "||" %115
+		\time 4/4 \tempoMiserere d,8\fE d f f g g g g \noBreak
+		g g g g g g e e
+		f f f f e e e e
+		e e e e f f f f
+		as as as as g g g as %120
+		g g h h c c c c
+		c4 h8 a h2\fermata \bar "||" %122 finis
+	}
+}

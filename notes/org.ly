@@ -2168,6 +2168,338 @@ DomineFiliBassFigures = \figuremode {
 	r %184 finis
 }
 
+DomineDeusAgnusOrgano = {
+	\relative c {
+		\clef bass
+		\twofourtime \key g \major \time 2/4 \tempoDomineDeusAgnus
+		\mvTr g'8\fE-\soloE a h g
+		d'4 d,8 h
+		c c c' c,
+		r g g' g,
+		a' g fis d %5
+		g4 r8 h16 a
+		g4 r8 g
+		d' d, fis d
+		a' a, a a
+		d d fis d %10
+		a' a a, a
+		d d d fis
+		g g g g
+		fis fis fis fis
+		e fis g e %15
+		d d d, d'
+		g g a a,
+		d d' d, d
+		d d d d
+		d d d d %20
+		g4 r8 g,
+		d' d d fis
+		g g, c e
+		g g, g4
+		c d8 d, %25
+		g d' g,4
+		g'8\pE a h g
+		d' d, r h
+		c c c c
+		g' g h g %30
+		a a fis fis
+		g4 r8 h,16 a
+		g4 r8 g
+		d' d fis d
+		a' a a, a %35
+		r d fis d
+		a' a a, a
+		d a a' g
+		fis g fis d
+		g4 r8 g %40
+		a a a, a
+		d a d,4
+		d'8 e fis d
+		a' a, r fis'
+		g g, g g %45
+		d' d fis d
+		e d cis a
+		d4 r8 fis16 e
+		d4 r8 d
+		a' a e cis %50
+		a4 a
+		d d
+		g8 g, g4
+		r8 g h g
+		d'4 r8 d %55
+		e4 a,
+		d8 d' d, d
+		a' a a, a
+		d d d, d'
+		a' a a, a %60
+		d a a4
+		r8 a cis a
+		e'4 gis
+		a cis,
+		d fis %65
+		g g,8 g'
+		g g g g
+		g g g g
+		g4 a
+		d,8 d' d, d %70
+		d4 d
+		a' a,
+		h e
+		a, r8 a
+		e' e e, e %75
+		a a' e cis
+		a4 r8 cis
+		d d, d d'
+		d e fis d
+		g g g, g %80
+		a a a a
+		d a a a
+		a4 r8 gis
+		a4 a'8 a,
+		r a cis a %85
+		r d fis d
+		g e a a,
+		d a d, fis'\fE
+		g g g g
+		fis fis fis fis %90
+		e4 a
+		r8 d, h cis
+		d d g g,
+		d' d d fis
+		g e a a, %95
+		d a d,4
+		r8 d'\pE fis d
+		a'4 a16 h a g
+		fis8 d e fis
+		g g h16 c h a %100
+		g8 g h g
+		d'4 d,16 e d c
+		h8 g a h
+		c c e16 f e d
+		c8 c c c %105
+		c c c c
+		c c c c
+		c c c c
+		g' g g g
+		c, c c c %110
+		c4 f
+		g r
+		c, f
+		g g8 f
+		c e f g %115
+		c, c c16 d e fis!
+		g8 g d d,
+		g g' g,16 a h c
+		d8 d d d
+		d d d d %120
+		d d d d
+		g4 g,
+		r8 g h g
+		r d' fis d
+		r e cis a %125
+		d d, d4
+		a''8 a a, a
+		e' e e cis
+		d d fis d
+		a' a a d, %130
+		g g g d
+		g, g' g d
+		g, d' d, d'
+		d4 d,
+		r8 g h cis %135
+		d4 d,
+		r8 g h cis
+		d4 d,
+		r8 g h g
+		c a d d, %140
+		g a' g fis
+		e d cis a
+		d d d d,
+		r a' h cis
+		d4 d,8 d %145
+		r d'' a fis
+		d d, d d'
+		g g, h g
+		d' d d, d
+		g'\fE a h g %150
+		d'4 d,8 h
+		c c c c
+		g' g, h g
+		a a' fis d
+		g4 r8 h16 a %155
+		g8 a h c
+		d d, fis d
+		g g, c e
+		g g, g4
+		c d8 d, %160
+		g d' g,4\fermata \bar "||" %161 finis
+	}
+}
+
+DomineDeusAgnusBassFigures = \figuremode {
+	r2
+	r4. <6>8
+	r2
+	<6 4>8 <\t \t> <5 3>4
+	r <6>8 <7> %5
+	r4. <6>8
+	r2
+	<6 4>8 <5 3> <6>4
+	<6 4>8 <5 _+>4.
+	<9 4>8 <8 3> <6>4 %10
+	<6 4>8 <5 _+>4.
+	<9 4>8 <8 3>4 <6 _+>8
+	<6>2
+	q
+	r4 q8 <6\\> %15
+	r2
+	<5>8 <6> <6 4> <5 _+>
+	r2
+	<8 6>
+	<7! 5> %20
+	r
+	<6 4>8 <5 3> <7> <6 5>
+	r4. <6>8
+	r2
+	<5>8 <6> <6 4> <5 3> %25
+	r2
+	r4 <6>
+	r4. q8
+	r2
+	<6 4>4 <6> %30
+	r <6>8 <5>
+	r4. <6>8
+	r2
+	<6 4>8 <5 3> <6>4
+	<4>8 <_+>4. %35
+	r4 <6>
+	<4>8 <_+>4.
+	r8 <_+>4 <\t>8
+	<6> <4+ 3> <6>4
+	q4. <\t>8 %40
+	<6 4>4 <5 4>8 <\t _+>
+	r2
+	r4 <6>
+	<_+>4. <6>8
+	r2 %45
+	<6 4>4 <6>
+	r <6>8 <7 _+>
+	r4. <6>8
+	r2
+	<6 4>8 <5 _+>4. %50
+	<8 _+>4 <7 \t>
+	<8> <7!>
+	r2
+	r4 <6>
+	<6 4>8 <5 3>4. %55
+	r4 <8 6>8 <7 5 _+>
+	r2
+	<6 4>4 <7 _+>
+	r2
+	<6 4>4 <7 _+> %60
+	r8 <_+>4.
+	r8 <_+> <6>4
+	<_+>4 <6>
+	<7! _+> <6 5>
+	<7!> <6 5> %65
+	r2
+	<5 3>4 <6 4>8 <7 2>
+	<8 3>2
+	<\t \t>8 <4+ 2> <_+>4
+	r2 %70
+	r
+	<_+>
+	r4 <8 6+>8 <7 5 _+>
+	<9 4> <8 _+>4.
+	<8 6+>4 <7 5 _+> %75
+	<9 4>8 <8 _+>4.
+	<_+>4. <6 5>8
+	<9 4>4 <8 3>
+	r <6 5!>
+	<9 4> <8 3> %80
+	<7 _+>8 <6 4>4 <5 _+>8
+	r <_+>4.
+	<7 _+>4 <6 4>8 <7>
+	<6 4> <5 _+>4.
+	r8 <7 _+>4. %85
+	r4 <6>
+	<6 5> <_+>
+	r4. <6>8
+	<6>2
+	q %90
+	r4 <_+>
+	r <6 4>8 <\t \t>
+	r2
+	r4. <6>8
+	q4 <6 4>8 <5 _+> %95
+	r2
+	r4 <6>
+	<_+>2
+	<6 5!>
+	<9 4>8 <8 3> <6>4 %100
+	r q
+	r2
+	<6 5!>
+	<9 4!>8 <8 3> <6>4
+	r2 %105
+	r
+	<6 4!>
+	<\t \t>4 <5 3>
+	<7!>2
+	r %110
+	r4 <8 6>8 <7 5>
+	<6 4> <5 3>4.
+	r4 <8 6>8 <7 5>
+	<6 4> <5 3>4.
+	r8 <6> q4 %115
+	r2
+	r4 <7>
+	r2
+	r
+	<6 4> %120
+	<5 3>
+	r
+	r4 <6>
+	r q
+	r <6 5>8 <7 _+> %125
+	r2
+	<_+>
+	<4>4 <3>8 <6 5>
+	r4 <6>
+	<4> <_!>8 <7> %130
+	r2
+	r
+	r
+	<7 5>4 <6 4>8 <5 3>
+	r4 <6>8 <7> %135
+	<6 4>4 <5 3>
+	r <6>8 <7>
+	<6 4>4 <5 3>
+	r <6>
+	<6 5>2 %140
+	r4. <6>8
+	r4 <6 5>8 <7 _+>
+	<9 4>8 <8 3>4.
+	r8 <7 _+>4.
+	<9 4>8 <8 3>4. %145
+	r8 <5 3>4. \bassFigureExtendersOn
+	q8 q \bassFigureExtendersOff <6 4> <7 5>
+	r4 <6>
+	<6 5>2
+	r4 <6> %150
+	r4. <6>8
+	r2
+	<6 4>4 <6>
+	r <6>8 <7>
+	r4. <6>8 %155
+	r4 q8 q
+	<6 4> <5 3> <6>4
+	r4. <6>8
+	r2
+	<5>8 <6> <6 4> <5 3> %160
+	r2 %161 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

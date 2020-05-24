@@ -1082,3 +1082,171 @@ DomineFiliViola = {
 		d r r\fermata \bar "||" %184 finis
 	}
 }
+
+DomineDeusAgnusViola = {
+	\relative c' {
+		\clef alto
+		\twofourtime \key g \major \time 2/4 \tempoDomineDeusAgnus
+		h8\fE h d h
+		a4 fis'8 g
+		g g g g
+		r g g, g'
+		a g fis d %5
+		d4 r8 d16 c
+		h4 r8 d
+		d fis a fis
+		a a, a a
+		a a' a fis %10
+		e e a, a
+		a a' fis fis
+		g h h h
+		fis a a a
+		e fis g g %15
+		fis d d d
+		g g a a,
+		d d, d' d
+		d d d d
+		d d d d %20
+		d4 r8 d
+		d d fis d
+		d4 c8 g'
+		g g, g'16 h a g
+		g8 e g fis %25
+		g d g,4
+		h8\pE c d h
+		a4 fis'8 g
+		g g g g
+		g g g g %30
+		a a d, d
+		d4 r8 d16 c
+		h4 r8 d
+		d d fis d
+		a' a a, a %35
+		r d fis d
+		a' a a, a
+		d a e' g
+		fis g fis d
+		g4 r8 g %40
+		a a a, a
+		d a d,4
+		fis'8 g a fis
+		e4 cis8 d
+		d d d d %45
+		d d d d
+		e d cis a
+		a4 r8 a'16 g
+		fis4^\critnote r8 a
+		a a e cis %50
+		a4 a
+		d d
+		g8 g, g4
+		r8 g h g
+		d'4 r8 d %55
+		e4 a,
+		d8 d' d, d
+		a' a cis, cis
+		d d d d
+		a' a a, a %60
+		d a a4
+		r8 cis e cis
+		h4 h
+		a8 e' e4
+		a, a %65
+		g8 d' d h
+		g g g' g
+		g d d d
+		d e a, a
+		a a a a %70
+		d4 d
+		a' a,
+		h e
+		a, r8 a
+		e' e e, e %75
+		a a' e cis
+		a4 r8 cis
+		d d d d
+		d e fis d
+		g g g, g %80
+		a a a a
+		d a a a
+		a4 r8 gis
+		a4 a'8 a,
+		r a cis a %85
+		r d fis d
+		h' g a a,
+		d a-\critnote d, d'\fE
+		g h h h
+		fis a a a %90
+		e4 e
+		e8 d h cis
+		d d d d
+		d d fis a
+		g e a a, %95
+		d a d,4
+		r8 fis'\pE a fis
+		e4 cis16 d cis h
+		a8 fis' g a
+		a g d16 e d c %100
+		h8 h d h
+		a a' fis16 g fis e
+		d8 h c d
+		g, g g'16 a g f
+		e8 c c c %105
+		c c c c
+		c c c c
+		c c c c
+		g' g g g
+		c, c c c %110
+		c4 f
+		g r
+		c, f
+		g g8 f
+		c e f g %115
+		c, c c16 d e fis
+		g8 g d d
+		d d g,16 a h c
+		d8 d d d
+		d d d d %120
+		d d d d
+		d4 d
+		r8 g, h g
+		r d' fis d
+		r e cis a %125
+		d d, d4
+		cis'8 cis cis cis
+		h h h cis
+		d fis a fis
+		a, a a a %130
+		g g' d d
+		d d d d
+		d d d, d'
+		d4 d
+		r8 g, h cis %135
+		d4 d,
+		r8 g h cis
+		d4 d,
+		r8 g h g
+		c a d d %140
+		d d h' a
+		g fis e cis
+		a a a a
+		r cis h a
+		a4 a %145
+		r8 d' a fis
+		d4 d
+		g8 g, h g
+		d'4 r
+		h8\fE c d h %150
+		a4 a8 h
+		c g' g g
+		g g g g
+		a a fis d
+		d4 r8 d16 c %155
+		h8 c d e
+		d fis a fis
+		d d c e
+		g g, g4
+		c d8 d, %160
+		g d' g,4\fermata \bar "||" %161 finis
+	}
+}

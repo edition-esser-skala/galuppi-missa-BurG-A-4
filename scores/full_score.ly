@@ -598,75 +598,134 @@
 	% 		% \midi { \tempo 2 = 90 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "2.6"
+	% 		title = "D O M I N E   F I L I   U N I G E N I T E"
+	% 	}
+	% 	\tocSection "2.6" "Domine Fili Unigenite"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe I"
+	% 						\DomineFiliOboeI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Oboe II"
+	% 						\DomineFiliOboeII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff <<
+	% 					\set GrandStaff.instrumentName = "in D"
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Corno I"
+	% 						% \transpose c d
+	% 						\DomineFiliCornoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Corno II"
+	% 						% \transpose c d
+	% 						\DomineFiliCornoII
+	% 					}
+	% 				>>
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new GrandStaff \with { \smallGroupDistance } <<
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino I"
+	% 						\DomineFiliViolinoI
+	% 					}
+	% 					\new Staff {
+	% 						\set Staff.instrumentName = "Violino II"
+	% 						\DomineFiliViolinoII
+	% 					}
+	% 				>>
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\DomineFiliViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \DomineFiliBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \DomineFiliBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Organo" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\DomineFiliOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \DomineFiliBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 4 = 120 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "2.6"
-			title = "D O M I N E   F I L I   U N I G E N I T E"
+			number = "2.7"
+			title = "D O M I N E   D E U S,   A G N U S   D E I"
 		}
-		% \tocSection "2.6" "Domine Fili Unigenite"
+		\paper {
+			system-system-spacing.basic-distance = #25
+			system-system-spacing.minimum-distance = #25
+			top-system-spacing.basic-distance = #15
+			top-system-spacing.minimum-distance = #15
+			top-markup-spacing.basic-distance = #0
+			top-markup-spacing.minimum-distance = #0
+			systems-per-page = #2
+		}
+		\tocSection "2.7" "Domine Deus, Agnus Dei"
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Oboe I"
-							\DomineFiliOboeI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Oboe II"
-							\DomineFiliOboeII
-						}
-					>>
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\set GrandStaff.instrumentName = "in D"
-						\new Staff {
-							\set Staff.instrumentName = "Corno I"
-							% \transpose c d
-							\DomineFiliCornoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Corno II"
-							% \transpose c d
-							\DomineFiliCornoII
-						}
-					>>
-				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \smallGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DomineFiliViolinoI
+							\DomineDeusAgnusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DomineFiliViolinoII
+							\DomineDeusAgnusViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\DomineFiliViola
+						\DomineDeusAgnusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DomineFiliBassoNotes }
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \DomineDeusAgnusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DomineFiliBassoLyrics
+					\new Lyrics \lyricsto Soprano \DomineDeusAgnusSopranoLyrics
+
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DomineDeusAgnusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DomineDeusAgnusAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Organo" "e Basso" } }
 						% \transpose c c,
-						\DomineFiliOrgano
+						\DomineDeusAgnusOrgano
 					}
 				>>
-				\new FiguredBass { \DomineFiliBassFigures }
+				\new FiguredBass { \DomineDeusAgnusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

@@ -900,6 +900,232 @@ GratiasAltoLyrics = \lyricmode {
 	am. %145 finis
 }
 
+DomineDeusAgnusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \autoBeamOff \tempoDomineDeusAgnus R2*26 %26
+		\mvTr g'4\pE^\soloE g8 g
+		\appoggiatura g fis8.([ e16)] d4
+		\once \tieDashed e~ e16[ c] g'([ e)]
+		e8.([ d32 e)] d4 %30
+		c8.([ d32 e)] d8 c
+		h[ d] \once \tieDashed g4~
+		g16[ fis e d] c[ h a h]
+		h8 a r d~
+		d[ cis16 d] e8 g %35
+		g16([ e)] fis8 r4
+		d8([ cis16 d] e8) g
+		fis e r4
+		d8 e16([ cis)] d4
+		e16[ fis g a] h[ g fis e] %40
+		d[ cis d e] e4
+		d r
+		R2*8 %50
+		e8([ cis16 d)] e8 g
+		fis d r4
+		R2
+		g8. g16 g4
+		g8([ fis)] fis4 %55
+		e8.([ fis32 g)] fis8 e
+		d2~
+		d8[ cis16 d] e4
+		d8[ fis] d4
+		d8.([ cis32 d)] e4 %60
+		d8 cis r4
+		R2
+		e4 e8 e
+		cis8.([ h16)] a4
+		c c %65
+		h8.([ a16)] g4
+		h c8 a
+		\once \tieDashed h2~
+		h8 cis4 e8
+		d2 %70
+		d8[ fis] r d
+		cis[ e] r cis
+		h8.([ cis32 d)] cis8[ h]
+		h a \once \tieDashed cis4~
+		cis8[ h16 a] h8 h %75
+		h a r4
+		cis8. d16 e4
+		e8[ d16 cis] \once \tieDashed d4~
+		d \once \tieDashed c~
+		c8[ h16 a] h4 %80
+		cis8 d4 cis8
+		d cis \once \tieDashed e4~
+		e8[ d16 cis] d8 d
+		d cis r4
+		e8. e16 e4 %85
+		d2~
+		d4 cis
+		d r
+		R2*12 %100
+		g4~ g8 g
+		fis8.([ e16)] d4
+		f f16[ a] g([ f)]
+		f8 e r4
+		\once \tieDashed e2~ %105
+		e8. d16 c4
+		f8. f16 f4
+		f8([ e)] e4
+		d2
+		e4 e~ %110
+		e d8 c
+		c h e4~
+		e d8 c
+		c h r4
+		c d8 c16([ h)] %115
+		c8([ e)] c4
+		h c8([ h16 a)]
+		h8([ d]) h4
+		a a
+		h16([ a)] h8 r4 %120
+		fis' fis
+		g16([ fis)] g8 r4
+		g4. g8
+		fis2
+		e %125
+		d
+		R
+		h4 e8 e
+		d fis fis4(
+		e) e8([ fis)] %130
+		g8 g4 a16[( fis])
+		g8 g4 a16[ fis]
+		g8 fis r4
+		a g8 fis
+		\once \tieDashed g2~ %135
+		g8[ fis16 g] a8[ fis]
+		\once \tieDashed g2~
+		g8[ fis16 g] a8[ fis]
+		\once \tieDashed g2~
+		g4 fis %140
+		g r
+		e e8 e
+		e([ d)] d4
+		e e
+		e8([ d)] d4 %145
+		\once \tieDashed fis2~
+		fis4 g8 a
+		\once \tieDashed g2~
+		g4 fis
+		g r %150
+		R2*10 %160
+		R2\fermataMarkup \bar "||" %161 finis
+	}
+}
+
+DomineDeusAgnusAltoLyrics = \lyricmode {
+	Do -- mi -- ne %27
+	De -- us,
+	A -- gnus
+	De -- i, %30
+	Fi -- li -- us
+	Pa -- _
+	_
+	_ tris, Do --
+	mi -- ne %35
+	De -- us,
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- _ %40
+	_ _
+	tris.
+
+	Do -- mi -- ne %51
+	De -- us,
+
+	Fi -- li -- us
+	Pa -- tris, %55
+	Fi -- li -- us
+	Pa --
+	_
+	_ _
+	_ _ %60
+	_ tris,
+
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus %65
+	De -- i,
+	Fi -- li -- us
+	Pa --
+	_ _
+	_ %70
+	_ _
+	_ _
+	_ _
+	_ tris, Fi --
+	li -- us %75
+	Pa -- tris,
+	Fi -- li -- us
+	Pa -- _
+	_
+	_ %80
+	_ _ _
+	_ tris, Fi --
+	li -- us
+	Pa -- tris,
+	Fi -- li -- us %85
+	Pa --
+	_
+	tris.
+
+	A -- gnus %101
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris,
+	Do -- %105
+	mi -- ne,
+	Do -- mi -- ne
+	De -- us,
+	A --
+	gnus, A -- %110
+	_ gnus
+	De -- i, Fi --
+	li -- us
+	Pa -- tris,
+	Do -- mi -- ne %115
+	De -- us,
+	A -- gnus
+	De -- i,
+	A -- gnus
+	De -- i, %120
+	A -- gnus
+	De -- i,
+	Fi -- li --
+	us
+	Pa -- %125
+	tris,
+
+	Do -- mi -- ne
+	De -- us, A --
+	gnus
+	De -- _ i, %130
+	Fi -- li -- us
+	Pa -- tris,
+	Fi -- li -- us
+	Pa -- %135
+	_
+	_
+	_
+	_
+	_ %140
+	tris,
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %145
+	Fi --
+	li -- us
+	Pa --
+	_
+	tris. %150 finis
+
+	% Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

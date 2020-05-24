@@ -1094,6 +1094,174 @@ DomineFiliViolinoI = {
 	}
 }
 
+DomineDeusAgnusViolinoI = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \tempoDomineDeusAgnus
+		g'4\fE g'
+		\appoggiatura g16 fis8. e16 d4
+		e e16 c g' e
+		e8.( d32 e) d4
+		c8.( d32 e) d8 c %5
+		h8 d g4
+		g16 fis e d c h a h
+		h8 a d4
+		d8 cis16 d e fis g g
+		g8 fis a d, %10
+		d cis16 d e fis g g
+		g8 fis a ais
+		h16 e, e8 r16 e g h
+		a d, d8 r16 d fis a
+		g fis g a h a h cis %15
+		d8 a16 h a8 a,
+		h16 g' e h' a8 cis,
+		d d, r4
+		d d'
+		c!8. h16 a4 %20
+		h16 g d' h g'8 h,
+		h a c16 c c c
+		h d g8 e16 e e e
+		d g h8 g16 d c h
+		e c h a h d fis, a %25
+		g8 d g,4
+		g'\pE g'
+		fis8. e16 d4
+		e e16 c g' e
+		e8.( d32 e) d4 %30
+		c8.( d32 e) d8 c
+		h d g4
+		g16 fis e d c h a h
+		h8 a r d
+		d cis16 d e fis g g %35
+		g8 fis a d,
+		d cis16 d e8 g
+		fis e a16 cis, cis cis
+		d8 e16 cis d4
+		e16 fis g a h g fis e %40
+		d8 d d cis
+		\tuplet 3/2 8 { d16[ a g] fis g a } d,4
+		d' d'
+		cis8. h16 a4
+		h h16 g d' h %45
+		h8.( a32 h) a4
+		g8.( a32 h) a8 g
+		fis a d4
+		d16 cis h a g fis e fis
+		fis8 e r4 %50
+		e8 cis16 d e8 g
+		fis d16 e fis8 a
+		g16 h g d h g' d h
+		g h' h h h g d' h
+		h8 a a4 %55
+		g8.( a32 h) a8 g
+		fis2~
+		fis8 e16 fis g4
+		fis8 a fis4
+		fis8 e16 fis g4 %60
+		fis8 e \tuplet 3/2 8 { cis16[ h a] e' d cis }
+		a'4 a
+		gis8. fis16 e4
+		g g
+		fis8. e16 d4 %65
+		R2
+		d4 e8 fis
+		g g g g
+		g e4 g8
+		fis fis fis fis %70
+		fis a r fis
+		e g r e
+		d8.( e32 fis) e8 d
+		d cis e4~
+		e8 d16 cis d8 d %75
+		d cis r a
+		e'8. fis16 g4~
+		g8 fis16 e fis4~
+		fis \once \tieDashed a~
+		a8 g16 fis \once \tieDashed g4~ %80
+		g8 fis4 e8
+		fis e g4~
+		g8 fis16 e fis8 fis
+		fis e r4
+		g8. g16 g4 %85
+		fis2
+		e
+		d4 r8 a'\fE
+		h16 e, e8 r16 e g h
+		a d, d8 r16 d fis a %90
+		g fis e d cis h a g
+		g8 fis g16 g g g
+		fis a d8 h16 h h h
+		a d fis8 d16 d d a
+		h h' g e fis a cis, e %95
+		d8 a d,4
+		d\pE d'
+		cis8. h16 a4
+		c8 c c16 e d c
+		c8 h r4 %100
+		g g'
+		fis8. e16 d4
+		f8 f f16 a g f
+		f8 e r4
+		g8 g g g %105
+		g8. f16 e4
+		r16 a a a a f c' a
+		a8 g g4
+		r8 f f f
+		e4 \once \tieDashed g~ %110
+		g f8 e
+		e d \once \tieDashed g4~
+		g f8 e
+		e d r4
+		c d8 c16 h %115
+		c8 e c4
+		h c8 h16 a
+		h8 d h4
+		a a
+		h16 a h8 g'16 d c h %120
+		a4 a
+		h16 a h8 h'16 g d h
+		h2
+		a
+		g %125
+		fis
+		e'4 a8 a
+		a4 g
+		fis8 a d4
+		d c! %130
+		h8 h4 c16 a
+		h8 h,4 c16 a
+		h8 a d,16 fis a d
+		c4 h8 a
+		h h' \once \tieDashed h4~ %135
+		h8 a16 h c8 a
+		\once \tieDashed h2~
+		h8 a16 h c8 a
+		h2
+		a %140
+		g4 r
+		g g8 g
+		g fis fis4
+		g g
+		g8 fis fis4 %145
+		\once \tieDashed a,2~
+		a4 h8 c
+		h2
+		a
+		g4\fE g' %150
+		fis8. e16 d4
+		e e16 c g' e
+		e8.( d32 e) d4
+		c8.( d32 e) d8 c
+		h d g4 %155
+		g16 fis e d c h a h
+		h8 a c16 c c c
+		h d g8 e16 e e e
+		d g h8 g16 d c h
+		e c h a h d fis, a %160
+		g8 d g,4\fermata \bar "||" %161 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -1012,6 +1012,213 @@ GratiasSopranoLyrics = \lyricmode {
 	am. %145 finis
 }
 
+DomineDeusAgnusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\twofourtime \key g \major \time 2/4 \autoBeamOff \tempoDomineDeusAgnus
+		R2*42 %42
+		\mvTr d4\pE^\soloE d'8 d
+		cis8.([ h16)] a4
+		\once \tieDashed h~ h16[ g] d'([ h)] %45
+		h8.([ a32 h)] a4
+		g8.([ a32 h)] a8 g
+		fis[ a] \once \tieDashed d4~
+		d16[ cis h a] g[ fis e fis]
+		fis8 e r4 %50
+		R2
+		a8([ fis16 g] a8) c!
+		h g r4
+		h8. h16 h4
+		h8([ a)] a4 %55
+		g8.([ a32 h)] a8 g
+		fis2~
+		fis8[ e16 fis] g4
+		fis8[ a] fis4
+		fis8.([ e32 fis)] g4 %60
+		fis8 e r4
+		a a8 a
+		gis8.([ fis16)] e4
+		g g
+		fis8.([ e16)] d4 %65
+		R2
+		d4 e8 fis
+		\once \tieDashed g2~
+		g8 e4 g8
+		fis2 %70
+		fis8[ a] r fis
+		e[ g] r e
+		d8.([ e32 fis)] e8[ d]
+		d cis \once \tieDashed e4~
+		e8[ d16 cis] d8 d %75
+		d cis r4
+		e8. fis16 g4
+		g8[ fis16 e] \once \tieDashed fis4~
+		fis \once \tieDashed a~
+		a8[ g16 fis] \once \tieDashed g4~ %80
+		g8 fis4 e8
+		fis e \once \tieDashed g4~
+		g8[ fis16 e] fis8 fis
+		fis e r4
+		g8. g16 g4 %85
+		fis2
+		e
+		d4 r
+		R2*8 %96
+		d'4 d8 d
+		cis8.([ h16)] a4
+		\once \tieDashed c~ c16[ e] d([ c)]
+		c8 h r4 %100
+		R2*4
+		\once \tieDashed g2~ %105
+		g8. f16 e4
+		a8. a16 a4
+		a8([ g)] g4
+		h2
+		c4 g~ %110
+		g f8 e
+		e d g4~
+		g f8 e
+		e d r4
+		R2*2 %116
+		g4 a8([ g16 fis)]
+		g8([ h)] g4
+		fis fis
+		g16([ fis)] g8 r4 %120
+		a a
+		h16([ a)] h8 r4
+		h4. h8
+		a2
+		g %125
+		fis
+		e4 a8 a
+		a4 g
+		fis8([ a)] d4
+		d c! %130
+		h8 h4 c16([ a)]
+		h8 h4 c16[ a]
+		h8 a r4
+		c4 h8 a
+		\once \tieDashed h2~ %135
+		h8[ a16 h] c8[ a]
+		\once \tieDashed h2~
+		h8[ a16 h] c8[ a]
+		h2
+		a %140
+		g4 r
+		g g8 g
+		g8([ fis)] fis4
+		g g
+		g8([ fis)] fis4 %145
+		\once \tieDashed a2~
+		a4 h8 c
+		h2
+		a
+		g4 r %150
+		R2*10 %160
+		R2\fermataMarkup \bar "||" %161 finis
+	}
+}
+
+DomineDeusAgnusSopranoLyrics = \lyricmode {
+	Do -- mi -- ne %43
+	De -- us,
+	A -- gnus %45
+	De -- i,
+	Fi -- li -- us
+	Pa -- _
+	_
+	_ tris, %50
+
+	A -- gnus
+	De -- i,
+	Fi -- li -- us
+	Pa -- tris, %55
+	Fi -- li -- us
+	Pa --
+	_
+	_ _
+	_ _ %60
+	_ tris,
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %65
+
+	Fi -- li -- us
+	Pa --
+	_ _
+	_ %70
+	_ _
+	_ _
+	_ _
+	_ tris, Fi --
+	li -- us %75
+	Pa -- tris,
+	Fi -- li -- us
+	Pa -- _
+	_
+	_ %80
+	_ _
+	_ tris, Fi --
+	li -- us
+	Pa -- tris,
+	Fi -- li -- us %85
+	Pa --
+	_
+	tris.
+
+	Do -- mi -- ne %97
+	De -- us,
+	A -- gnus
+	De -- i, %100
+
+	Do -- %105
+	mi -- ne,
+	Do -- mi -- ne
+	De -- us,
+	A --
+	gnus, A -- %110
+	_ gnus
+	De -- i, Fi --
+	li -- us
+	Pa -- tris,
+
+	A -- gnus %117
+	De -- i,
+	A -- gnus
+	De -- i, %120
+	A -- gnus
+	De -- i,
+	Fi -- li --
+	us
+	Pa -- %125
+	tris,
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %130
+	Fi -- li -- us
+	Pa -- _ _
+	_ tris,
+	Fi -- li -- us
+	Pa -- %135
+	_
+	_
+	_
+	_
+	_ %140
+	tris,
+	Do -- mi -- ne
+	De -- us,
+	A -- gnus
+	De -- i, %145
+	Fi --
+	li -- us
+	Pa --
+	_
+	tris. %150 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -554,6 +554,7 @@ tempoLaudamus = \tempoMarkup "[Tempo deest]"
 tempoGratias = \tempoMarkup "[Tempo deest]"
 tempoDomineDeus = \tempoMarkup "[Tempo deest]"
 tempoDomineFili = \tempoMarkup "Allegro"
+tempoDomineDeusAgnus = \tempoMarkup "Andante"
 
 
 \include "notes/ob1.ly"

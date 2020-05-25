@@ -1390,6 +1390,193 @@ QuiTollisViolinoI = {
 	}
 }
 
+QuoniamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+		\appoggiatura d'16 \tuplet 3/2 4 { c8\fE h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g }
+		e4 e8 f g c
+		a c g c f, c'
+		e,4 e8 f g c %5
+		a c g c f, c'
+		e, d c4 r
+		\appoggiatura f'16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		g d d d d d
+		\tuplet 3/2 4 { c8 h c a' g fis e d c } %10
+		\tuplet 3/2 4 { h a g g fis g g fis g }
+		\tuplet 3/2 4 { c h c a' g fis e d c }
+		\tuplet 3/2 4 { h a g } g4 d'
+		\appoggiatura d16 \tuplet 3/2 4 { cis8 h cis } \appoggiatura d16 \tuplet 3/2 4 { cis8 h cis }  \appoggiatura d16 \tuplet 3/2 4 { cis8 h cis }
+		\appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura h'16 \tuplet 3/2 4 { a8 gis a } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } %15
+		\tuplet 3/2 4 { h d c h a g a g fis }
+		g4 g, r
+		\appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g }
+		\appoggiatura d'16 \tuplet 3/2 4 { cis8 h cis } \appoggiatura d16 \tuplet 3/2 4 { cis8 h cis } \appoggiatura d16 \tuplet 3/2 4 { cis8 h cis }
+		\tuplet 3/2 4 { e f g g a b b a g } %20
+		\tuplet 3/2 4 { f d f e cis e } d4
+		\appoggiatura g,16 \tuplet 3/2 4 { f8 e f } \appoggiatura g16 \tuplet 3/2 4 { f8 e f } \appoggiatura g16 \tuplet 3/2 4 { f8 e f }
+		\appoggiatura c'16 \tuplet 3/2 4 { h8 a h } \appoggiatura c16 \tuplet 3/2 4 { h8 a h } \appoggiatura c16 \tuplet 3/2 4 { h8 a h }
+		\tuplet 3/2 4 { d e f f g a a g f }
+		\tuplet 3/2 4 { e c e d h d } c4 %25
+		\appoggiatura h16 \tuplet 3/2 4 { a8 g a } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura d'16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura e16 \tuplet 3/2 4 { d8 cis d } \appoggiatura g16 \tuplet 3/2 4 { f8 e f } \appoggiatura f16 \tuplet 3/2 4 { e8 dis e }
+		\appoggiatura h16 \tuplet 3/2 4 { a8 g a } \appoggiatura a16 \tuplet 3/2 4 { g8 f g } \appoggiatura d'16 \tuplet 3/2 4 { c8 h c }
+		\tuplet 3/2 4 { d8 cis d f e f e d e }
+		a, c g c f, c' %30
+		e, c' h, h' c e,
+		f d' e, c' d, h'
+		c4 c, r
+		\appoggiatura d'16 \tuplet 3/2 4 { c8\pE h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } %35
+		e4 e8 f g c
+		a c g c f, c'
+		e,4 e8 f g c
+		a c g c f, c'
+		e, d c4 r %40
+		\appoggiatura f'16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		\appoggiatura e16 \tuplet 3/2 4 { d8 c d } \appoggiatura e16 \tuplet 3/2 4 { d8 c d } \appoggiatura e16 \tuplet 3/2 4 { d8 c d }
+		\appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura h'16 \tuplet 3/2 4 { a8 g fis } \appoggiatura fis16 \tuplet 3/2 4 { e8 d c }
+		\tuplet 3/2 4 { h a g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g g h d }
+		\appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura h'16 \tuplet 3/2 4 { a8 g fis } \appoggiatura fis16 \tuplet 3/2 4 { e8 d c } %45
+		\appoggiatura c16 \tuplet 3/2 4 { h8 a g g d h g h d }
+		e e4 e e8
+		d d4 d d8
+		fis fis4 fis fis8
+		g g4 g g8 %50
+		c,4 h c
+		d g fis
+		g h8\f d g h
+		\tuplet 3/2 4 { h a h } h4 r
+		\appoggiatura a16 \tuplet 3/2 4 { g8\p fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } %55
+		\appoggiatura e16 \tuplet 3/2 4 { d8 cis d } \appoggiatura e16 \tuplet 3/2 4 { d8 cis d } \appoggiatura e16 \tuplet 3/2 4 { d8 cis d }
+		h4 h8 c d g
+		e g d g c, g'
+		h,4 h8 c d g
+		e g d g c, g' %60
+		h, a g4 r
+		\appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g }
+		\appoggiatura d'16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		\tuplet 3/2 4 { f e f d' c h a g f }
+		\tuplet 3/2 4 { e d c c h c e d e } %65
+		\tuplet 3/2 4 { f e f d' c h a g f }
+		e d c4 g
+		\appoggiatura a8 a2.
+		\appoggiatura g8 g2.
+		\appoggiatura h8 h2. %70
+		\appoggiatura c8 c2.
+		\appoggiatura g'16 \tuplet 3/2 4 { f8 e f } \appoggiatura g16 \tuplet 3/2 4 { f8 e f } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		e4 d r
+		\appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		\tuplet 3/2 4 { d c d } d4 g %75
+		\tuplet 3/2 4 { d8 g h d, h d c a c }
+		\tuplet 3/2 4 { h g h h d g } g4
+		\tuplet 3/2 4 { d8 g h d, h d c a c }
+		\tuplet 3/2 4 { h g d h d h } g4
+		a'4 h c %80
+		h e d
+		d c h
+		h \tuplet 3/2 4 { a8 fis g a c h }
+		c2.
+		h %85
+		cis
+		d
+		\tuplet 3/2 4 { h8 a h h a h h a h }
+		\tuplet 3/2 4 { h a h h a h h a h }
+		a4 a a %90
+		a a a
+		g2 d'4\f
+		\tuplet 3/2 4 { c8 h c a' g fis e d c }
+		\tuplet 3/2 4 { h a g g fis g g fis g }
+		\tuplet 3/2 4 { c h c a' g fis e d c } %95
+		c4 h r
+		\tuplet 3/2 4 { e,8 d e e d e e d e }
+		\tuplet 3/2 4 { d c d d c d d c d }
+		\tuplet 3/2 4 { fis e fis fis e fis fis e fis }
+		\tuplet 3/2 4 { g fis g h' a h } h4 %100
+		e,8 g d g c, g'
+		h, g' a, fis' g, g'
+		c, a' h, g' d, fis'
+		g4 g,, r
+		\appoggiatura a''16 \tuplet 3/2 4 { g8\pE fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } %105
+		\appoggiatura e16 \tuplet 3/2 4 { d8 c d } \appoggiatura e16 \tuplet 3/2 4 { d8 c d } \appoggiatura e16 \tuplet 3/2 4 { d8 c d }
+		h4 h8 c d g
+		e g d g c, g'
+		h,4 h8 c d g
+		e g d g c, g' %110
+		h, a g4 r
+		\appoggiatura d'16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		e4 e8 f g c
+		a c g c f, c' %115
+		e,4 e8 f g c
+		a c g c f, c'
+		e, d c4 r
+		e'2.
+		\tuplet 3/2 4 { d8 c d } d4 g %120
+		\tuplet 3/2 4 { d8 g h d, h d c a c }
+		h4 d g
+		\tuplet 3/2 4 { d8 g h d, h d c a c }
+		h4 h8 g h d
+		f!2 e8 d %125
+		e4 d r
+		c2.~
+		c~
+		c4 c b
+		a g f %130
+		e2.
+		f4 g a
+		b a g
+		a8 g a f a cis
+		d4^\critnote d c %135
+		h a g
+		fis2.
+		g4 a h
+		c h a
+		h4. c8 d4 %140
+		c h a
+		h8 a g4 r8 h
+		h4 c dis
+		e2.
+		dis?4 h, dis'? %145
+		dis?2.
+		e
+		cis
+		d!
+		h %150
+		c!2 e4
+		d2 e4
+		e d8 h d g
+		\appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		e d e4 \tuplet 3/2 4 { d8 e f } %155
+		e g d g c, g'
+		h, a h4 h8 c
+		\tuplet 3/2 4 { d cis d d cis d d cis d }
+		c h c e e g
+		d4 e f %160
+		e8 d c4 r
+		\appoggiatura a8 a2.
+		\appoggiatura g8 g2.
+		\appoggiatura h8 h2.
+		\appoggiatura c8 c2. %165
+		\appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		\appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e } \appoggiatura f16 \tuplet 3/2 4 { e8 d e }
+		d4 d d
+		d d d
+		\tuplet 3/2 4 { c8\fE h c c h c c h c } %170
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		e4 e8 f g c
+		a c g c f, c'
+		e,4 e8 f g c
+		a c g c f, c' %175
+		e, d c4 g'
+		a8 f' g, e' f, d'
+		e, c' d, h' c, c'
+		f, d' e, c' d, h'
+		c4 c, r\fermata \bar "||" %180 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

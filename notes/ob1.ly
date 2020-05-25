@@ -363,3 +363,53 @@ QuiTollisOboeI = {
 		es4 d8 c d2\fermata \bar "||" %122 finis
 	}
 }
+
+QuoniamOboeI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+		\grace s16 R2.*20 %20
+		f'4\fE e d
+		d d d
+		h h h
+		\pa \tuplet 3/2 4 { d8 e f f g a a g f } \pd
+		e4 d c %25
+		\pa \appoggiatura h16 \tuplet 3/2 4 { a8 g a } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura d'16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura e16 \tuplet 3/2 4 { d8 cis d } \appoggiatura g16 \tuplet 3/2 4 { f8 e f } \appoggiatura f16 \tuplet 3/2 4 { e8 dis e }
+		\appoggiatura h16 \tuplet 3/2 4 { a8 g a } \appoggiatura a16 \tuplet 3/2 4 { g8 f g } \appoggiatura d'16 \tuplet 3/2 4 { c8 h c }
+		\tuplet 3/2 4 { d8 cis d f e f e d e }
+		\pd c4 c c %30
+		c d e
+		f e d
+		\pao c e, r
+		R2.*19 %52
+		r4 h'8\fE d g d
+		d4 h r
+		R2.*37 %91
+		r4 r d\fE
+		\tuplet 3/2 4 { c8 h c a' g fis e d c }
+		\pa \tuplet 3/2 4 { h a g g fis g g fis g }
+		\tuplet 3/2 4 { c h c a' g fis e d c } %95
+		\pd c4 h r
+		e2.
+		d
+		c
+		h %100
+		e8 g d g c, g'
+		h, g' a, fis' g, g'
+		c, a' h, g' d, fis'
+		g4 g, r
+		R2.*65 %169
+		\tuplet 3/2 4 { c8\fE h c c h c c h c } %170
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		e4 e8 f g c
+		a c g c f, c'
+		e,4 e8 f g c
+		a c g c f, c' %175
+		e, d c4 c'
+		c c c
+		c h c
+		d c h
+		c2 r4\fermata \bar "||" %180 finis
+	}
+}

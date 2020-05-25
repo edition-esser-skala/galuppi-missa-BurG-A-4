@@ -558,6 +558,7 @@ tempoDomineDeusAgnus = \tempoMarkup "Andante"
 tempoQuiTollis = \tempoMarkup "Grave"
 	tempoQuiSedes = \tempoMarkup "Andante"
 	tempoMiserere = \tempoMarkup "[Grave]"
+tempoQuoniam = \tempoMarkup "Allegretto"
 
 
 \include "notes/ob1.ly"

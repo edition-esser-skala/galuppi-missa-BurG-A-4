@@ -1153,6 +1153,170 @@ QuiTollisBassoLyrics = \lyricmode {
 	_ bis. %122 finis
 }
 
+QuoniamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+		\grace s16 R2.*33 %33
+		\mvTr c'2.\pE^\soloE
+		g %35
+		e4. f8 g4
+		a g f
+		e4.( f8) g4
+		a g f
+		e8 d c4 r %40
+		c2.
+		g'8([ fis)] g4 g
+		a c a
+		h8 a g4 r8 g
+		a8([ gis)] a4 c %45
+		h8 a g4 r
+		e2.
+		d
+		fis
+		g %50
+		c,4( h) c
+		d2.
+		g,4 r r
+		R2.
+		R2.*19 %73
+		c2.
+		h'8([ a)] h4 h %75
+		h2 a4
+		g2 g4
+		h2 a4
+		g2.
+		fis4( g) a %80
+		g( c) h
+		h( a) g
+		g fis r
+		d( e) fis
+		g2 fis4 %85
+		e2.
+		d
+		g
+		g
+		g %90
+		fis
+		g
+		R2.*19 %111
+		c2.
+		g
+		e4. f8 g4
+		a g f %115
+		e4.( f8) g4
+		a g f
+		e8 d c4 r
+		c'2.
+		h8([ a)] h4 g %120
+		h2 a4
+		g2 g4
+		h2 a4
+		g2.
+		d'2 c8([ h)] %125
+		c4 g r
+		r c b
+		a( g) f
+		e2.
+		f4( g) a %130
+		b( a) g
+		a g f
+		g( f) e
+		f8([ e)] f4 r
+		R2.*2 %136
+		r4 d' c
+		h( a) g
+		fis2.
+		g4( a) h %140
+		a( g) fis
+		g8 fis g4 r
+		r r fis
+		e e8([ fis)] g([ a)]
+		h ais? h4 r %145
+		a2.
+		g4 fis? e
+		g2.
+		f!4 e d
+		f2. %150
+		e4 d c
+		h2 c4
+		g' g, r
+		c'2.
+		c8([ h)] c4 r %155
+		c h a
+		g8([ fis)] g4 r
+		f2.
+		e8([ d)] e4 r
+		d e f %160
+		e8 d c4 r
+		f2.
+		e
+		d
+		c %165
+		g'^\critnote
+		a
+		f
+		g
+		c, %170
+		R2.*9 %179
+		R2.\fermataMarkup \bar "||" %180 finis
+	}
+}
+
+QuoniamBassoLyrics = \lyricmode {
+	Quo -- %34
+	_ %35
+	_ ni -- am
+	tu so -- lus
+	san -- ctus,
+	tu so -- lus
+	Do -- mi -- nus, %40
+	tu
+	so -- lus, tu
+	so -- lus al --
+	tis -- si -- mus, tu
+	so -- lus al -- %45
+	tis -- si -- mus,
+	Je --
+	su,
+	Je --
+	su, %50
+	Je -- su
+	Chri --
+	ste,
+
+	tu %74
+	so -- lus al -- %75
+	tis -- si --
+	mus, al --
+	tis -- si --
+	mus,
+	Je -- su, %80
+	Je -- su,
+	Je -- su
+	Chri -- ste,
+	Je -- su,
+	Je -- su %85
+	Chri --
+	ste,
+	Je --
+	su
+	Chri -- %90
+	_
+	ste.
+
+	Quo -- %112
+	_
+	_ ni -- am
+	tu so -- lus %115
+	san -- ctus,
+	tu so -- lus
+	Do -- mi -- nus,
+
+	% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
+	% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

@@ -1011,6 +1011,217 @@ QuiTollisTenoreLyrics = \lyricmode {
 	_ bis. %122 finis
 }
 
+QuoniamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoQuoniam
+		\grace s16 R2.*54 %54
+		\mvTr g'2.\pE^\soloE %55
+		d
+		h4. c8 d4
+		e d c
+		h4.( c8) d4
+		e d c %60
+		h8 a g4 r
+		g2.
+		c8([ h)] c4 c
+		f d f
+		e8 d c4 e %65
+		f d f
+		e8 d c4 r
+		a2.
+		g
+		h %70
+		c
+		f2 e4
+		e d r
+		e2.
+		d8([ c)] d4 g %75
+		d2 c4
+		h2 g'4
+		d2 c4
+		h2.
+		a4( h) c %80
+		h( e) d
+		d( c) h
+		h a r
+		c2.
+		h %85
+		cis
+		d
+		h
+		h
+		\once \tieDashed a~ %90
+		a
+		g
+		R2.*12 %104
+		g'2. %105
+		d
+		h4. c8 d4
+		e d c
+		h4.( c8) d4
+		e d c %110
+		h8 a g4 r
+		R2.*7 %118
+		e'2.
+		d8([ c)] d4 g %120
+		d2 c4
+		h2 g'4
+		d2 c4
+		h2.
+		f'!2 e8([ d)] %125
+		e4 d r
+		c2.~
+		c~
+		c2 b4
+		a( g) f %130
+		e2.
+		f4( g) a
+		b( a) g
+		a8([ g)] a4 r
+		r d c %135
+		h( a) g
+		fis2.
+		g4( a) h
+		c( h) a
+		h4. c8 d4 %140
+		c h a
+		h8 a g4 r8 h
+		h4 c dis
+		e8 dis e4 r
+		dis8([ cis?)] dis4 r %145
+		dis2.
+		e
+		cis
+		d!
+		h %150
+		c!
+		d2 e4
+		e d r
+		e2.
+		e8([ d)] e4 r %155
+		e d c
+		h8([ a)] h4 r
+		d2.
+		c8([ h)] c4 r
+		h c d %160
+		c8 h c4 r
+		a2.
+		g
+		h
+		c %165
+		e
+		e
+		d
+		h
+		c2 r4 %170
+		R2.*9 %179
+		R2.\fermataMarkup \bar "||" %180 finis
+	}
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+	Quo -- %55
+	_
+	_ ni -- am
+	tu so -- lus
+	san -- ctus,
+	tu so -- lus %60
+	Do -- mi -- nus,
+	tu
+	so -- lus, tu
+	so -- lus al --
+	tis -- si -- mus, tu %65
+	so -- lus al --
+	tis -- si -- mus,
+	Je --
+	su,
+	Je -- %70
+	su,
+	Je -- su
+	Chri -- ste,
+	tu
+	so -- lus al -- %75
+	tis -- si --
+	mus, al --
+	tis -- si --
+	mus,
+	Je -- su, %80
+	Je -- su,
+	Je -- su
+	Chri -- ste,
+	Je --
+	su %85
+	Chri --
+	ste,
+	Je --
+	su
+	Chri -- %90
+
+	ste.
+
+	Quo -- %105
+	_
+	_ ni -- am
+	tu so -- lus
+	san -- ctus,
+	tu so -- lus %110
+	Do -- mi -- nus,
+
+	tu %119
+	so -- lus al -- %120
+	tis -- si --
+	mus, al --
+	tis -- si --
+	mus,
+	Je -- su %125
+	Chri -- ste,
+	quo --
+
+	ni --
+	am tu %130
+	so --
+	lus, tu
+	so -- lus
+	san -- ctus,
+	quo -- ni -- %135
+	am tu
+	so --
+	lus, tu
+	so -- lus
+	Do -- mi -- nus, %140
+	tu so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus,
+	Je -- su, %145
+	Je --
+	su,
+	Je --
+	su,
+	Je -- %150
+	su,
+	Je -- su
+	Chri -- ste,
+	tu
+	so -- lus, %155
+	tu so -- lus
+	san -- ctus,
+	tu
+	so -- lus,
+	tu so -- lus %160
+	Do -- mi -- nus,
+	Je --
+	su,
+	Je --
+	su, %165
+	Je --
+	su
+	Chri --
+	_
+	ste. %170 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

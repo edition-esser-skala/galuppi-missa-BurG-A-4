@@ -1379,3 +1379,190 @@ QuiTollisViola = {
 		g g g g g2\fermata \bar "||" %122 finis
 	}
 }
+
+QuoniamViola = {
+	\relative c' {
+		\clef alto
+		\key c \major \time 3/4 \tempoQuoniam
+		\grace s16 e4\fE e e
+		d d d
+		c c, r
+		f' e d
+		c c, r %5
+		f' e d
+		c g'8 a g f
+		e4 c c
+		g h g
+		a d d %10
+		d d h
+		a a a
+		h d h
+		a e' e
+		d fis a %15
+		d, d d
+		d h c
+		d b b
+		a a a
+		a2. %20
+		a'4 a a
+		d, d d
+		d d f
+		d d d
+		c g' g %25
+		c, c c
+		h h c
+		c c c
+		h h c
+		f e d %30
+		c g c,
+		f' g g,
+		c c, r
+		c'\pE c c
+		h h h %35
+		c c, r
+		f' e d
+		c c, r
+		f' e d
+		c g'8 a g f %40
+		c4 c c
+		h h h
+		a fis fis
+		g h g
+		fis fis fis %45
+		g g h
+		c c c
+		h h h
+		a a a
+		g g g %50
+		c h c
+		d d d
+		d d\fE d
+		d d r
+		d\pE d d %55
+		fis fis fis
+		g g, r
+		c' h a
+		g g, r
+		c' h a %60
+		g d8 e d c
+		h4 h h
+		c e e
+		d h g
+		c e c %65
+		d h h
+		c e c
+		f f f
+		e e e
+		d d d %70
+		c c c
+		d h c
+		g' g,8 a h g
+		c4 c c
+		g' g, r %75
+		g h d
+		g g, r
+		g h d
+		g g, g'
+		d2. %80
+		g
+		g
+		d4 d, r
+		d' e fis
+		g g fis %85
+		e a a,
+		d d, r
+		g' fis d
+		e e d
+		e e e %90
+		d d d
+		h d d\fE
+		d fis fis
+		d d h
+		a fis' fis %95
+		g g, g'
+		g, g g
+		g g g
+		g g g
+		g g' g, %100
+		c' h a
+		g d e
+		c d d,
+		g2 r4
+		g'\pE g g %105
+		fis fis fis
+		g g, g'
+		c h a
+		g g, r
+		c' h a %110
+		g g8 f! e d
+		c4 c c
+		h h h
+		c c c
+		f e d %115
+		c c, r
+		f' e d
+		c g c,
+		c' c8 d e fis
+		g4 g, r %120
+		g' h d
+		g, g, r
+		g h d
+		g g, r
+		g g g %125
+		c g'8 f! e d
+		e2.
+		f
+		c
+		f %130
+		c
+		f
+		b,?4 c c,
+		f' f, r
+		fis'2. %135
+		g
+		d
+		g
+		fis
+		g %140
+		d
+		g4 g, r
+		g'2 fis4
+		e e8 fis g a
+		h4 h, h %145
+		h h' a
+		g fis e
+		a, a' g
+		f! e d
+		g, g' f %150
+		e d c
+		g2 c4
+		g' g, r
+		c' g e
+		c e g %155
+		c h a
+		g g, r
+		g' g g
+		c, c c
+		g'2 g,4 %160
+		c c, c'
+		c c c
+		c c c
+		c c c
+		c c c %165
+		c c' h
+		a a e
+		a, a a
+		g g g
+		c\fE c c %170
+		h h h
+		c c, r
+		f' e d
+		c c, r
+		f' e d %175
+		c e c
+		f e d
+		c g' a
+		f g g,
+		c c, r\fermata \bar "||" %180 finis
+	}
+}

@@ -2755,6 +2755,376 @@ QuiTollisBassFigures = \figuremode {
 	<6 4>4 <5 _!>8 <4 2!> <5 _!>2 %122 finis
 }
 
+QuoniamOrgano = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoQuoniam
+		\grace s16 \mvTr c4\fE-\soloE c c
+		h h h
+		c c, r
+		f' e d
+		c c, r %5
+		f' e d
+		c e8 f e d
+		c4 c c
+		g h g
+		a fis fis %10
+		g h g
+		fis fis fis
+		g h g
+		a a a
+		d d d %15
+		g d' d,
+		g g a
+		b b b
+		a a a
+		cis, cis cis %20
+		d a d,
+		d' h! d
+		g, g' g
+		h, h h
+		c g c, %25
+		f' e c
+		h g c
+		f e c
+		h g c
+		f e d %30
+		c g c,
+		f' g g,
+		c c, r
+		c'\pE c c
+		h h h %35
+		c c, r
+		f' e d
+		c c, r
+		f' e d
+		c e8 f e d %40
+		c4 c c
+		h h h
+		a fis fis
+		g h g
+		fis fis fis %45
+		g g h
+		c c c
+		h h h
+		a a a
+		g g g %50
+		c h c
+		d d d
+		g, g\fE g
+		g' g, r
+		g'\pE g g %55
+		fis fis fis
+		g g, r
+		c' h a
+		g g, r
+		c' h a %60
+		g h8 c h a
+		g4 g f!
+		e e e
+		d h g
+		c e c %65
+		d h h
+		c e c
+		f f f
+		e e e
+		d d d %70
+		c c c
+		d h c
+		g' g,8 a h g
+		c4 c c
+		g' g, r %75
+		g h d
+		g g, r
+		g h d
+		g g, g'
+		d2. %80
+		g
+		g
+		d4 d, r
+		d' e fis
+		g g fis %85
+		e a a,
+		d d, r
+		g' fis d
+		e e h
+		c c c %90
+		d d d
+		g, h g\fE
+		a fis fis
+		g h g
+		a fis fis %95
+		g g' g,
+		g g g
+		g g g
+		g g g
+		g g' g, %100
+		c' h a
+		g d e
+		c d d,
+		g2 r4
+		g'\pE g g %105
+		fis fis fis
+		g g, g'
+		c h a
+		g g, r
+		c' h a %110
+		g g8 f! e d
+		c4 c c
+		h h h
+		c c c
+		f e d %115
+		c c, r
+		f' e d
+		c g c,
+		c' c8 d e fis
+		g4 g, r %120
+		g' h d
+		g, g, r
+		g h d
+		g g, r
+		g g g %125
+		c g'8 f! e d
+		e2.
+		f
+		c
+		f %130
+		c
+		f
+		b,?4 c c,
+		f' f, r
+		fis'2. %135
+		g
+		d
+		g
+		fis
+		g %140
+		d
+		g4 g, r
+		g'2 fis4
+		e e8 fis g a
+		h4 h, h %145
+		h h' a
+		g fis e
+		a, a' g
+		f! e d
+		g, g' f %150
+		e d c
+		g2 c4
+		g' g, r
+		c' g e
+		c e g %155
+		c h a
+		g g, r
+		g' g g
+		c, c c
+		g'2 g,4 %160
+		c c, c'
+		c c c
+		c c c
+		c c c
+		c c c %165
+		c c' h
+		a a e
+		f f f
+		g g g
+		c,\fE c c %170
+		h h h
+		c c, r
+		f' e d
+		c c, r
+		f' e d %175
+		c e c
+		f e d
+		c g' a
+		f g g,
+		c c, r\fermata \bar "||" %180 finis
+	}
+}
+
+QuoniamBassFigures = \figuremode {
+	r2.
+	<6>
+	r
+	r4 <6> q
+	r2. %5
+	r4 <6> q
+	r <6>2
+	r2.
+	r4 <6>2
+	r4 <6 5>2 %10
+	r4 <6>2
+	<6 5>2.
+	r4 <6>2
+	<7 _+>2.
+	<7! _+> %15
+	r4 <6 4> <5 _+>
+	r2.
+	<6>
+	<_+>
+	<6 5> %20
+	r4 <7 _+>2
+	r4 <6 5>2
+	r2.
+	<6 5>
+	r4 <7>2 %25
+	r4 <6>2
+	q4 <7>2
+	r4 <6>2
+	q4 <7>2
+	r4 <6> <7> %30
+	r2.
+	<6>4 <6 4> <5 3>
+	r2.
+	r
+	<6> %35
+	r
+	r4 <6> q
+	r2.
+	r4 <6> q
+	r <6>2 %40
+	r2.
+	<6>
+	r4 <6 5>2
+	r4 <6>2
+	<6 5>2. %45
+	r2 <6>4
+	r2.
+	<6>
+	<6\\>
+	r %50
+	r4 <6>2
+	<6 4>4 <5 4> <\t _+>
+	r2.
+	r
+	r %55
+	<6>
+	r
+	r4 <6> <6\\>
+	r2.
+	r4 <6> <6\\> %60
+	r <6>2
+	r2 <2>4
+	<6>2.
+	r4 <6 5> <7>
+	r <6>2 %65
+	r4 <6 5>2
+	r4 <6>2
+	r2.
+	<6>
+	q %70
+	r
+	r4 <6 5>2
+	<6 4>4 <5 3>2
+	r2.
+	r %75
+	r4 <6> <7 _+>
+	r2.
+	r4 <6> <7 _+>
+	r2.
+	<5 _+>4 <6 4> <7 5 _+> %80
+	<5 3> <6 4> <5 3>
+	<5 3> <4 2> <3 1>
+	<6 4> <5 _+>2
+	<7 _+>4 <6> <6 5>
+	r2 <\t>4 %85
+	<6\\> <7 _+>2
+	<_+>2.
+	<8 3>2. \bassFigureExtendersOn
+	q2 q4 \bassFigureExtendersOff
+	<6 5>2. %90
+	<_+>
+	r4 <6>2
+	r4 <6 5>2
+	r4 <6>2
+	r4 <6 5>2 %95
+	<9 4>4 <8 3>2
+	<6 4>2.
+	<5 3>
+	<7+ 4 2>
+	r %100
+	r4 <6> <7>
+	r <_+> 2
+	<6 5>4 <6 4> <5 _+>
+	r2.
+	r %105
+	<6>
+	r
+	r4 <6> <6\\>
+	r2.
+	r4 <6> <6\\> %110
+	r2 <6>8 <6 _!>
+	r2.
+	<6>
+	r
+	r4 <6> q %115
+	r2.
+	r4 <6> q
+	r2.
+	r2 <6>8 <7>
+	r2. %120
+	r4 <6> <7 _+>
+	r2.
+	r4 <6> <7 _+>
+	r2.
+	<7!> %125
+	r2 <6>8 q
+	<6>2 <5->4
+	r2.
+	<8>2 <7->4
+	r2. %130
+	<7->
+	r
+	<6>4 <6 4> <5 3>
+	r2.
+	<6>2 <5>4 %135
+	r2.
+	<8 _+>2 <7 \t>4
+	r2.
+	<6 5>
+	r %140
+	<7 _+>4 <6 4> <5 _+>
+	r2.
+	<5 3>4 <6 4> <6\\>
+	r2 <6>4
+	<5+ _+>2. %145
+	<\t \t>
+	<6>
+	<_+>
+	<6>
+	r %150
+	<6>
+	r
+	<6 4>4 <5 3>2
+	<5 3>2. \bassFigureExtendersOn
+	q4 \bassFigureExtendersOff <6>2 %155
+	r4 <6> <7>
+	r2.
+	<7>
+	r
+	<5 3>4 <6 4> <7 5> %160
+	r2.
+	<6 4>
+	<5 3>
+	<7 4 2>
+	<8 3> %165
+	<8 3>2. \bassFigureExtendersOn
+	q2 q4 \bassFigureExtendersOff
+	<6 5>2.
+	r
+	r %170
+	<6>
+	r
+	r4 <6> <7>
+	r2.
+	r4 <6> <7> %175
+	r <6>2
+	r4 q q
+	r2.
+	<6>4 <6 4> <5 3>
+	r2. %180 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

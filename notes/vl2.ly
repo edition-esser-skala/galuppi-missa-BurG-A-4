@@ -1383,3 +1383,190 @@ QuiTollisViolinoII = {
 		es4 d8 c d2\fermata \bar "||" %122 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+		\appoggiatura d'16 \tuplet 3/2 4 { c8\fE h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g }
+		e4 c8 d e c'
+		a c g c f, c'
+		e,4 c8 d e c' %5
+		a c g c f, c'
+		e, d c4 r
+		\appoggiatura d'16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		h8 h h h h h
+		a4 a a %10
+		\tuplet 3/2 4 { h8 a g g fis g g fis g }
+		a4 \tuplet 3/2 4 { fis'8 e d c h a }
+		\tuplet 3/2 4 { g fis g } g4 r
+		g g g
+		fis fis fis %15
+		g g fis
+		g g, r
+		d' d d
+		e e e
+		e e e %20
+		\tuplet 3/2 4 { f'8 d f e cis e } d4
+		\appoggiatura g,16 \tuplet 3/2 4 { f8 e f } \appoggiatura g16 \tuplet 3/2 4 { f8 e f } \appoggiatura g16 \tuplet 3/2 4 { f8 e f }
+		\appoggiatura c'16 \tuplet 3/2 4 { h8 a h } \appoggiatura c16 \tuplet 3/2 4 { h8 a h } \appoggiatura c16 \tuplet 3/2 4 { h8 a h }
+		\tuplet 3/2 4 { d e f f g a a g f }
+		\tuplet 3/2 4 { e c e d h d } c4 %25
+		\appoggiatura h16 \tuplet 3/2 4 { a8 g a } \appoggiatura a16 \tuplet 3/2 4 { g8 fis g } \appoggiatura d'16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura e16 \tuplet 3/2 4 { d8 cis d } \appoggiatura g16 \tuplet 3/2 4 { f8 e f } \appoggiatura f16 \tuplet 3/2 4 { e8 dis e }
+		\appoggiatura h16 \tuplet 3/2 4 { a8 g a } \appoggiatura a16 \tuplet 3/2 4 { g8 f g } \appoggiatura d'16 \tuplet 3/2 4 { c8 h c }
+		\tuplet 3/2 4 { d8 cis d f e f e d e }
+		a, c g c f, c' %30
+		e, c' h, h' c e,
+		f d' e, c' d, h'
+		c4 c, r
+		e\pE e e
+		d d d %35
+		c4 c8 d e4
+		c c h
+		c c8 d e4
+		c c h
+		c8 h c4 r %40
+		g' g g
+		g g g
+		\tuplet 3/2 4 { a8 gis a fis' e d c h a }
+		\tuplet 3/2 4 { g fis g g fis g g h d }
+		a4 a a %45
+		\appoggiatura c16 \tuplet 3/2 4 { h8 a g g d h g h d }
+		g,8 g4 g g8
+		g g4 g g8
+		<c d> q4 q q8
+		<h d> q4 q q8 %50
+		c4 h c
+		d8 h a2
+		h4 g'8\f h d g
+		\tuplet 3/2 4 { g fis g } g4 r
+		h,\p h h %55
+		a a a
+		g g8 a h g'
+		g,4 g fis
+		g g8 a h g'
+		g,4 g fis %60
+		g8 fis g4 r
+		d d d
+		e g g
+		f r \tuplet 3/2 4 { f'8 e d }
+		c4 g g %65
+		f r \tuplet 3/2 4 { f'8 e d }
+		c h c4 e,
+		\appoggiatura c8 c2.
+		\appoggiatura c8 c2.
+		\appoggiatura f8 f2. %70
+		\appoggiatura e8 e2.
+		h'4 d c
+		c h r
+		\tuplet 3/2 4 { c8 h c c h c c h c }
+		\tuplet 3/2 4 { h a h } h4 h %75
+		\tuplet 3/2 4 { h8 d g h, g h d, fis a }
+		\tuplet 3/2 4 { g d g } g h h4
+		\tuplet 3/2 4 { h8 d g h, g h a fis a }
+		\tuplet 3/2 4 { g d h g h d } g,4
+		fis' g a %80
+		g c h
+		h a g
+		g \tuplet 3/2 4 { fis8 d e fis a g }
+		a2.
+		g %85
+		g
+		fis
+		\appoggiatura a16 \tuplet 3/2 4 { g8 fis g g fis g g fis g }
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		g4 g g %90
+		fis fis fis
+		g2 h4\f
+		\tuplet 3/2 4 { a8 g a fis' e d c h a }
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		c4 a a %95
+		a g r
+		\tuplet 3/2 4 { c,8 h c c h c c h c }
+		\tuplet 3/2 4 { h a h h a h h a h }
+		\tuplet 3/2 4 { a g a a g a a g a }
+		\tuplet 3/2 4 { g' fis g g' fis g } g4 %100
+		e8 g d g c, g'
+		h, g' a, fis' g, g'
+		c, a' h, g' d, fis'
+		g4 g,, r
+		h'\pE h h %105
+		a a a
+		g4 g8 a h g'
+		g,4 g fis
+		g g8 a h g'
+		g,4 g fis %110
+		g8 fis g4 r
+		e e e
+		d d d
+		c c8 d e4
+		c c h %115
+		c c8 d e c'
+		a c g c f, c'
+		e, d c4 r
+		c'2.
+		\tuplet 3/2 4 { h8 a h } h4 h %120
+		\tuplet 3/2 4 { h8 d g h, g h a fis a }
+		g4 h h
+		\tuplet 3/2 4 { h8 d g h, g h a fis a }
+		g4 g8 d g h
+		d2 c8 h %125
+		c4 h r
+		r c b
+		a g f
+		e2.
+		f4 g a %130
+		b a g
+		a g f
+		g f e
+		f8 e f4 f8 e
+		d2. %135
+		d
+		r4 d' c
+		h a g
+		a g a
+		g a h %140
+		a g fis
+		g8 fis g4 r
+		h2 a4
+		g g8 a h c
+		fis,4 fis fis %145
+		fis2.
+		h4 a g
+		e2.
+		a4 g f!
+		d2. %150
+		e4 d c
+		h2 c4
+		c' h r
+		\tuplet 3/2 4 { c8 h c c h c c h c }
+		c h c4 \tuplet 3/2 4 { h8 c d } %155
+		e g d g c, g'
+		h, a g4 g
+		\tuplet 3/2 4 { f8 e f f e f f e f }
+		e d e g c e
+		h4 c d %160
+		c c, r
+		\appoggiatura f8 f2.
+		\appoggiatura e8 e2.
+		\appoggiatura <d f>8 q2.
+		\appoggiatura e8 e2. %165
+		\appoggiatura d'16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		\appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c } \appoggiatura d16 \tuplet 3/2 4 { c8 h c }
+		c4 c c
+		h h h
+		\tuplet 3/2 4 { c8\fE h c c h c c h c } %170
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		e4 c8 d e c'
+		a c g c f, c'
+		e,4 c8 d e c'
+		a c g c f, c' %175
+		e, d c4 g'
+		a8 f' g, e' f, d'
+		e, c' d, h' c, c'
+		f, d' e, c' d, h'
+		c4 c, r\fermata \bar "||" %180 finis
+	}
+}

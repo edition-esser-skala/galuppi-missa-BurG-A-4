@@ -363,3 +363,50 @@ QuiTollisOboeII = {
 		c4 h8 a h2\fermata \bar "||" %122 finis
 	}
 }
+
+QuoniamOboeII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuoniam
+		\grace s16 R2.*20 %20
+		a'4\fE g f
+		f f f
+		d d d
+		d2 r4
+		g f e %25
+		r r g
+		g g g
+		r r g
+		g g g
+		a g f %30
+		e h' c
+		d c h
+		c c, r
+		R2.*58 %91
+		r4 r h'\fE
+		\tuplet 3/2 4 { a8 g a fis' e d c h a }
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		c4 a a %95
+		a g r
+		c2.
+		h
+		a
+		g %100
+		e'8 g d g c, g'
+		h, g' a, fis' g, g'
+		c, a' h, g' d, fis'
+		g4 g, r
+		R2.*65 %169
+		\tuplet 3/2 4 { c8\fE h c c h c c h c } %170
+		\tuplet 3/2 4 { g fis g g fis g g fis g }
+		e4 c8 d e c'
+		a c g c f, c'
+		e,4 c8 d e c'
+		a c g c f, c' %175
+		e, d c4 g'
+		a g f
+		e d c
+		f e d
+		e2 r4\fermata \bar "||" %180 finis
+	}
+}

@@ -1746,6 +1746,54 @@ CredoBassoLyrics = \lyricmode {
 	lis. %79 finis
 }
 
+EtIncarnatusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/2 \autoBeamOff \tempoEtIncarnatus
+		R1.*10 %10
+		R1.\fermataMarkup
+		\mvTr g'2\fE^\tuttiE g g
+		fis fis1
+		g2 g1
+		g2. g4 a2 %15
+		b g1
+		as2 f1
+		g2 es es
+		as1 es2~
+		es b2. b4 %20
+		es1 r2
+		R1.*6 %27
+		r2 r d
+		es e1
+		f2 fis1 %30
+		g2 cis,1
+		d2 d1
+		es2 es1
+		d1.\fermata \bar "||" %34 finis
+	}
+}
+
+EtIncarnatusBassoLyrics = \lyricmode {
+	Et in -- car -- %12
+	na -- tus
+	est de
+	Spi -- ri -- tu %15
+	San -- _
+	_ _
+	cto ex Ma --
+	ri -- a __
+	Vir -- gi -- %20
+	ne,
+
+	et %28
+	ho -- mo
+	fa -- ctus %30
+	est, et
+	ho -- mo
+	fa -- ctus
+	est. %34 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

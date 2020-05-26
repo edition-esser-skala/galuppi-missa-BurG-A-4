@@ -1703,9 +1703,43 @@ CumSanctoViola = {
 	}
 }
 
-CredoViola = {
+EtIncarnatusViola = {
 	\relative c' {
-		\clef treble
-		\key b \major \time 4/4 \tempoCredo
+		\clef alto
+		\key g \minor \time 3/2 \tempoEtIncarnatus
+		b4-.\fE b-. g'-. b, b b
+		c c a' c, c c
+		c b g' b, b b
+		b b g' b, c c
+		c b d b b b %5
+		b b b b b b
+		a a c a a a
+		a g b g g g
+		g fis fis fis fis fis
+		g-. g-. g-. g-. g-. g-. %10
+		fis1.\fermata
+		b4 b g' b, b b
+		c c a' c, c c
+		c b g' b, b b
+		b b g' b, c c %15
+		c^\critnote b g' b, b b
+		c c f as, as as
+		h? h es g, g g
+		as as c c es es
+		es es es es d d %20
+		es es g g c, c
+		c c c c c c
+		d d d d d d
+		es es e e e e
+		f f fis fis fis fis %25
+		g g, d' d d d
+		g, g g g g g
+		fis fis d' b b b
+		b b b b b b
+		a a c a a a %30
+		a g b g g g
+		g g-\critnote fis fis fis fis
+		g g g g g g
+		fis1.\fermata \bar "||"
 	}
 }

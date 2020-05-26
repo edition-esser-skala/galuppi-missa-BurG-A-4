@@ -1815,6 +1815,47 @@ CredoViolinoI = {
 	}
 }
 
+EtIncarnatusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/2 \tempoEtIncarnatus
+		d4-.\fE d-. b'-. d, d d
+		es es c' es, es es
+		d d b' d, d d
+		es es b'^\critnote es, es es
+		d d b' d, d d %5
+		c c g' c, c c
+		c c a' c, c c
+		c b g' b, b b
+		a a a' a, d d
+		d d cis-. cis-. cis-. cis-. %10
+		d1.\fermata
+		d4 d b' d, d d
+		es es c' es, es es
+		d d b' d, d d
+		es es b' es, es es %15
+		d d b' es, es es
+		es es as d, d d
+		d d g b, b b
+		c c as' es g g
+		g g b f f f %20
+		g g b b g g
+		as as a a a a
+		b b h h h h
+		c c g g g g
+		a! a a a a a %25
+		b b, h h h h
+		c c cis cis cis cis
+		d d b' d, d d
+		c c g' c, c c
+		c c a' c, c c %30
+		c b g' b, b b
+		a a a' a, d d
+		d d cis cis cis cis
+		d1.\fermata \bar "||" %34 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

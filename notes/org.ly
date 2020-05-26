@@ -3620,6 +3620,84 @@ CredoBassFigures = \figuremode {
 	<6!>1 %79 finis
 }
 
+EtIncarnatusOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 3/2 \tempoEtIncarnatus
+		\mvTr g'4-.\fE-\soloE g-. g-. g-. g-. g-.
+		fis-. fis-. fis-. fis-. fis-. fis-.
+		g-. g-. g-. g-. g-. g-.
+		g-. g-. g-. g-. a-. a-.
+		b-. b-. d,-. d-. d-. d-. %5
+		es es e e e e
+		f f fis fis fis fis
+		g g cis, cis cis cis
+		d d d d d d
+		es es es es es es %10
+		d1.\fermata
+		g4-\tuttiE g g g g g
+		fis fis fis fis fis fis
+		g g g g g g
+		g g g g a a %15
+		b b g g g g
+		as as f f f f
+		g g es es es es
+		as as as as es es
+		es es b b b b %20
+		es es es es e e
+		f f es es es es
+		d d g g g g
+		c, c c c c c
+		f f d d d d %25
+		g g f! f f f
+		e e es es es es
+		d d d d d d
+		es es e e e e
+		f f fis fis fis fis %30
+		g g cis, cis cis cis
+		d d d d d d
+		es es es es es es
+		d1.\fermata \bar "||" %34 finis
+	}
+}
+
+EtIncarnatusBassFigures = \figuremode {
+	r1.
+	<7 5>
+	<4>4 <3> r1
+	<6> <[5]>2
+	<[9]>4 <[8]> <6>1 %5
+	<6 5>2 <\t \t>1
+	r2 <[6 5]>1
+	<9 4>4 <[8 3]> <7 _!>1
+	<[4]>4 <[_+]> r1
+	<7>2 <6\\>1 %10
+	<_+>1.
+	r
+	<7 5>
+	<4>4 <3> r1
+	<6> <6 [5]>2 %15
+	<[9]>4 <[8]> <6 [5]>1
+	r2 <[6 5] _->1
+	<_!>2 <[5- 3]>1
+	r1.
+	r2 <4> <3> %20
+	r1 <6>2
+	<_-> <4! 2>1
+	<6>2 <_!>1
+	<_->2 <[8] _!> <[7- \t]>
+	<_!>2 <_+>1 %25
+	<_->2 <4! 2>1
+	<6>2 <6\\>1
+	<[_+]>2 <6 _!>1
+	<6 5>2 <\t \t>1
+	<9>2 <6 5>1 %30
+	<9 4>4 <[8 3]> <7 5 [_!]>1
+	<[4]>2 <[_+]>1
+	<7>2 <6\\>1
+	<_+>1. %34 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

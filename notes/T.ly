@@ -1614,6 +1614,64 @@ CredoTenoreLyrics = \lyricmode {
 	lis. %79 finis
 }
 
+EtIncarnatusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 3/2 \autoBeamOff \tempoEtIncarnatus
+		R1.*10 %10
+		R1.\fermataMarkup
+		\mvTr d2\fE^\tuttiE d d
+		es es1
+		d2 d1
+		es2. es4 es2 %15
+		d1.
+		c
+		h2 b b
+		c1 b2~
+		b b2. b4 %20
+		b1 g2
+		as a1
+		b2 h1
+		c2 c( b)
+		a! d d~ %25
+		d d1
+		g, r2
+		a b b
+		b b1
+		a d2 %30
+		d e1
+		a,2 d1~
+		d2 cis1
+		d1.\fermata \bar "||" %34 finis
+	}
+}
+
+EtIncarnatusTenoreLyrics = \lyricmode {
+	Et in -- car -- %12
+	na -- tus
+	est de
+	Spi -- ri -- tu %15
+	San --
+	_
+	cto ex Ma --
+	ri -- a __
+	Vir -- gi -- %20
+	ne, et
+	ho -- mo
+	fa -- ctus
+	est, et __
+	ho -- mo fa -- %25
+	ctus
+	est,
+	et ho -- mo
+	fa -- ctus
+	est, et %30
+	ho -- mo
+	fa -- _
+	ctus
+	est. %34 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

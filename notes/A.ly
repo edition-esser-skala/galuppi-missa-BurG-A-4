@@ -1677,6 +1677,64 @@ CredoAltoLyrics = \lyricmode {
 	coe -- lis. %79 finis
 }
 
+EtIncarnatusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/2 \autoBeamOff \tempoEtIncarnatus
+		R1.*10 %10
+		R1.\fermataMarkup
+		\mvTr g'2\fE^\tuttiE g g
+		a a1
+		g2 g1
+		g2. g4 f2 %15
+		f es1~
+		es2 d1
+		d2 es es
+		es1 es2~
+		es es d %20
+		es1 r2
+		R1.
+		r2 r d
+		es e1
+		f2 fis1 %25
+		g1.
+		g2 g g
+		fis d1
+		c g'2
+		g fis a~ %30
+		a4 g g1~
+		g2 fis1
+		g2 g1
+		fis1.\fermata \bar "||" %34 finis
+	}
+}
+
+EtIncarnatusAltoLyrics = \lyricmode {
+	Et in -- car -- %12
+	na -- tus
+	est de
+	Spi -- ri -- tu %15
+	San -- _
+	_
+	cto ex Ma --
+	ri -- a __
+	Vir -- gi -- %20
+	ne,
+
+	et
+	ho -- mo
+	fa -- ctus %25
+	est,
+	et ho -- mo
+	fa -- ctus
+	est, et
+	ho -- mo fa -- %30
+	_ _
+	_
+	_ ctus
+	est. %34 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

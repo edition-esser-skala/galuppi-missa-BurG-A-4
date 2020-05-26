@@ -1773,6 +1773,60 @@ CredoSopranoLyrics = \lyricmode {
 	_ lis. %79 finis
 }
 
+EtIncarnatusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 3/2 \autoBeamOff \tempoEtIncarnatus
+		R1.*10 %10
+		R1.\fermataMarkup
+		\mvTr b'2\fE^\tuttiE b b
+		c c c~
+		c4 b b1
+		b4 b b2 c~ %15
+		c4 b b1
+		as1.
+		g2 g g
+		as1 g2~
+		g f2. f4 %20
+		g1 r2
+		R1.*3
+		r2 r a %25
+		b h1
+		c2 cis1
+		d r2
+		g, g g
+		a c1~ %30
+		c4 b b1
+		a1.
+		g2 g1
+		d1.\fermata \bar "||"
+	}
+}
+
+EtIncarnatusSopranoLyrics = \lyricmode {
+	Et in -- car -- %12
+	na -- tus est __
+	_ de
+	Spi -- ri -- tu San -- %15
+	_ _
+	_
+	cto ex Ma --
+	ri -- a __
+	Vir -- gi -- %20
+	ne,
+
+	et %25
+	ho -- mo
+	fa -- ctus
+	est,
+	et ho -- mo
+	fa -- _ %30
+	_ _
+	_
+	_ ctus
+	est. %34 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
@@ -1784,8 +1838,7 @@ CredoSopranoLyrics = \lyricmode {
 %
 % }
 
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+
 %
 % Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
 % sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.

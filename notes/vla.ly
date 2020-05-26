@@ -1743,3 +1743,45 @@ EtIncarnatusViola = {
 		fis1.\fermata \bar "||"
 	}
 }
+
+CrucifixusViola = {
+	\relative c' {
+		\clef alto
+		\key es \major \time 4/4 \tempoCrucifixus
+		\partialQuarter r4 r8 c\fE c c d f f f
+		f f f f f d d d
+		d b b b b b b b
+		b es es es es e f c
+		b b b d es g, g g %5
+		es4 r r8 g'(\pE f es)
+		d4 b r c
+		f f b, b
+		es es f f
+		b, b es e %10
+		f f c c
+		g' g d h\f
+		c a b g'
+		es f b, r
+		r8 \once \slurDashed d( c b) a? f f\pocoFE f %15
+		f f f f f f f f
+		f f f f b b b b
+		b b b b es es es es
+		f f f f f, f f f
+		b b\fE b b b4 r %20
+		r8 des'(\pE c b) as!4 f
+		r g c, c
+		f, f b b
+		f' f c c
+		g' g d d %25
+		es es e e
+		f\f d! es c'
+		as b es, r
+		r8 g( f es) d b b\pocoFE b
+		b b b b b b b b %30
+		b b b b b b b b
+		es es es es as as as as
+		b b b b b, b b b
+		es,4 es es es
+		es2 r\fermata \bar "||" %35 finis
+	}
+}

@@ -1735,6 +1735,70 @@ EtIncarnatusAltoLyrics = \lyricmode {
 	est. %34 finis
 }
 
+CrucifixusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoCrucifixus
+		\partialQuarter r4 R1*8 %8
+		r4 \mvTr g'8\pE^\soloE es \appoggiatura b'4 a2^\critnote
+		b4 b4. des8 c b %10
+		\appoggiatura c b4 as r r8 c
+		c8. b16 b8 b a d, d'4~
+		d c2 b8 b
+		b4 a b r
+		r2 r4 f~ %15
+		f a? c2~
+		c b4 r
+		as!2 g4 c8. c16
+		b2 a
+		b4 r r2 %20
+		r r4 as!8 f
+		\appoggiatura c'4 h2 c4 c~
+		c8 es \appoggiatura es16 d8 c \appoggiatura d c4 b
+		r2 r4 r8 c
+		c8. b16 b8 b a d, d'4~ %25
+		d c b2
+		as! g4. g8
+		f4. f8 es4 r
+		r2 f~
+		f f4 r %30
+		f2 es4 r
+		g4. g8 as4 as8 f
+		es2 d
+		es r
+		R1\fermataMarkup \bar "||" %35 finis
+	}
+}
+
+CrucifixusAltoLyrics = \lyricmode {
+	Cru -- ci -- fi -- %9
+	xus e -- ti -- am pro %10
+	no -- bis, sub
+	Pon -- ti -- o Pi -- la -- to, pas --
+	sus et se --
+	pul -- tus est,
+	pas -- %15
+	_ _
+	sus,
+	pas -- sus et se --
+	pul -- tus
+	est. %20
+	Cru -- ci --
+	fi -- xus e --
+	ti -- am pro no -- bis
+	sub
+	Pon -- ti -- o Pi -- la -- to, pas -- %25
+	sus, pas --
+	sus et se --
+	pul -- tus est,
+	pas --
+	sus, %30
+	pas -- sus
+	et se -- pul -- tus, se --
+	pul -- tus
+	est. %34 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

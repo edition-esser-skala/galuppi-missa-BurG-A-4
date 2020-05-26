@@ -3698,6 +3698,85 @@ EtIncarnatusBassFigures = \figuremode {
 	<_+>1. %34 finis
 }
 
+CrucifixusOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoCrucifixus
+		\partialQuarter r4 r8 \mvTr g'(\fE-\soloE f es) d b b b
+		b b b b b b b b
+		b b b b es es es es
+		es es es es as as as, as
+		b b b b es es, es es %5
+		es'4 r r8 g(\pE f es)
+		d4 b r c
+		f f b, b
+		es es f f
+		b, b es e %10
+		f f c c
+		g' g d h\f
+		c a b g'
+		es f b, r
+		r8 \once \slurDashed d( c b) a? f f\pocoFE f %15
+		f f f f f f f f
+		f f f f b b b b
+		b b b b es es es es
+		f f f f f, f f f
+		b b\fE b b b4 r %20
+		r8 des'(\pE c b) as!4 f
+		r g c, c
+		f, f b b
+		f' f c c
+		g' g d d %25
+		es es e e
+		f\f d! es c'
+		as b es, r
+		r8 g( f es) d b b\pocoFE b
+		b b b b b b b b %30
+		b b b b b b b b
+		es es es es as as as as
+		b b b b b, b b b
+		es4 es, es es
+		es2 r\fermata \bar "||" %35 finis
+	}
+}
+
+CrucifixusBassFigures = \figuremode {
+	r4 r8 <[6]> <[_!]> <[\t]> <6>2
+	r <7->
+	r1
+	<7->2 <5>8 <[5!]> <6>4
+	<6 4> <[5 3]>2. %5
+	r2 r8 <[6]> <[_!]> <[\t]>
+	<6>2. <7 _!>4
+	<4> <3> <7>2
+	<9 4>4 <8 3> <7 _!>2
+	<4>4 <3> <4> <6 5> %10
+	<[9] 4> <3> <4> <3>
+	<4> <3> <5! 4> <6 5>
+	<9 [4]> <6 5> <9 [4]> <5>
+	<6 5> <_!>2.
+	r8 <[6]> <[_!]> <[\t]> <6>8 <[_!]>4. %15
+	r2 <[7 _!]>
+	r1
+	<7->2 <5>4 <6>
+	<6 4>2 <5 _!>
+	r1 %20
+	r8 <[6]> <[_!]> <[\t]> <6>2
+	r4 <_!> <4> <3>
+	<_!> <[6 4]>8 <[5 _!]> <9 4>4 <8 3>
+	<4> <_-> <4> <3>
+	<4> <3> <5! 4> <\t 3> %25
+	<9 7> <8 6> <7- 5>2
+	<_->4 <6 5> <[9]>2
+	<6 [5]>1
+	r8 <[6]> <[_!]> <[\t]> <6>2
+	r <7> %30
+	<\t> <[6 4]>
+	<[7-]> <5>8 <[5!]> <6>4
+	<6 4>2 <5 3>
+	r1 %34 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

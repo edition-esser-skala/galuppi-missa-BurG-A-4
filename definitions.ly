@@ -563,6 +563,7 @@ tempoCumSancto = \tempoMarkup "[Tempo deest]"
 
 tempoCredo = \tempoMarkup "Allegro"
 tempoEtIncarnatus = \tempoMarkup "Adagio"
+tempoCrucifixus = \tempoMarkup "Adagietto"
 
 
 \include "notes/ob1.ly"

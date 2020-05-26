@@ -1794,6 +1794,74 @@ EtIncarnatusBassoLyrics = \lyricmode {
 	est. %34 finis
 }
 
+CrucifixusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \autoBeamOff \tempoCrucifixus
+		\partialQuarter r4 R1*6 %6
+		r4 \mvTr d8\pE^\soloE b \appoggiatura f'4 e2
+		f4 f4. as8 \appoggiatura as16 g8 f
+		\appoggiatura g f4 es r f~
+		f8 c' b as! as4 g8 g %10
+		g8. f16 f8 f g c, r4
+		r2 d4 h'
+		c, a' b, g'
+		es f b, r
+		R1 %15
+		f'~
+		f2 b,4 r
+		b2 es4 es8. es16
+		f2 f
+		b,4 r r2 %20
+		R1
+		r2 r4 g'8 es
+		\appoggiatura b'4 a2 b4 b
+		b8. as16 as8 as g c, r4
+		r g'2 f4 %25
+		R1
+		f4 d'! es,! c'
+		as b es, r
+		R1
+		b %30
+		b4 r es2
+		es4 r as4. as8
+		b2 b,
+		es r
+		R1\fermataMarkup \bar "||" %35
+	}
+}
+
+CrucifixusBassoLyrics = \lyricmode {
+	Cru -- ci -- fi -- %7
+	xus e -- ti -- am pro
+	no -- bis, e --
+	ti -- am pro no -- bis sub %10
+	Pon -- ti -- o Pi -- la -- to,
+	pas -- sus,
+	pas -- sus et se --
+	pul -- tus est,
+	%15
+	pas --
+	sus,
+	pas -- sus et se --
+	pul -- tus
+	est. %20
+
+	Cru -- ci --
+	fi -- xus sub
+	Pon -- ti -- o Pi -- la -- to,
+	pas -- sus, %25
+
+	pas -- sus et se --
+	pul -- tus est,
+
+	pas -- %30
+	sus, pas --
+	sus et se --
+	pul -- tus
+	est. %34 finis
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

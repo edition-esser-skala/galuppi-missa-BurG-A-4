@@ -1023,10 +1023,77 @@
 	% 		\midi { \tempo 4 = 110 }
 	% 	}
 	% }
+	% \bookpart {
+	% 	\header {
+	% 		number = "3.2"
+	% 		title = "E T   I N C A R N A T U S   E S T"
+	% 	}
+	% 	\paper {
+	% 		system-system-spacing.basic-distance = #20
+	% 		system-system-spacing.minimum-distance = #20
+	% 		top-system-spacing.basic-distance = #12
+	% 		top-system-spacing.minimum-distance = #12
+	% 		top-markup-spacing.basic-distance = #0
+	% 		top-markup-spacing.minimum-distance = #0
+	% 		markup-system-spacing.basic-distance = #12
+	% 		markup-system-spacing.minimum-distance = #12
+	% 		systems-per-page = #2
+	% 	}
+	% 	\tocSection "3.2" "Et incarnatus est"
+	% 	\score {
+	% 		<<
+	% 			\new StaffGroup \with { \smallGroupDistance } <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Violino I, II"
+	% 					\EtIncarnatusViolinoI
+	% 				}
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Viola"
+	% 					\EtIncarnatusViola
+	% 				}
+	% 			>>
+	% 			\new ChoirStaff <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Soprano"
+	% 					\new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Alto"
+	% 					\new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Tenore"
+	% 					\new Voice = "Tenore" { \dynamicUp \EtIncarnatusTenoreNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Tenore \EtIncarnatusTenoreLyrics
+	%
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = "Basso"
+	% 					\new Voice = "Basso" { \dynamicUp \EtIncarnatusBassoNotes }
+	% 				}
+	% 				\new Lyrics \lyricsto Basso \EtIncarnatusBassoLyrics
+	% 			>>
+	% 			\new StaffGroup <<
+	% 				\new Staff {
+	% 					\set Staff.instrumentName = \markup { \center-column { "Organo" "e Basso" } }
+	% 					% \transpose c c,
+	% 					\EtIncarnatusOrgano
+	% 				}
+	% 			>>
+	% 			\new FiguredBass { \EtIncarnatusBassFigures }
+	% 		>>
+	% 		\layout { }
+	% 		\midi { \tempo 2 = 60 }
+	% 	}
+	% }
 	\bookpart {
 		\header {
-			number = "3.2"
-			title = "E T   I N C A R N A T U S   E S T"
+			number = "3.3"
+			title = "C R U C I F I X U S"
 		}
 		\paper {
 			system-system-spacing.basic-distance = #20
@@ -1039,55 +1106,55 @@
 			markup-system-spacing.minimum-distance = #12
 			systems-per-page = #2
 		}
-		\tocSection "3.2" "Et incarnatus est"
+		% \tocSection "3.3" "Crucifixus"
 		\score {
 			<<
-				\new StaffGroup \with { \smallGroupDistance } <<
-					\new Staff {
-						\set Staff.instrumentName = "Violino I, II"
-						\EtIncarnatusViolinoI
-					}
+				\new StaffGroup <<
+					\new GrandStaff \with { \smallGroupDistance } <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\CrucifixusViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\CrucifixusViolinoII
+						}
+					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\EtIncarnatusViola
+						\CrucifixusViola
 					}
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \CrucifixusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \CrucifixusSopranoLyrics
 
 					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "[Soprano II]" } }
+						\new Voice = "Alto" { \dynamicUp \CrucifixusAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
-
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \EtIncarnatusTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \EtIncarnatusTenoreLyrics
+					\new Lyrics \lyricsto Alto \CrucifixusAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \EtIncarnatusBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \CrucifixusBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \EtIncarnatusBassoLyrics
+					\new Lyrics \lyricsto Basso \CrucifixusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Viola," "Organo" "e Basso" } }
+						\set Staff.instrumentName = \markup { \center-column { "Organo" "e Basso" } }
 						% \transpose c c,
-						\EtIncarnatusOrgano
+						\CrucifixusOrgano
 					}
 				>>
-				\new FiguredBass { \EtIncarnatusBassFigures }
+				\new FiguredBass { \CrucifixusBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 2 = 60 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

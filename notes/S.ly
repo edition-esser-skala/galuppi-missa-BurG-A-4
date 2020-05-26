@@ -1827,6 +1827,76 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 	est. %34 finis
 }
 
+CrucifixusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoCrucifixus
+		\partialQuarter r4 R1*5 %5
+		r4 \mvTr g'8\pE^\soloE es \appoggiatura b'4 a2
+		b4 b4. des8 \appoggiatura des16 c8 b
+		\appoggiatura c8 b4 as r2
+		r4 es'4. g8 \appoggiatura g16 f8 es
+		\appoggiatura f8 es4 d r2 %10
+		r4 r8 f f8. es16 es8 es
+		d8 g, g'2 f4~
+		f es2 d4
+		c4. c8 b4 r
+		r2 f %15
+		a?4 c es2~
+		es d4 r
+		d2 es4 es8. es16
+		d2 c
+		b4 r r d8 b %20
+		\appoggiatura f'4 e2 f4 f,~
+		f8 as! \appoggiatura as16 g8 f \appoggiatura g f4 es
+		R1
+		r4 r8 f' f8. es16 es8 es
+		d g, r4 r f'~ %25
+		f es des2
+		c4 f2 es4
+		es d es r
+		r2 b~
+		b as4 r %30
+		as2 g4 r
+		b4. b8 c4 c8 as
+		g2 f
+		es r
+		R1\fermataMarkup \bar "||" %35 finis
+	}
+}
+
+CrucifixusSopranoLyrics = \lyricmode {
+	Cru -- ci -- fi -- %6
+	xus e -- ti -- am pro
+	no -- bis,
+	e -- ti -- am pro
+	no -- bis %10
+	sub Pon -- ti -- o Pi --
+	la -- to, pas -- sus __
+	et se --
+	pul -- tus est,
+	pas -- %15
+	_ _ _
+	sus,
+	pas -- sus et se --
+	pul -- tus
+	est. Cru -- ci -- %20
+	fi -- xus e --
+	ti -- am pro no -- bis
+
+	sub Pon -- ti -- o Pi --
+	la -- to, pas -- %25
+	sus, pas --
+	sus et se --
+	pul -- tus est,
+	\xE pas --
+	sus, %30
+	pas -- sus
+	et se -- pul -- tus, se --
+	pul -- tus
+	est. %34 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
@@ -1837,7 +1907,6 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 % SopranoLyrics = \lyricmode {
 %
 % }
-
 
 %
 % Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis

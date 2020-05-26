@@ -1792,3 +1792,45 @@ CredoViolinoII = {
 		b4 a8 g a2\fermata \bar "||" %79 finis
 	}
 }
+
+CrucifixusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoCrucifixus
+		\partialQuarter g''8(\fE es) \appoggiatura b'4 a2 b8 d, r b'
+		r b,16( c) \appoggiatura es d8.( c32 b) d8 f r as
+		r d,16( es) \appoggiatura g16 f8.( es32 d) es8 g r g,16( as)
+		\appoggiatura c b8.( as32 g) \appoggiatura c16 b8.( as32 g) \appoggiatura g8 as4~ \tuplet 3/2 8 { as16[ g f] } \appoggiatura b \tuplet 3/2 8 { as g f }
+		b,4 f'\trill es8 es'16.( es,32) es16.( g32) es16.( b32) %5
+		g4 r r c'8\p c
+		d4 d,8( b) \appoggiatura f'4 e2
+		f4 as4. c8 \appoggiatura c16 b8 as
+		as4 g8 es \appoggiatura b'4 a2
+		b4 f r2 %10
+		r4 f'2 es4
+		d8 g, g'2 f4~\f
+		f es2 d8 b
+		c2\trill b4 d8( b)
+		\appoggiatura f'4 e2 \once \slurDashed f8( c) r c\pocoF %15
+		r f,16( g) \appoggiatura b a8.( g32 f) a8 c r a'
+		r a,16( b) \appoggiatura d c8.( b32 a) b8 d r d16( es)
+		\appoggiatura g f8.( es32 d) \appoggiatura g16 f8.( es32 d) \appoggiatura d8 es4~ \tuplet 3/2 8 { es16[ d c] } \appoggiatura f \tuplet 3/2 8 { es d c }
+		f,4 f f a\trill
+		b8 d16.(\f d,32) d16.( b'32) f16.( d32) \appoggiatura c8 b4 d'8(\p b) %20
+		\appoggiatura f'4 e2 f4 f,~
+		f8 as! \appoggiatura as16 g8 f \appoggiatura g f4 es
+		r8 g f es \appoggiatura f es4 d
+		r f'2 es4
+		d8 g, g'2 f4~ %25
+		f es des2
+		c4 f2\f es4
+		es d es es8( c)
+		\appoggiatura b'4 a2 b8 f r b\pocoF
+		r b,16( c) \appoggiatura es d8.( c32 b) d8( f) r as %30
+		r d,16( es) \appoggiatura g16 f8.( es32 d) es8 g r g,16( as)
+		\appoggiatura c b8.( as32 g) \appoggiatura c16 b8.( as32 g) \appoggiatura g8 as e f c
+		b4 b b d
+		es8 es'16.( es,32) es16.( b'32) g16.( es32) b8 b'16.( es,32) b16.( g'32) es16.( b32)
+		\appoggiatura as4 g2 r\fermata \bar "||" %35 finis
+	}
+}

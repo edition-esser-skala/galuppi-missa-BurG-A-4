@@ -1856,9 +1856,44 @@ EtIncarnatusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
+CrucifixusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoCrucifixus
+		\partialQuarter g''8(\fE es) \appoggiatura b'4 a2 b8 f r d'
+		r d,16( es) \appoggiatura g f8.( es32 d) f8 as r c
+		r f,16( g) \appoggiatura b as8.( g32 f) g8 b r b,16( c)
+		\appoggiatura es des8.( c32 b) \appoggiatura es16 des8.( c32 b) \appoggiatura b8 c4~ \tuplet 3/2 8 { c16[ b as] } \appoggiatura b \tuplet 3/2 8 { as g f }
+		b,4 f'\trill es8 es'16.( es,32) es16.( g32) es16.( b32) %5
+		b4 g''8(\p es) \appoggiatura b'4 a2^\critnote
+		b4 f r8 des \appoggiatura des16 c8 b
+		\appoggiatura c b4 as8 f \appoggiatura es d4 r
+		r es'4. g8 \appoggiatura g16 f8 es
+		\appoggiatura f8 es4 d8( f) b, des \appoggiatura des16 c8 as %10
+		\appoggiatura c b4 as r c'~
+		c b a8 d, d'4~\f
+		d c4. f,8 b4~
+		b a b d,8( b)
+		\appoggiatura f'4 e2 f8( c) r a'\pocoF %15
+		r a,16( b) \appoggiatura d16 c8.( b32 a) c8 es r c'
+		r c,16( d) \appoggiatura f16 es8.( d32 c) d8 f r f16( g)
+		\appoggiatura b16 as!8.( g32 f) \appoggiatura b16 as8.( g32 f) \appoggiatura f8 g4~ \tuplet 3/2 8 { g16[ f es] } \appoggiatura f \tuplet 3/2 8 { es d c }
+		\afterGrace f,2( { g32[ a b c]) } c2
+		b8 b'16.(\f b,32) b16.( d32) b16.( f32) \appoggiatura es8 d4 r %20
+		r2 r4 as''!8(\p f)
+		\appoggiatura c'4 h2 c4 c,~
+		c8 es \appoggiatura es16 d8 c \appoggiatura d c4 b!
+		r2 r4 c'~
+		c b a8 d, d'4~ %25
+		d c b2
+		as!\f g
+		f es4 es8( c)
+		\appoggiatura b'4 a2 b8 f r d'\pocoFE
+		r d,16( es) \appoggiatura g16 f8.( es32 d) f8 as r c %30
+		r f,16( g) \appoggiatura b16 as8.( g32 f) g8 b r b,16( c)
+		\appoggiatura es16 des8.( c32 b) \appoggiatura es16 des8.( c32 b) \appoggiatura b8 c4~ \tuplet 3/2 8 {  c16[ b as] } \appoggiatura b \tuplet 3/2 8 { as g f }
+		b,2 f'\trill
+		es8 es'16.( es,32) es16.( b'32) g16.( es32) b8 b'16.( es,32) b16.( g'32) es16.( b32)
+		\appoggiatura as4 g2 r\fermata \bar "||" %35 finis
+	}
+}

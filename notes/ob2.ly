@@ -273,10 +273,10 @@ DomineFiliOboeII = {
 		d4 d8 fis d fis
 		d4 r r
 		R2.*9 %46
-		r4 e\pE e
-		e r r
+		r4 cis\pE cis
+		cis r r
 		R2.*39 %87
-		r2 a4\fE
+		r2 a'4\fE
 		gis16 a h a h a gis fis e d cis h
 		cis d e d e d cis h a cis e a %90
 		gis a h a h a gis fis e d cis h

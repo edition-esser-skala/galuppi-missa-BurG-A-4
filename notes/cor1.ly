@@ -212,13 +212,13 @@ DomineFiliCornoI = {
 		e f g
 		g e e %10
 		e d8 d d d
-		d4 r r
+		\pao d4 r r
 		d r r
-		d r r
+		\pao d r r
 		d r r %15
 		e e e
 		d r r
-		e d d
+		\pa e d d \pd
 		d2 r4
 		R2. %20
 		r4 d8 d d4
@@ -244,21 +244,21 @@ DomineFiliCornoI = {
 		R2.*40 %88
 		d4\fE r r
 		d r r %90
-		d r r
+		\pao d r r
 		d r d
 		e2.
 		d4 r d
-		d r r %95
+		\pao d r r %95
 		d r d
 		d r r
-		r d8 d d4
+		r \pa d8 d d4 \pd
 		R2.
 		d4 d8 d d4 %100
 		R2.
 		d4 d8 d d4
 		e2 r4
 		d r r
-		e d d %105
+		e \pa d d \pd %105
 		d2.~
 		d
 		d4 d8 d d d

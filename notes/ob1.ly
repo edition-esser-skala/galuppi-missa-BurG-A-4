@@ -268,15 +268,15 @@ DomineFiliOboeI = {
 		fis fis a
 		h16 ais h c h a g fis e d cis h
 		a8. e'16 e2\trill
-		d8 d,16 d d8 d fis a
-		d fis,16 fis fis8 fis a d %35
+		\pa d8 d,16 d d8 d fis a
+		d fis,16 fis \pd fis8 fis a d %35
 		fis4 fis8 a fis a
 		fis4 r r
 		R2.*9 %46
-		r4 cis\pE cis
-		cis r r
+		r4 e\pE e
+		e r r
 		R2.*39 %87
-		r2 a'4\fE
+		r2 a4\fE
 		gis16 a h a h a gis fis e d cis h
 		cis d e d e d cis h a cis e a %90
 		gis a h a h a gis fis e d cis h
@@ -290,7 +290,7 @@ DomineFiliOboeI = {
 		h h8 cis d d
 		cis4 e r %100
 		h h8 cis d d
-		cis4 a r
+		cis4 \pao a r
 		fis'16 e fis g! fis e fis g fis e fis gis
 		a gis a h a gis fis e d cis h a
 		a fis' e d cis d cis a h cis h gis %105

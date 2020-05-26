@@ -1577,6 +1577,158 @@ QuoniamViolinoI = {
 	}
 }
 
+CumSanctoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoCumSancto
+		g'1\fE
+		a2. h8 c
+		h2. a4
+		g2 h
+		a d %5
+		h e
+		cis d
+		d cis
+		d d~
+		d cis %10
+		d1
+		R
+		r2 cis
+		d1~
+		d4 h c!2 %15
+		c h
+		a1
+		g2 \once \tieDashed g'~
+		g fis
+		g1 %20
+		R
+		r2 fis
+		g1~
+		g4^\critnote e fis2
+		e1 %25
+		d2 fis
+		g e
+		a2. g4
+		fis e d2
+		g1 %30
+		fis
+		e
+		d
+		c
+		h2 r %35
+		R1*5 %40
+		d1
+		e2. fis8 g
+		fis2. e4
+		d2 fis
+		e a~ %45
+		a g
+		fis h~
+		h \once \tieDashed a~
+		a g
+		fis1 %50
+		e2 e~
+		e a
+		a gis
+		a a~
+		a gis %55
+		a1
+		c,
+		r2 e~
+		e \once \tieDashed d~
+		d c %60
+		\once \tieDashed d1~
+		d
+		d2 g,~
+		g f
+		f e %65
+		d1
+		c2 e
+		f d
+		g4 a g f
+		e2 g %70
+		f1
+		e2 e'
+		d1
+		c
+		h2 r %75
+		R1*5 %80
+		r2 fis'
+		g1
+		fis2 fis
+		e1
+		a %85
+		a4 fis g a~
+		a2 g
+		g1~
+		g4 e fis g
+		g2 fis %90
+		\once \tieDashed fis1~
+		fis4 dis e fis
+		fis2 e
+		\once \tieDashed e1~
+		e4 cis d e %95
+		e2 d
+		d g
+		e1
+		a2 \once \tieDashed g~
+		g^\critnote fis %100
+		g r
+		r d4 e
+		fis gis a2~
+		a \once \tieDashed g~
+		g fis %105
+		e1
+		d2 r
+		h'4 a g fis
+		e g a h
+		h2 a4 g %110
+		fis2. a4
+		a2 g
+		a \once \tieDashed g~
+		g fis
+		g a %115
+		g1
+		fis2 r
+		R1*2
+		r2 d4 e %120
+		fis gis \once \tieDashed a2~
+		a g
+		fis1
+		e2. fis4
+		g d \once \tieDashed g2~ %125
+		g fis
+		g r
+		g4 fis e d
+		c2. d8 e
+		fis4 e d c %130
+		h2. c8 d
+		e1
+		d2 d4 e
+		fis g a2~
+		a4 g8 fis g2 %135
+		fis2. d4
+		e fis8 g a4 g
+		fis2 \once \tieDashed g~
+		g fis
+		\once \tieDashed g1~ %140
+		g~
+		g2 fis
+		g4 g, h d
+		g h g d
+		e g e c %145
+		a c a fis
+		g g h e
+		g h g d
+		e g e c
+		a c a fis %150
+		g2 g'
+		g fis4 e
+		fis1
+		g\fermata \bar "|." %154 finis
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

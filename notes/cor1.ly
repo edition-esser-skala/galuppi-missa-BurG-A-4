@@ -286,3 +286,63 @@ DomineFiliCornoI = {
 		e r r\fermata \bar "||" %184 finis
 	}
 }
+
+CumSanctoCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoCumSancto
+		R1*72 %72
+		r2 e'\fE
+		d1
+		e2 e %75
+		f1
+		e2. d4
+		c2 e
+		d1
+		e2 e %80
+		d d
+		d1
+		d2 r
+		R1*12 %95
+		d1
+		e2 g
+		f1~
+		f2 e
+		d1 %100
+		c2 r
+		R1*9 %110
+		d2 d
+		e f
+		f e
+		d1
+		e2 d %115
+		d1
+		d2 r
+		R1*7 %124
+		e1 %125
+		d
+		e2 r
+		R1*6 %133
+		g,1~
+		g~ %135
+		\tieDashed g~
+		g~
+		g~
+		g~
+		g~ %140
+		g~
+		g~
+		g2 r
+		g'1
+		f %145
+		d
+		c
+		g'
+		f
+		d %150
+		e
+		d~
+		d
+		e\fermata \bar "|." %154 finis
+	}
+}

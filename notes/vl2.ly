@@ -1570,3 +1570,139 @@ QuoniamViolinoII = {
 		c4 c, r\fermata \bar "||" %180 finis
 	}
 }
+
+CumSanctoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \tempoCumSancto
+		R1*8 %8
+		d1\fE^\critnote
+		e2. fis8 g %10
+		fis2. e4
+		d2 fis
+		e a
+		fis h
+		gis a %15
+		fis \once \tieDashed g~
+		g fis
+		g2 h
+		c h4 a
+		d2 c %20
+		h g
+		c a
+		h r
+		a1
+		g %25
+		fis2 r
+		R1*7 %33
+		r2 d'
+		h g %35
+		fis1
+		g
+		g~
+		g2 fis
+		e1 %40
+		d2 fis
+		g e
+		d4 e fis g
+		a2 d~
+		d cis %45
+		h e~
+		e d
+		cis \once \tieDashed fis~
+		fis \once \tieDashed e~
+		e dis %50
+		e2. d4
+		c!1
+		h
+		a2 c
+		d h %55
+		e2. d4
+		c2 a~
+		a \once \tieDashed g~
+		g f~
+		f e %60
+		d a'
+		a1
+		g2 r
+		R1*11 %74
+		r2 g %75
+		a2. h8 c
+		h2. a4
+		g2 h
+		a d
+		h e %80
+		cis d~
+		d cis
+		d d~
+		d4 h c!2~
+		c4 a h c %85
+		d2 c~
+		c4 a h2~
+		h4 g a h
+		c2 \once \tieDashed h~
+		h4 gis \once \tieDashed a2~ %90
+		a4 fis g a
+		h2 a~
+		a4 fis g2~
+		g4 e fis g
+		a2 \once \tieDashed g~ %95
+		g4 e fis2
+		g h
+		\once \tieDashed c1~
+		c2 h
+		a1^\critnote %100
+		g2 g4 a
+		h cis \once \tieDashed d2~
+		d c~
+		c4 a \once \tieDashed h2~
+		h \once \tieDashed a~-\critnote %105
+		\once \tieDashed a1~
+		a2 g
+		g r
+		e'4 d c h
+		a cis d2~ %110
+		d4 c h a
+		g h \once \tieDashed c2~
+		c^\critnote h
+		a1
+		h2 \once \tieDashed d~ %115
+		d cis
+		d r
+		R1*3 %120
+		r2 a4 h
+		cis d e2~
+		e \once \tieDashed d~
+		d c!
+		h1 %125
+		a2. h8 c
+		d4 c h a
+		g2. a8 h
+		c4 h a g
+		fis2. g8 a %130
+		h4 a g fis
+		g1
+		fis2 fis4 g
+		a h c2
+		h e~ %135
+		e4 cis d2~
+		d \once \tieDashed c~
+		c^\critnote h
+		a1
+		g4 a h c %140
+		d2 h
+		a1
+		g4-\critnote g h d
+		g h g d
+		e g e c %145
+		a c a fis
+		g g h e
+		g h g d
+		e g e c
+		a c a fis %150
+		g2 h
+		\once \tieDashed a1~
+		a
+		h\fermata \bar "|." %154 finis
+	}
+}

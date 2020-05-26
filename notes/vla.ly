@@ -1566,3 +1566,139 @@ QuoniamViola = {
 		c c, r\fermata \bar "||" %180 finis
 	}
 }
+
+CumSanctoViola = {
+	\relative c' {
+		\clef alto
+		\key g \major \time 2/2 \tempoCumSancto
+		R1*17 %17
+		g1\fE
+		a2. h8 c
+		h2. a4 %20
+		g2 h
+		a d
+		h e
+		cis d
+		d cis %25
+		d \once \tieDashed d~
+		d cis
+		d r
+		R1
+		r2 cis %30
+		d1~
+		d4 h c!2~
+		c h
+		a1
+		g2 h %35
+		a a
+		g h
+		d d
+		e d~
+		d cis %40
+		d r
+		\tieDashed a1~
+		a~
+		a~ \tieSolid
+		a %45
+		R1*8 %53
+		r2 a
+		h2. c8 d %55
+		c2. h4
+		a2 c
+		h e
+		cis d
+		h c %60
+		\once \tieDashed c1~
+		c
+		h2 g
+		a4 h8 c d4 c
+		h g c2~ %65
+		c h
+		c c~
+		c h
+		c r
+		r c %70
+		c h
+		c c
+		c h
+		a1
+		g2 h %75
+		c a
+		d2. c4
+		h2 g
+		g fis
+		g h %80
+		\once \tieDashed a1~
+		a
+		a2 a
+		a1
+		r2 d %85
+		d1
+		d
+		c
+		c
+		c %90
+		h
+		\once \tieDashed h~
+		h
+		\once \tieDashed a~
+		\once \tieDashed a~ %95
+		a2 d
+		d1
+		c
+		d
+		d %100
+		d2 r
+		R1*2
+		r2 g,4 a
+		h cis \once \tieDashed d2~ %105
+		d cis
+		d r
+		e1~
+		\once \tieDashed e~
+		e2 \once \tieDashed d~ %110
+		\once \tieDashed d1~
+		d2 e
+		\once \tieDashed d1~
+		d
+		d2 d %115
+		e a,
+		a r
+		r a4 h
+		cis d \once \tieDashed e2~
+		e \once \tieDashed d~ %120
+		d cis4 d
+		e2 cis
+		\once \tieDashed a1~
+		a
+		h2 d %125
+		c1-\critnote
+		d
+		R1*2
+		a1 %130
+		g2 h
+		a1
+		a2 r
+		\tieDashed d1~
+		d~ %135
+		d~
+		d~
+		d~ \tieSolid
+		d2. c4
+		h a g a %140
+		h c \once \tieDashed d2~
+		d1
+		d
+		d
+		e %145
+		d
+		h
+		d
+		e
+		d %150
+		h
+		\once \tieDashed d~
+		d
+		d\fermata \bar "|." %154 finis
+	}
+}

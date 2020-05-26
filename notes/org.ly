@@ -3125,6 +3125,333 @@ QuoniamBassFigures = \figuremode {
 	r2. %180 finis
 }
 
+CumSanctoOrgano = {
+	\relative c {
+		\clef treble
+		\key g \major \time 2/2 \tempoCumSancto
+		\mvTr g''1\fE-\tuttiE
+		a2. h8 c
+		h2. a4
+		g2 h
+		a d %5
+		h e
+		cis d~
+		d cis
+		<< {
+			d \once \tieDashed d~
+			d cis %10
+			d1
+			R
+			r2 cis
+			\once \tieDashed d1~
+			d4 h c!2 %15
+			c h
+			a1
+		} \\ {
+			d,1
+			e2. fis8 g %10
+			fis2. e4
+			d2 fis
+			e a
+			fis h
+			gis a %15
+			fis \once \tieDashed g~
+			g fis
+		} >>
+		\clef "treble_8" g,1
+		a2. h8 c
+		h2. a4 %20
+		g2 h
+		a d
+		h e
+		cis d~
+		d cis %25
+		\clef bass d,1
+		e2. fis8 g
+		fis2. e4
+		d2 fis
+		e a %30
+		fis h
+		gis a
+		fis \once \tieDashed g~
+		g fis
+		g g %35
+		d d
+		e e
+		h h
+		cis d
+		a' a, %40
+		d \once \tieDashed d~
+		d cis
+		d d4 e
+		fis2 d
+		a'1 %45
+		e
+		h'
+		fis
+		dis2 e
+		h1 %50
+		e2 fis4 gis
+		a1
+		e
+		a,2 \clef "treble_8" a'
+		h2. c8 d %55
+		c2. h4
+		a2 \clef bass a,
+		e' e
+		a d,
+		g c, %60
+		f1
+		fis2 fis
+		g \clef "treble_8" << {
+			g'
+			g f
+			f e %65
+			d1
+			c2
+		} \\ {
+			g2
+			a4 h8 c d4 c
+			h g \once \tieDashed c2~ %65
+			c h
+			c
+		} >> \clef bass c,
+		d2. e8 f
+		e2. d4
+		c2 e %70
+		d g
+		e a
+		fis! g
+		g fis
+		g g~ %75
+		g fis
+		g \clef "treble_8" d'4^\critnote c
+		h2 \clef bass g
+		d1
+		g2 \once \tieDashed g~ %80
+		g fis
+		e1
+		d2 d
+		a'2. g4
+		fis1 %85
+		fis4 d e fis
+		g2. fis4
+		e2 e~
+		e4 c d e
+		fis2. e4 %90
+		dis1~
+		dis4 h cis dis
+		e2. d4
+		cis1~
+		cis4 a h cis %95
+		d2. c4
+		h2 g
+		a a'4 g
+		fis2 g
+		d1 %100
+		g2 \clef treble g'4-\critnote a
+		<< {
+			h cis d2~
+			d c~
+			c4 a
+		} \\ {
+			r2 d,4 e
+			fis gis a2~
+			a
+		} >> \clef "treble_8" g,4 a
+		h cis \clef bass d, e %105
+		fis gis a2
+		h2. a4
+		g! fis e dis
+		e2. gis4
+		a g fis e %110
+		d2. fis4
+		g2 e
+		fis g
+		d1
+		g2 fis %115
+		e a
+		d, d4 e
+		fis g \once \tieDashed a2~
+		a g
+		fis1 %120
+		\clef "treble_8" d'2^\critnote cis4 d
+		\clef bass a1
+		d,4 e fis g
+		a2 d,
+		g r4 g %125
+		d'2. c4
+		h a g fis
+		e d c2
+		a'4 g fis e
+		d c h a %130
+		g' fis e d
+		cis1
+		d2 r
+		d1~-\tasto
+		d~ %135
+		d~
+		\tieDashed d~
+		d~
+		d~
+		d~ %140
+		d~ \tieSolid
+		d
+		g,
+		h2 h
+		c c %145
+		d d
+		e e
+		h h
+		c c
+		d d %150
+		g, g
+		d'1
+		d,
+		g\fermata \bar "|." %154 finis
+	}
+}
+
+CumSanctoBassFigures = \figuremode {
+	r1*18 %18
+	<7>2 <6>4 <\t>
+	<6>1 %20
+	r2 q
+	r1
+	<6>
+	<6 5>
+	<4 2>2 <\t \t> %25
+	r1
+	<7>2 <6\\>4 <\t>
+	<6>1
+	r2 q
+	r <7 _+> %30
+	<6>1
+	<6 5>2 <_!>
+	<6 5>1
+	<4 2>2 <\t \t>
+	r1 %35
+	r
+	r
+	<6>
+	<6 5>
+	<4>2 <_+> %40
+	r1
+	<5 4 2>2 <\t \t \t>
+	r1
+	<6>
+	<4>2 <_+> %45
+	<4> <3>
+	<4> <3>
+	<5+ 4> <\t 3>
+	<6 5>1
+	<4>2 <_+> %50
+	r2. <6 5!>4
+	<_!>1
+	<4>2 <_+>
+	r1
+	<7>2 <6\\>4 <\t> %55
+	<6>1
+	r
+	<4>2 <3>
+	<7 _+> <_!>
+	<7!>1 %60
+	<6 5>
+	<\t \t>
+	r
+	r
+	r %65
+	r
+	r
+	<7 _!>2 <6 \t>4 <\t \t>
+	<6>1
+	r2 q %70
+	<7 _!>2 <7!>
+	<6>1
+	<6 5>
+	<4 2>2 <\t \t>
+	r1 %75
+	<5 4 2>2 <\t \t \t>
+	r <6 4>4 <2>
+	<6>1
+	<4>2 <3>
+	<5> <6> %80
+	<4+ 2> <6>
+	<7 4 3> <6\\ \t \t>
+	r1
+	<4>2 <_!>4 <\t>
+	<6 5>1 %85
+	<6>2 q
+	<9 4> <8 3>4 <\t \t>
+	<6 5>1
+	<6>2 q
+	<9 4> <8 3>4 <\t \t> %90
+	<6 5>1
+	<6>2 q
+	<9 4>2 <8 3>4 <\t \t>
+	<6 5>1
+	<6>2 q %95
+	<9 4> <8 3>4 <\t \t>
+	<6>1
+	r
+	<6 5>
+	<4>2 <3> %100
+	r1
+	r
+	r
+	r
+	<6>4 <7>2. %105
+	<7 6 3>4 <\t \t> <5 3>2
+	<7>2 <6>4 <\t>
+	<6>1
+	r2. <6>4
+	<9 _!>4 <\t _+> <6>2 %110
+	r2. <6 5!>4
+	<9>2 <6>
+	<6 5>1
+	<4>2 <3>
+	r <6> %115
+	<7> <7 _+>
+	r <1>4 q
+	q q q <2>
+	<_+> <4> <6>2
+	<7> <6> %120
+	<3>4 <4+> <6>2
+	<8 _+> <7! \t>
+	<9> <6>
+	<4> <7! _+>
+	r1 %125
+	<7 4>2 <\t 3>4 <\t \t>
+	<6>1
+	r
+	r
+	r %130
+	r
+	<6 5>
+	r
+	r
+	r %135
+	r
+	r
+	r
+	r
+	r %140
+	r
+	r
+	r
+	<6>
+	q %145
+	<7>
+	r
+	<6>
+	q
+	<7> %150
+	r
+	<4>2 <3>4 <2>
+	<3>1
+	r %154 finis
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

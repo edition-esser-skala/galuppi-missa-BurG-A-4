@@ -1222,6 +1222,269 @@ QuoniamTenoreLyrics = \lyricmode {
 	ste. %170 finis
 }
 
+CumSanctoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \major \time 2/2 \autoBeamOff \tempoCumSancto
+		R1*17 %17
+		\mvTr g1\fE^\tuttiE
+		a2. h8([ c)]
+		h2. a4 %20
+		g2 h
+		a d
+		h e
+		cis d
+		d( cis) %25
+		d \once \tieDashed d~
+		d cis
+		d r
+		R1
+		r2 cis %30
+		d1~
+		d4 h c!2
+		c h
+		a1
+		g2 h %35
+		a a
+		g h
+		d d
+		e \once \tieDashed d~
+		d cis %40
+		d r
+		\once \tieDashed a1~
+		\once \tieDashed a~
+		a
+		a %45
+		R1*8 %53
+		r2 a
+		h2. c8([ d)] %55
+		c2. h4
+		a2 c
+		h e
+		cis d
+		h c %60
+		\once \tieDashed c1~
+		c
+		h2 g
+		a4 h8[ c] d4 c
+		h g \once \tieDashed c2~ %65
+		c h
+		c \once \tieDashed c~
+		c h
+		c r
+		r c %70
+		c h
+		c c
+		c h
+		a1
+		g2 h %75
+		c a
+		d2. c4
+		h2 g
+		g fis
+		g h %80
+		\once \tieDashed a1~
+		a
+		a2 a
+		a1
+		r2 d %85
+		d1
+		d
+		c
+		c
+		c %90
+		h
+		\once \tieDashed h~
+		h
+		\once \tieDashed a~
+		\once \tieDashed a~ %95
+		a2 d
+		d1
+		c
+		d
+		d %100
+		d2 r
+		R1*2
+		r2 g,4 a
+		h cis \once \tieDashed d2~ %105
+		d cis
+		d r
+		e1~
+		\once \tieDashed e~
+		e2 \once \tieDashed d~ %110
+		\once \tieDashed d1~
+		d2 e
+		\once \tieDashed d1~
+		d
+		d2 d %115
+		e a,
+		a r
+		r a4 h
+		cis d \once \tieDashed e2~
+		e \once \tieDashed d~ %120
+		d cis4 d
+		e2 cis
+		\once \tieDashed a1~
+		a
+		h2 d( %125
+		c1)
+		d
+		R1*2
+		a1 %130
+		g2 h
+		a1
+		a2 r
+		\tieDashed d1~
+		d~ %135
+		d~
+		d~
+		d~ \tieSolid
+		d2. c4
+		h a g a %140
+		h c \once \tieDashed d2~
+		d1
+		d
+		d
+		e %145
+		d
+		h
+		d
+		e
+		d %150
+		h
+		\once \tieDashed d~
+		d
+		d\fermata \bar "|." %154 finis
+	}
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+	Cum %18
+	San -- cto
+	Spi -- ri -- %20
+	tu in
+	glo -- ria
+	De -- i
+	Pa -- tris,
+	a -- %25
+	men, a --
+	_
+	men,
+
+	in %30
+	glo --
+	ri -- a
+	De -- i
+	Pa --
+	tris, in %35
+	glo -- ria
+	De -- i
+	Pa -- tris,
+	a -- _
+	_ %40
+	men,
+	a --
+
+	men, %45
+
+	cum %54
+	San -- cto %55
+	Spi -- ri --
+	tu in
+	glo -- ria
+	De -- i
+	Pa -- tris, %60
+	a --
+
+	men, a --
+	_ _ _ _
+	_ _ _ %65
+	_
+	men, a --
+	_
+	men,
+	in %70
+	glo -- ria
+	De -- i
+	Pa -- tris,
+	a --
+	men, in %75
+	glo -- ria
+	De -- i
+	Pa -- tris,
+	a -- men,
+	a -- _ %80
+	_
+
+	men, a --
+	men,
+	in %85
+	glo --
+	ria
+	De --
+	i
+	Pa -- %90
+	tris,
+	a --
+
+	_
+	%95
+	_
+	men,
+	a --
+	men,
+	a -- %100
+	men,
+
+	a -- _ %104
+	_ _ _ %105
+	_
+	men,
+	a --
+
+	_ %110
+
+	_
+	_
+
+	men, a -- %115
+	_ _
+	men,
+	a -- _
+	_ _ _
+	_ %120
+	_ _
+	_ _
+	_
+
+	men, a -- %125
+
+	men,
+
+	a -- %130
+	_ _
+	_
+	men,
+	a --
+
+	_ %139
+	_ _ _ _ %140
+	_ _ _
+
+	men,
+	a --
+	_ %145
+	_
+	men,
+	a --
+	_
+	_ %150
+	men,
+	a --
+
+	men. %154 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

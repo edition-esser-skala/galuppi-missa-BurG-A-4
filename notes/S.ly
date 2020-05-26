@@ -1364,6 +1364,288 @@ QuiTollisSopranoLyrics = \lyricmode {
 	_ bis. %122 finis
 }
 
+CumSanctoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/2 \autoBeamOff \tempoCumSancto
+		\mvTr g'1\fE^\tuttiE
+		a2. h8([ c)]
+		h2. a4
+		g2 h
+		a d %5
+		h e
+		cis d
+		d( cis)
+		d d~
+		d cis %10
+		d1
+		R
+		r2 cis
+		d1~
+		d4 h c!2 %15
+		c h
+		a1
+		g2 h
+		c h4 a
+		d2 c %20
+		h g
+		c( a)
+		h r
+		a1
+		g %25
+		fis2 r
+		R1*7 %33
+		r2 d'
+		h g %35
+		fis1
+		g
+		g~
+		g2 fis
+		e1 %40
+		d2 fis
+		g e
+		d4 e fis g
+		a2 \once \tieDashed d~
+		d cis %45
+		h \once \tieDashed e~
+		e d
+		cis \once \tieDashed fis~
+		fis \once \tieDashed e~
+		e dis %50
+		e2. d4
+		c!1
+		h
+		a2 c
+		d h %55
+		e2. d4
+		c2 a
+		a g~
+		g f~
+		f e %60
+		d a'
+		a1
+		g2 r
+		R1*11 %74
+		r2 g %75
+		a2. h8([ c)]
+		h2. a4
+		g2 h
+		a d
+		h e %80
+		cis d
+		d( cis)
+		d \once \tieDashed d~
+		d4 h c!2~
+		c4 a h c %85
+		d2 \once \tieDashed c~
+		c4 a \once \tieDashed h2~
+		h4 g a h
+		c2 \once \tieDashed h~
+		h4 gis \once \tieDashed a2~ %90
+		a4 fis g a
+		h2 \once \tieDashed a~
+		a4 fis \once \tieDashed g2~
+		g4 e fis g
+		a2 \once \tieDashed g~ %95
+		g4 e fis2
+		g h
+		\once \tieDashed c1~
+		c2 h
+		a1 %100
+		g2 g4 a
+		h cis \once \tieDashed d2~
+		d c~
+		c4 a \once \tieDashed h2~
+		h \once \tieDashed a~ %105
+		\once \tieDashed a1~
+		a2 g
+		g r
+		e'4 d c h
+		a cis \once \tieDashed d2~ %110
+		d4 c h a
+		g h \once \tieDashed c2~
+		c h
+		a1
+		h2 \once \tieDashed d~ %115
+		d cis
+		d r
+		R1*3 %120
+		r2 a4 h
+		cis d \once \tieDashed e2~
+		e \once \tieDashed d~
+		d c!
+		h1 %125
+		a2. h8[ c]
+		d4 c h a
+		g2. a8[ h]
+		c4 h a g
+		fis2. g8[ a] %130
+		h4 a g fis
+		g1
+		fis2 fis4 g
+		a h c2
+		h \once \tieDashed e~ %135
+		e4 cis d2~
+		d \once \tieDashed c~
+		c h
+		a1
+		g4 a h c %140
+		d2 h
+		a1
+		g
+		d'
+		c %145
+		a
+		g
+		d'
+		c
+		a %150
+		h
+		\once \tieDashed a~
+		a
+		h\fermata \bar "|." %154 finis
+	}
+}
+
+CumSanctoSopranoLyrics = \lyricmode {
+	Cum
+	San -- cto
+	Spi -- ri --
+	tu in
+	glo -- ria %5
+	De -- i
+	Pa -- tris,
+	a --
+	men, a --
+	_ %10
+	men,
+
+	in
+	glo --
+	ri -- a %15
+	De -- i
+	Pa --
+	tris, in
+	glo -- ri -- a
+	De -- i %20
+	Pa -- tris,
+	a --
+	men,
+	a --
+	_ %25
+	men,
+
+	in %34
+	glo -- ria %35
+	De --
+	i
+	Pa --
+	tris,
+	a -- %40
+	men, a --
+	_ _
+	_ _ _ _
+	_ _
+	_ %45
+	_ _
+	_
+	_ _
+	_
+	_ %50
+	_ _
+	_
+	_
+	men, in
+	glo -- ria %55
+	De -- i
+	Pa -- tris,
+	a -- _
+	_
+	_ %60
+	_ men,
+	a --
+	men,
+
+	cum %75
+	San -- cto
+	Spi -- ri --
+	tu in
+	glo -- ria
+	De -- i %80
+	Pa -- tris,
+	a --
+	\xE men, a --
+	_ _
+	_ _ _ %85
+	_ _
+	_ _
+	_ _ _
+	_ _
+	_ _ %90
+	_ _ _
+	_ _
+	_ _
+	_ _ _
+	_ _ %95
+	_ _
+	\x men, a --
+	_
+	_
+	_ %100
+	men, a -- _
+	_ _ _
+	_
+	_ _
+	_ %105
+
+	_
+	men,
+	a -- _ _ _
+	_ _ _ %110
+	_ _ _
+	_ _ _
+	_
+	_
+	men, a -- %115
+	_
+	men,
+
+	a -- _ %121
+	_ _ _
+	_
+	_
+	_ %125
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _ %130
+	_ _ _ _
+	_
+	men, a -- _
+	_ _ _
+	_ _ %135
+	_ _
+	_
+	_
+	_
+	_ _ _ _ %140
+	_ _
+	_
+	men,
+	a --
+	_ %145
+	_
+	men,
+	a --
+	_
+	_ %150
+	men,
+	a --
+
+	men. %154 finis
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1312,9 +1312,309 @@ QuoniamBassoLyrics = \lyricmode {
 	san -- ctus,
 	tu so -- lus
 	Do -- mi -- nus,
+	tu
+	so -- lus al -- %120
+	tis -- si --
+	mus, al --
+	tis -- si --
+	mus,
+	Je -- su %125
+	Chri -- ste,
+	quo -- ni --
+	am __ tu
+	so --
+	lus, __ tu %130
+	so -- lus
+	san -- ctus, tu
+	so -- lus
+	san -- ctus,
 
-	% Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
-	% tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
+	quo -- ni -- %137
+	am __ tu
+	so --
+	lus, __ tu %140
+	so -- lus
+	Do -- mi -- nus,
+	tu
+	so -- lus al --
+	tis -- si -- mus, %145
+	Je --
+	_ _ su,
+	Je --
+	_ _ su,
+	Je -- %150
+	_ _ su,
+	Je -- su
+	Chri -- ste,
+	tu
+	so -- lus, %155
+	tu so -- lus
+	san -- ctus,
+	tu
+	so -- lus,
+	tu so -- lus %160
+	Do -- mi -- nus,
+	Je --
+	su,
+	Je --
+	su, %165
+	Je --
+	su
+	Chri --
+	_
+	ste. %170 finis
+}
+
+CumSanctoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/2 \autoBeamOff \tempoCumSancto
+		R1*25 %25
+		\mvTr d1\fE^\tuttiE
+		e2. fis8([ g)]
+		fis2. e4
+		d2 fis
+		e a %30
+		fis h
+		gis a
+		fis \once \tieDashed g~
+		g fis
+		g g %35
+		d d
+		e e
+		h h
+		cis d
+		a' a, %40
+		d \once \tieDashed d~
+		d cis
+		d d4( e)
+		fis2 d
+		a'1 %45
+		e
+		h'
+		fis
+		dis2 e
+		h1 %50
+		e2 fis4 gis
+		a1
+		e
+		a,2 r
+		R1*2 %56
+		r2 a
+		e' e
+		a d,
+		g c, %60
+		f1
+		fis
+		g2 r
+		R1*3 %66
+		r2 c,
+		d2. e8([ f)]
+		e2. d4
+		c2 e %70
+		d g
+		e a
+		fis! g
+		g( fis)
+		g g~ %75
+		g fis
+		g r
+		r g
+		d1
+		g2 \once \tieDashed g~ %80
+		g fis
+		e1
+		d2 d
+		a'2. g4
+		fis1 %85
+		fis4( d) e( fis)
+		g2.( fis4)
+		e1
+		e4 c d e
+		fis2. e4 %90
+		dis1~
+		dis4 h cis dis
+		e2. d4
+		cis1~
+		cis4 a h cis %95
+		d2. c4
+		h2 g
+		a a'4 g
+		fis2 g
+		d1 %100
+		g2 r
+		R1*3
+		r2 d4 e %105
+		fis gis a2
+		h2. a4
+		g! fis e dis
+		e2. gis4
+		a g fis e %110
+		d2. fis4
+		g2 e
+		fis g
+		d1
+		g2 fis %115
+		e a
+		d, d4 e
+		fis g a2~
+		a g
+		fis1 %120
+		R
+		a
+		d,4 e fis g
+		a2 d,
+		g r4 g %125
+		d'2. c4
+		h a g fis
+		e d c2
+		a'4 g fis e
+		d c h^\critnote a %130
+		g' fis e d
+		cis1
+		d2 r
+		d1~
+		d~ %135
+		d~
+		\tieDashed d~
+		d~
+		d~
+		d~ %140
+		d~ \tieSolid
+		d
+		g,
+		h
+		c %145
+		d
+		e
+		h
+		c
+		d %150
+		g,
+		d'~
+		d
+		g,\fermata \bar "|." %154 finis
+	}
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+	Cum %26
+	San -- cto
+	Spi -- ri --
+	tu in
+	glo -- ria %30
+	De -- i
+	Pa -- tris,
+	a -- _
+	_
+	men, in %35
+	glo -- ria
+	De -- i
+	Pa -- tris,
+	a -- _
+	_ _ %40
+	men, a --
+	_
+	men, in __
+	glo -- ria
+	De -- %45
+	i
+	Pa --
+	tris,
+	a -- _
+	_ %50
+	_ _ _
+	_
+	_
+	men,
+
+	in %57
+	glo -- ria
+	De -- i
+	Pa -- tris, %60
+	a --
+	_
+	men,
+
+	cum %67
+	San -- cto
+	Spi -- ri --
+	tu in %70
+	glo -- ria
+	De -- i
+	Pa -- tris,
+	a --
+	men, a -- %75
+	_
+	men,
+	a --
+	_
+	men, a -- %80
+	_
+	_
+	men, in
+	glo -- ri --
+	a %85
+	De -- i __
+	Pa --
+	tris,
+	a -- _ _ _
+	_ _ %90
+	_
+	_ _ _
+	_ _
+	_
+	_ _ _ %95
+	_ _
+	_ _
+	_ _ _
+	_ _
+	_ %100
+	men,
+
+	a -- _ %105
+	_ _ _
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ _ %110
+	_ _
+	_ _
+	_ _
+	_
+	men, a -- %115
+	_ _
+	men, a -- _
+	_ _ _
+	_
+	men, %120
+
+	a --
+	_ _ _ _
+	_ _
+	men, a -- %125
+	_ _
+	_ _ _ _
+	_ _ _
+	_ _ _ _
+	_ _ _ _ %130
+	_ _ _ _
+	_
+	men,
+	a --
+
+	men, %143
+	a --
+	_ %145
+	_
+	men,
+	a --
+	_
+	_ %150
+	men,
+	a --
+
+	men. %154 finis
 }
 
 % BassoNotes = {

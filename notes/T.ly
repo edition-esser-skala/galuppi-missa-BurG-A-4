@@ -1485,6 +1485,135 @@ CumSanctoTenoreLyrics = \lyricmode {
 	men. %154 finis
 }
 
+CredoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoCredo
+		R1*14 %14
+		\mvTr d1~\fE^\tuttiE %15
+		d4 d es2~
+		es es
+		c c4 c
+		c c d d
+		d c c4. c8 %20
+		d2 c4 es
+		d d es es
+		d( c) d r
+		c c r8 b b g
+		c4 c8 c c([ d)] es!([ c)] %25
+		d4 d r r8 f
+		d4 f8[ d] b4 d8[ b]^\critnote
+		f2 f
+		d'4. d8 c c c4
+		d8 g, g4 c c %30
+		d d c4. c8
+		c4 r d4. d8
+		d4 d d8. d16 d4
+		d d d d
+		d8. d16 d4 c c %35
+		c8. c16 c4 c8 c d d
+		c8. c16 c4 c c
+		c c c2
+		c4 c8 c d8. d16 d4
+		c4. c8 c4 r %40
+		R1*7 %47
+		r2 r4 c
+		c c d d
+		r d4. d8 es!4 %50
+		es d es b~
+		b as as g8 g
+		es'2~ es4 d
+		es2 d4 r8 es
+		es2 es %55
+		d4 es2 d4~
+		d c2 d4~
+		d es d2
+		es4 r r2
+		c8. c16 c8 c c2 %60
+		c4 r d8 d d d
+		d4 d d8 d d d
+		d4 c c h
+		d d es8. es16 es4
+		d2 es4 c~ %65
+		c d c h
+		c r8 c c2
+		c4 c b as
+		g r8 g g2
+		g4 g f es %70
+		d b'2 d8 b
+		g4 b8 g f4 b8 b
+		c4 a b g
+		c a b g
+		a f g c %75
+		f, r r d'
+		es d r d
+		es d8 d d2(
+		g,) c\fermata \bar "||" %79 finis
+	}
+}
+
+CredoTenoreLyrics = \lyricmode {
+	Cre -- %15
+	do, cre --
+	do,
+	cre -- do in
+	\xE u -- num De -- um,
+	cre -- do, \x cre -- do, %20
+	cre -- do in
+	u -- num De -- um,
+	cre -- do,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, fa -- cto -- rem %25
+	coe -- li et
+	ter -- _ _ _
+	_ rae,
+	vi -- si -- bi -- li -- um
+	\xE o -- mni -- um et in -- %30
+	vi -- si -- bi -- li --
+	um. Et in
+	u -- num Do -- mi -- num
+	Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i, %35
+	Fi -- li -- um De -- i u -- ni --
+	ge -- ni -- tum, \x et ex
+	Pa -- tre na --
+	tum an -- te o -- mni -- a
+	sae -- cu -- la. %40
+
+	De -- %48
+	um de De -- o,
+	lu -- men de %50
+	lu -- mi -- ne, De --
+	um ve -- rum de
+	De -- o
+	ve -- ro, de
+	De -- o %55
+	ve -- _ _
+	_ _
+	_ _
+	ro,
+	\xE ge -- ni -- tum non fa -- %60
+	ctum, con -- sub -- stan -- ti --
+	a -- lem, con -- sub -- stan -- ti --
+	\x a -- lem Pa -- tri,
+	per quem o -- mni -- a
+	fa -- _ _ %65
+	_ _ cta
+	sunt. Qui pro --
+	pter nos ho -- mi --
+	nes, qui pro --
+	pter nos ho -- mi -- %70
+	nes et pro -- pter
+	no -- stram sa -- lu -- tem de --
+	scen -- _ _ _
+	_ _ _ _
+	_ _ _ _ %75
+	dit de
+	coe -- lis, de --
+	scen -- dit de coe --
+	lis. %79 finis
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

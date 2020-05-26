@@ -1550,6 +1550,133 @@ CumSanctoAltoLyrics = \lyricmode {
 	men. %154 finis
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoCredo
+		R1*14 %14
+		\mvTr f4.\fE^\tuttiE f8 g2~ %15
+		g g
+		g1~
+		g4 g f f8 f
+		f4 f f g
+		f f f2~ %20
+		f f4 f
+		f f g g
+		f2 f4 r
+		e f4. e8 e e
+		f4 f r2 %25
+		r4 r8 f d4 f~
+		f d2 b4~
+		b f'8[ d] b2
+		f'8 d g4. f8 f4
+		f8 e e4 f f %30
+		f g f e
+		f r f4. f8
+		f4 f f8. f16 f4
+		f f g g
+		g8. g16 g4 g e %35
+		e8. e16 e4 f8 f f f
+		f8. e16 e4 c8 g' e c
+		f4 f e e
+		f8. f16 f2( g4)
+		f e f r %40
+		R1*4
+		r2 f %45
+		c4 d es!2~
+		es d4 g~
+		g8[ c,] f2( e4)
+		f f fis g
+		g fis g r8 g %50
+		f4. f8 g4 g~
+		g f f d~
+		d c f f
+		g2 f8 f b4~
+		b as2 g4 %55
+		f g f2
+		es4. f16[ g] as2
+		g1
+		g4 r r2
+		as8. as16 as8 as as2 %60
+		as4 r f8 f f f
+		f4 f g8 g g g
+		es4 es es d
+		g g g8. g16 g4
+		g1 %65
+		f2 es4 d
+		es r r2
+		R1*5 %72
+		r8 f f2 es4~
+		es d g2
+		f es
+		d4 r r f
+		g f r f
+		g f2 e8([ d)]
+		e2 f\fermata \bar "||"
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+	Cre -- do, cre -- %15
+	do
+	cre --
+	do, cre -- do in
+	\xE u -- num De -- um,
+	cre -- do, \x cre -- %20
+	do \xE in
+	u -- num \x De -- um,
+	cre -- do,
+	Pa -- trem o -- mni -- po --
+	ten -- tem, %25
+	et ter -- _
+	_ _
+	_ rae,
+	vi -- si -- bi -- li -- um
+	\xE o -- mni -- um et in -- %30
+	vi -- si -- bi -- li --
+	um. Et in
+	u -- num Do -- mi -- num
+	Je -- sum Chri -- stum,
+	Fi -- li -- um De -- i, %35
+	Fi -- li -- um De -- i u -- ni --
+	ge -- ni -- tum, \x et ex Pa -- tre
+	na -- tum an -- te
+	o -- mni -- a __
+	sae -- cu -- la. %40
+
+	De -- %45
+	um de De --
+	o, de __
+	De --
+	o, lu -- men de
+	lu -- mi -- ne, de %50
+	lu -- mi -- ne, De --
+	um ve -- rum __
+	de De -- o
+	ve -- ro, de De --
+	_ o %55
+	ve -- _ _
+	_ _ _
+	_
+	ro,
+	ge -- ni -- tum non fa -- %60
+	ctum, con -- sub -- stan -- ti --
+	a -- lem, con -- sub -- stan -- ti --
+	a -- lem Pa -- tri,
+	per quem o -- mni -- a
+	fa -- %65
+	_ _ cta
+	sunt.
+
+	De -- scen -- _ %73
+	_ _
+	_ _ %75
+	dit de
+	coe -- lis, de --
+	scen -- dit de
+	coe -- lis. %79 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

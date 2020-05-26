@@ -1706,3 +1706,89 @@ CumSanctoViolinoII = {
 		h\fermata \bar "|." %154 finis
 	}
 }
+
+CredoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoCredo
+		b'8\fE d d d b b d16 c b a
+		g8 b b b g g b16 a g f
+		es8 g g g es es g16 f es d
+		c8 es es es c c es16 d c b
+		a8 c c a' b d4 b8 %5
+		b4\trill a a8 c a f
+		d' f b, d a f' c a
+		b f f f es es c c
+		b4 a b8 d d b'
+		b \appoggiatura b a4. b8 c d es %10
+		f es d c b a g f
+		es es c' b a a a c
+		d es d c b4 a
+		b16 b b d d b f d b4 r
+		b'8 d d d b b d16 c b a %15
+		g8 b b b g g b16 a g f
+		es8 g g g es es g16 f es d
+		c8 es es es f f f es
+		f f f a b d4 b8
+		b4\trill a a8 c a f %20
+		d' f b, d a a a a
+		f f f f g g c, c
+		b4 a b8 d' d d
+		e e f f f b b e,
+		f4 c a8 b c a %25
+		b4 d r2
+		r8 d d d d b f d'
+		b f d f d b b4
+		d'16 c b a g f es d c4 a'
+		b8 d e e f a, a c %30
+		b f' g d f4 e
+		f,8 a a a f f f d
+		d f f f f f f16 e d c
+		b8 d d d d d b' b
+		b b b b c c c c %35
+		c c c c c c c f
+		f4^\critnote e r8 c e c
+		a a f' a, e' e e e
+		f a, a a b b g g
+		f4 e f8 a a f' %40
+		g d c c a g' a b
+		f f f g f e d c
+		b d g, f c16 e e g g b b g
+		a8 b a g f4 e
+		f16 a a c c f c a f4 r %45
+		r2 c'
+		g4 a b2\trill
+		a\trill g\trill
+		a4 a <a d,> r8 d16 b
+		a2\trill b4 r8 b %50
+		c c16 as f4\trill g r8 b
+		c g as c d as b d
+		es b c es f c d d
+		es es es es d4 r8 es
+		c c c c b b es^\critnote es %55
+		d d es es es es d d~
+		d d c c c es d c
+		h g c4. h16 a h4
+		c8 es es es es es es es
+		c c c c c c c c %60
+		as as as as h h h h
+		h h h h g g g g
+		g g c-\critnote c c4 h
+		h8 d h d es g c, es
+		h h h h c c g g %65
+		f f d d c4 h\trill
+		c8 d es c as' g f es
+		f es d c d b c d
+		es d es es es d c b
+		c b a! g a a g a %70
+		b c d es d c b d
+		es d es c d c d b
+		a a'16 g a8 f r g16 f g8 es
+		r f16 es f8 d r es16 d es8 c
+		r-\critnote d16 c d8 b c c16 b c8 f %75
+		b,16 b' a g f es d c b b' a g f es d c
+		b8 es d b' b,16 b' a g f es d c
+		b8 es' d f b,2~
+		b4 a8 g a2\fermata \bar "||" %79 finis
+	}
+}

@@ -1703,6 +1703,92 @@ CumSanctoViola = {
 	}
 }
 
+CredoViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoCredo
+		b8\fE b b' a g g g g
+		g g g f es es es es
+		es es es d c c c c
+		c c c b a a a a
+		f f f f b b e e %5
+		f f f f f f f f
+		f f f f f f f f
+		b, b d d es es es es
+		f4 f, b8 b b b
+		es es f f g a b c %10
+		d c b a g f es d
+		c b a g f f f f
+		d' c d es f4 f,
+		b8 b b b b4 r
+		b'8 b b a g g g g %15
+		g g g f es es es es
+		es es es d c c c c
+		c c c' b a a a a
+		f f f f b b e, e
+		f f f f f f f f %20
+		f f f f f f f f
+		b, b b b es es es es
+		f4 f, b b'~
+		b a g g
+		f f, f f %25
+		b r b2~
+		b1~
+		b
+		b8 b' b b a, a' a a
+		g, g' g g f, f' f f %30
+		b b, b b c'4 c,
+		f8 f f e d d d d
+		d d d c b b b b
+		b b b' a g g g g
+		g g g f e e e e %35
+		c c c c f f h, h
+		c4 c c8 c c c
+		c c c c c c c c
+		f f f f b b b b
+		c4 c, f8 f f f %40
+		b, b c c d e f g
+		a g f e d' c b a
+		g f e d c c c c
+		a' f a b c4 c,
+		f8 f f f f4 r8 f16 g %45
+		a4 b c c,
+		c f b e,
+		f r8 a b g c c,
+		f4 f8 es! d4 r8 b'
+		c a d d, g4 r8 g %50
+		as f b b, es es es es
+		es c^\critnote f f f d g g
+		g es as as as f b b
+		b b a a b4^\critnote r8 g
+		as as as as es es es es %55
+		b b b b h h h h
+		c c c c f f f f
+		g2 g,
+		c8 c c' b as as as as
+		as as as g f f f f %60
+		f f f es d d d d
+		d d d c h h h h
+		c c fis fis g g g g
+		g g g g g g g g
+		g g g g c, c es es %65
+		f f f f g4 g,
+		c8 d es c as' g f es
+		f es d c d b c d
+		es d es es, es' d c b
+		c b a! g a f g a %70
+		b c d es d c b d
+		es d es c d c d b
+		a a'16 g a8 f r g16 f g8 es
+		r f16 es f8 d r es16 d es8 c
+		r d16 c d8 b r c16 b c8 f, %75
+		b1~
+		b~
+		b2 g'~
+		g f\fermata \bar "||" %79 finis
+	}
+}
+
 EtIncarnatusViola = {
 	\relative c' {
 		\clef alto
@@ -1783,5 +1869,134 @@ CrucifixusViola = {
 		b b b b b, b b b
 		es,4 es es es
 		es2 r\fermata \bar "||" %35 finis
+	}
+}
+
+EtResurrexitViola = {
+	\relative c' {
+		\clef alto
+		\key b \major \time 4/4 \tempoEtResurrexit
+		b'8\fE b b a g g g g
+		g g g f es es es es
+		es es es d c c c c
+		c c c' b a a a a
+		f f f f b b e, e %5
+		f f f16 es d c b8 b b' a
+		g g g g g g g f
+		es es es es es es es d
+		c c c c c c c' b
+		a f f f b b e, e %10
+		f f f f f4 r
+		r8 g,\pE g a b4 b
+		f'2 es4 es\fE
+		c f b, g'~
+		g8 f f f es es es es %15
+		d d d d c2~
+		c f8 f f f
+		es! es es es d d d d
+		c c c c b b b b
+		a a' a a g g g g %20
+		f4 f f f~
+		f e8 c f4 f
+		es es des2~
+		des c8 c c' b
+		a! g f4 r8 b b as %25
+		g f es4 as as
+		b es, as8 f b b,
+		es4 r es8\pE f g es
+		as r g r f r es r
+		b c d b es4 r8 es %30
+		f4 g as as,8 b
+		c4 c des f8 des
+		b4 b es es
+		as c, des b
+		es g as as %35
+		g g f b,
+		es es b b
+		es es as as
+		as\fE as as as
+		as g r f %40
+		f f f f
+		f es r c'
+		c c, c c
+		g' g as as
+		es es b' b, %45
+		es g8\pE es as,4 as
+		b b c c
+		f f d es
+		as f d r8 es
+		f4 b, f' f, %50
+		b8\fE b b b b4 r
+		g'8 g g f es es es es
+		c c c c f f f f
+		f f f f f f f f
+		b b b b es, es es es %55
+		f2 f
+		b,4 g'! g g
+		fis f r es
+		d d b8 b b b
+		f' f f f f f f f %60
+		e4 e es es
+		d! d des des
+		ces ces ces ces \noBreak
+		b1\fermata \bar "||"
+		b8 b b b g' g g g \noBreak %65
+		g g g f es es es es
+		es es es es c c c c
+		c c c c f f f f
+		f f f f f f f f
+		b, b b b es es es es %70
+		f4 f, b8 b b b
+		es es f f b b b b
+		a a a a g g g g \noBreak
+		g g g g f2\fermata \bar "||"
+		\time 4/2 \tempoAmen \newSpacingSection
+			\set Staff.timeSignatureFraction = 2/2
+			R\breve*4
+		b,2. a8 g a4 b c d
+		g, a b c f,2 b4 a %80
+		es'2. d8 c d4 es f g
+		c, d es f b,2 es4 d
+		c2 f4 es d2 g4 f
+		e2 f b1
+		a g %85
+		f b,
+		c\breve
+		f2. e8 d e4 f g a
+		d, e f g c,2 f4 es
+		d2 g1 f2~ %90
+		f es1 d2
+		es f b, b'~
+		b a1 g2~
+		g f1 es2~
+		es d es1~ %95
+		es4 c d c b1
+		c d
+		d\breve~
+		d1 g2 g~
+		g f1 es2~ %100
+		es d es1
+		R\breve*2
+		b'2. a8 g
+		a4 b c d g, a b c %105
+		f, g a b es,!2. d8 c
+		d4 es f g c, d es f
+		b,2 b' a a
+		g g f f
+		es!2. d8 c d4 es f g %110
+		c, d es f b,2 g'~
+		g f es c'~
+		c b1 a2
+		g1 f
+		es d %115
+		c b
+		es f
+		f\breve~
+		f1 b2. a8 g
+		a4 b c d g, a b c %120
+		f, g a b es, f g es
+		f\breve
+		b,1 f'
+		b,\breve\fermata \bar "|." %124 FINIS
 	}
 }

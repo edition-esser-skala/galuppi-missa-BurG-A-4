@@ -400,7 +400,7 @@ pd = \partcombineAutomatic
 	\context {
 		\Score
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t)
+		% \override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup
@@ -419,6 +419,7 @@ pd = \partcombineAutomatic
 	}
 	\context {
 		\ChoirStaff
+		\override SystemStartBracket.collapse-height = #1
 		\override StaffGrouper.staffgroup-staff-spacing =
 		  #'((basic-distance . 15)
          (minimum-distance . 15)

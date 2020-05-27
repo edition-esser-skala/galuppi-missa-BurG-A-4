@@ -1897,3 +1897,135 @@ CrucifixusViolinoI = {
 		\appoggiatura as4 g2 r\fermata \bar "||" %35 finis
 	}
 }
+
+EtResurrexitViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoEtResurrexit
+		b'16\fE b' b b b b b b b, g' f es d c b a
+		g g' g g g g g g g, es' d c b a g f
+		es es' es es es es es es es, c' b a g f es d
+		c c' c c c c c c c, a' g f es d c b
+		a a' a a a c d es d a' b4 d,8 %5
+		d4\trill c b16 b' b b b b b b
+		b, g' f es d c b a g g' g g g g g g
+		g, es' d c b a g f es es' es es es es es es
+		es, c' b a g f es d c c' c c c c c c
+		c, b' a g f es d c \kneeBeam d b'' b4 d,8 %10
+		d4 c r16 f,\p a f c' f, a f
+		es'2\trill d16 b, d b f' b, d b
+		as'2 g4 b'8\f b~
+		b a!16 g a8 f, d' d d d
+		c4 d'8 d~ d c16 b c8 c~ %15
+		c b16 a b8 b~ b a16 g a8 f
+		g2 f4 f
+		g16 f es! d c b a g f4 d'
+		es16 d c b a g f es d4 b'
+		c16 b a g f es d c b4 b''8 e, %20
+		f a4 a a a8
+		g g4 e8 as as4 as8
+		g g4 c8 c c b as
+		b b h h c c, r4
+		r f8 a! b d d4 %25
+		r8 b b b b es, as as~
+		as g16 f g8 es f2
+		es8 b es,4 r2
+		es'8\pE as es b' d, as' g b
+		g4\trill f g r %30
+		as8 c b des, c4 as'
+		r8 es(-. es-. es-.) r f(-. f-. f-.)
+		r f(-. f-. f-.) r g(-. g-. g-.)
+		as(-. as-. as-. as-.) f(-. f-. f-. f-.)
+		g g es es es es es es %35
+		es es es es es es d! d
+		es b' g es f4 b,
+		r8 b' g es c4 c
+		c8\f c'4 c c c8
+		b4 b r as %40
+		as8 as4 as as as8
+		g4 g r g
+		g8 g4 g g es8
+		des des4 des8 c c4 as'8
+		as g16 f g8 es f2\trill %45
+		g8 b,\p es g c,4 f
+		r8 f b d g,4 c
+		r8 as, c f as4 g
+		r8 es as c f,4 es~
+		es d c2\trill %50
+		b16\f b' b4.\trillE b,16 g' f es d c b a
+		g g' g4.\trill g,16 es' d c b a g f
+		es es' es4.\trill a,16 f a f c' f, a f
+		b f b f d' f, b f c' f, c' f, es' f, c' f,
+		des'8.( f32 des) b8.( des32 b) ges8.( b32 ges) es8.( ges32 es) %55
+		a8 c des b c2
+		d8 b'4 b b b8
+		a4 a r c
+		c b f8 d' d d
+		d4 c des, des~ %60
+		des8 des c b c4 c~
+		c b8 a b4 b~
+		b b a! a \noBreak
+		b1\fermata \bar "||"
+		b16 b' b4.\trill b,16 g' f es d c b a %65
+		g g' g4.\trill g,16 es' d c b a g f
+		es es' es4.\trill es,16 c' b a g f es d
+		c f' es d c b a g a f a f c' f, a f
+		b f b f d' f, b f c' f, c' f, es' f, c' f,
+		d'8.( f32 d) b8.( d32 b) g8.( b32 g) es8.( g32 es) %70
+		d4 c d16 f b d f b, d f
+		g8 \appoggiatura b, a4. d'16 c b a g f es d
+		c' b a g f es d c b' a g f b a g f \noBreak
+		b4. b8 a2\fermata \bar "||"
+		\time 4/2 \tempoAmen \newSpacingSection
+			\set Staff.timeSignatureFraction = 2/2
+			R\breve*2 %76
+		es2. d8 c d4 es f g
+		c, d es f b,2 f'4 es
+		d2 g1 f2~
+		f e f1 %80
+		r4 g g f8 es f4 es d d
+		es4 d c c d2 g~
+		g a b4 f b2~
+		b a d8 c b a g f e? d
+		c' b a g f e? d c b' a g f e? d c b %85
+		a' g f e f e d c d c b a g f e d
+		c4 e' f f f2 e
+		f4 a a g8 f g4 f e e
+		f e d d e2 f
+		b2. a8 g a4 b c d %90
+		g, a b c f,2 b~
+		b a b d,
+		es4 d c c d c b b
+		c b a a b a g g
+		a2 b'4 a g g g g %95
+		fis2 fis b4 c d2~
+		d c1 b2
+		es4 d c b a2 b4 g
+		a1 b2 b
+		as2. as4 g2 g %100
+		f r es2. d8 c
+		d4 es f g c, d es f
+		b,2 es2 d1
+		c1 d2 g~
+		g f1 e2 %105
+		f d'1 c2~
+		c b1 a2
+		d8 c b a g f es d c4 b a a'
+		b8 a g f e d c b a4 g f2
+		r c''1 b2~ %110
+		b a d1
+		c4 b a d, es2. d8 c
+		d4 es f g c, d es f
+		b8 a g f es d c b a' g f es d c b a
+		g' f es d c b a g f' es d c b a g f %115
+		es' d c b a g f es d'4 es f2~
+		f es1 d2~
+		d c'2. f,4 b2~
+		b a b d
+		c4 b a a b a g g %120
+		a g f f g f es g
+		a f b1 a2
+		b4 f d b c1
+		d\breve\fermata \bar "|." %124 FINIS
+	}
+}

@@ -1834,3 +1834,136 @@ CrucifixusViolinoII = {
 		\appoggiatura as4 g2 r\fermata \bar "||" %35 finis
 	}
 }
+
+EtResurrexitViolinoII = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoEtResurrexit
+		b'16\fE d d d d d d d b8 b d16 c b a
+		g b b b b b b b g8 g b16 a g f
+		es g g g g g g g es8 es g16 f es d
+		c es es es es es es es f8 f f f
+		f f f a b d4 b8 %5
+		b4\trill a b16 d d d d d d d
+		b8 b d16 c b a g b b b b b b b
+		g8 g b16 a g f es g g g g g g g
+		es8 es g16 f es d c es es es es es es es
+		c8 c a a b d'4 b8 %10
+		b4 a a8\p f a c
+		r b b c f, b, d f
+		r c d d es4 r
+		r c'8\f c~ c b16 a b8 b
+		a a' a a g g g g %15
+		f f f f e e f4~
+		f e a16 g f e d c b a
+		g4 es' f16 es d c b a g f
+		es4 c' d16 c b a g f es d
+		c4 a' b16 a g f e d c b %20
+		a8 c'4 c f d8
+		h4 c c des~
+		des c f f
+		f8 f f f e c r4
+		r a!8 c d b' f4 %25
+		r8 b g es c c c c
+		d4 es4. d16 c d4
+		es8 b es,4 r2
+		c'8\pE r b r as r es' r
+		es4\trill d es r %30
+		des b as c
+		r8 as(-. as-. as-.) r as(-. as-. as-.)
+		r des(-. des-. des-.) r b(-. b-. b-.)
+		c(-. c-. c-. c-.) as(-. as-. des-. des-.)
+		b b b b c c c c %35
+		b b b b as as as as
+		g4 r r8 b' f d
+		es4 b r8 es c as
+		es\f es'4 as f f8
+		d4 es r c %40
+		c8 c4 f d! d8
+		<h d,>4 c r es
+		es8 es4 es es c8
+		c4 b!4. es8 as, c
+		b4 es4. d!16 c d4 %45
+		es r r8 es,\p as c
+		f,4 d' r8 g, c es
+		as,4 f' r8 f es b
+		c4 c b r8 b
+		a!4 b2 a4 %50
+		b8\f d d d d d d16 c b a
+		g8 b b b b b b16 a g f
+		es8 g g c c c a c
+		d d b d a a a a
+		b b des, des es es c c %55
+		c a' b b b4 a
+		b8 d! d d d d es es
+		es4 d r g
+		f f d8 f f b
+		b4 a as, as %60
+		g g g g
+		f f f f
+		es es es es \noBreak
+		d!1\fermata \bar "||"
+		b'8 d d d d d d16 c b a \noBreak %65
+		b8 b b b b b b16 a g f
+		g8 g g g g g g16 f es d
+		es8 es es es c c' a c
+		d d b d a a a a
+		b b d, d es es c c %70
+		b4 a b16 d f b d8 d
+		c c c c b b d g
+		g c, c f f b, b d \noBreak
+		e e e e f2\fermata \bar "||"
+		\time 4/2 \tempoAmen \newSpacingSection
+			\set Staff.timeSignatureFraction = 2/2
+			b,2. a8 g a4 b c d %75
+		g, a b c f,2 b4 a
+		g2 c1 b2~
+		b a b b
+		b4 d d c8 b c4 b a a
+		b a g g a2 d %80
+		g, c1 b2~
+		b a b b
+		es4 d c c f es d d^\critnote
+		g2 f f4 d d g
+		g c, c f f b, b e %85
+		e c c a f f b b
+		b g a f g2 g
+		a d1 c2~
+		c b1 a2
+		b4 b b c8 d c4 b a a %90
+		b a g g a g f f
+		es'2. d8 c d4 es f g
+		c, d es f b,2. a8 g
+		a4 b c d g, a b c
+		f,2 f'1 es4 d %95
+		c c c a g' a b2~
+		b a4 g fis2 g~^\critnote
+		g a4 g fis d g2~
+		g fis g1
+		R\breve %100
+		as,2. g8 f g4 as b c
+		f, g as b es,2 as~
+		as4 f g es f2 b~
+		b a b d
+		c4 b a a b a g g %105
+		a g f f g2 g'
+		f4 es d d es d c c
+		d d g1 f2
+		f4 b, b a8 g a4 b c d
+		g, a b c f,2 d' %110
+		es4 d c2 b2. a8 g
+		a4 b c d g, a b c
+		f,2 d' es4 d c c
+		d b b es es a, a d
+		d g, g c c f, f b %115
+		b es es a, b c d2~
+		d c4 b a2 b
+		es2. c4 d2. b4
+		c2. c4 d2 g~
+		g f1 es2~ %120
+		es d es4 f g es
+		c2 d4 b c1\trill
+		d2 b1 a2
+		b\breve\fermata \bar "|." %124 FINIS
+	}
+}

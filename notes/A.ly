@@ -1799,13 +1799,221 @@ CrucifixusAltoLyrics = \lyricmode {
 	est. %34 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }
+EtResurrexitAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+		R1*5 %5
+		r2 r8 \mvTr f\fE^\tuttiE f f
+		g4 g g g8 g
+		g4 g g g8 g
+		g4 g es4. es8
+		f4 f8 f f4 g8 g %10
+		f4 f r2
+		R1
+		r2 r4 es8 es
+		es4.( d16[ c)] d4 d
+		c8. c16 f4 g2 %15
+		f e4 f~
+		f e f r8 f
+		g8. g16 g8 g f4 f
+		es es d g~
+		g f2 e4 %20
+		f f8 f f4 f
+		g g2 f4
+		g2 f~
+		f4. f8 e4 r
+		r f8 f f4 f %25
+		r8 g g g es4 es
+		d es es8 es es([ d)]
+		es4 r r2
+		R1*10 %38
+		es4 es f f
+		d es r f %40
+		f f f f
+		d es r g~
+		g g g g
+		g2 es
+		es es4( d!) %45
+		es r r2
+		R1*4 %50
+		r4 r8 f f8. f16 f4
+		g d8 d es4 es
+		es8 es es g f4 f
+		f2 f
+		f ges %55
+		f1
+		f4 g!2 g4
+		a d, r g
+		f f f8 f f f
+		f4 f f f %60
+		g1
+		f
+		es \noBreak
+		d!\fermata \bar "||"
+		r4 f g g \noBreak %65
+		r8 g g g g8. g16 g4
+		r es es es
+		r8 es es es f2~
+		f1~
+		f2 g %70
+		f4. f8 f f d b
+		g'4 f4. d8 g4~
+		g f2 e8[ d] \noBreak
+		e4. e8 f2\fermata \bar "||"
+		\time 4/2 \tempoAmen \newSpacingSection
+			\set Staff.timeSignatureFraction = 2/2
+			R\breve*2 %76
+		es2. d8[ c] d4 es f g
+		c, d es f b,2 f'4 es
+		d2 g1 f2~
+		f e f1 %80
+		g2. f8[ es] f4 es d2
+		es4 d c2 d g~
+		g f2. es4 d f
+		g2 a1 g2~
+		g f1 e2 %85
+		f1~ f2 g
+		e f1 e2
+		f1 r
+		R\breve*3 %91
+		es2. d8[ c] d4 es f g
+		c, d es f b,2 es4 d
+		c2 f g1
+		f~ f2 es4 d %95
+		c1 d2 g~
+		g a4 g fis2 g~
+		g a4 g fis2 g~
+		g fis g1
+		as g %100
+		f es2. d8[ c]
+		d4 es f g c, d es f
+		b,2 es2 d1
+		c1 b2 g'~
+		g f1 e2 %105
+		f f g4 f es2
+		f4 es d2 es4 d c2
+		d g1 f2~
+		f e f1
+		R\breve*2 %111
+		r1 es2. d8[ c]
+		d4 es f g c, d es f
+		b,2 es1 d2
+		g1 f %115
+		es d4 es f2~
+		f es1 d2
+		g c, f1~
+		f f2 g~
+		g f1 es2~ %120
+		es d g1
+		f\breve
+		f1 f
+		f\breve\fermata \bar "|." %124 FINIS
+	}
+}
+
+EtResurrexitAltoLyrics = \lyricmode {
+	\xE Et re -- sur -- %6
+	re -- xit ter -- ti -- a
+	di -- e, ter -- ti -- a
+	di -- e, re -- sur --
+	re -- xit se -- cun -- dum Scri -- %10
+	ptu -- ras, \x
+
+	se -- det, %13
+	se -- det ad
+	dex -- te -- ram Pa -- %15
+	_ _ _
+	_ \xE tris. \x Et
+	i -- te -- rum ven -- tu -- rus
+	est cum glo -- _
+	_ ri -- %20
+	\xE a iu -- di -- ca -- re
+	vi -- vos et
+	mor -- _
+	tu -- os,
+	cu -- ius re -- gni %25
+	non e -- rit fi -- nis,
+	non, non e -- rit fi --
+	nis.
+
+	Si -- mul ad -- o -- %39
+	ra -- tur et %40
+	con -- glo -- ri -- fi --
+	ca -- tur: qui __
+	lo -- cu -- tus
+	est per
+	Pro -- phe -- %45
+	tas.
+
+	Con -- fi -- te -- or %51
+	u -- num ba -- ptis -- ma
+	in re -- mis -- si -- o -- nem
+	pec -- ca --
+	to -- _ %55
+	_
+	rum. Et ex --
+	pe -- cto, ex --
+	pe -- cto re -- sur -- re -- cti --
+	o -- nem mor -- tu -- %60
+	o --
+	_
+	_
+	rum.
+	Et vi -- tam %65
+	ven -- tu -- ri sae -- cu -- li,
+	et vi -- tam
+	ven -- tu -- ri sae --
+
+	_ %70
+	_ cu -- li, \x ven -- tu -- ri
+	sae -- _ _ _
+	_ _
+	_ \xE cu -- li. \x
+
+	A -- _ _ _ _ _ %77
+	_ _ _ _ _ _ _
+	_ _ _
+	_ \xE men, %80
+	a -- _ _ _ _
+	_ _ _ men, a --
+	_ _ _ _
+	_ _ _
+	_ _ %85
+	_ _
+	_ _ _
+	\x men,
+
+	a -- _ _ _ _ _ %92
+	_ _ _ _ _ _ _
+	_ _ _
+	_ _ _ %95
+	_ _ _
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ _ %100
+	men, a -- _
+	_ _ _ _ _ _ _ _
+	_ _ _
+	_ men, a --
+	_ _ %105
+	men, a -- _ _ _
+	_ _ _ _ _ _
+	men, a -- _
+	_ men,
+
+	a -- _ %112
+	_ _ _ _ _ _ _ _
+	_ _ _
+	_ _ %115
+	_ _ _ _
+	_ _
+	_ _ _
+	men, a --
+	_ _ %120
+	men, a --
+	_
+	\xE men, a --
+	\x men. %124 FINIS
+}

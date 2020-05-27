@@ -1672,13 +1672,245 @@ EtIncarnatusTenoreLyrics = \lyricmode {
 	est. %34 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+EtResurrexitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+		R1*5 %5
+		r2 r8 \mvTr d\fE^\tuttiE d d
+		d4 d d d8 d
+		es4 es es es8 es
+		es4 es c4. c8
+		c4 c8 c d4 d8 d %10
+		d4 c \mvTr f,\pE^\soloE f
+		es'2 d4 d
+		c( d) es r
+		R1
+		r4 \mvTr d8\fE^\tuttiE d d([ c)] c c %15
+		d8. d16 d4 g, c~
+		c2 c8 a d4~
+		d8. c16 c8 c c4 b
+		b a d2
+		c b4. b8 %20
+		c4 c8 c c4 d
+		d c8 c c4 des~
+		des c2 b8[ as?]
+		b4 h c r
+		r c8 c d4 d %25
+		r8 es es b c4 c
+		b b c8 c b4
+		b r \mvTr b4.\pE^\soloE es8
+		c8. c16 b4 as g
+		g8. f16 f4 g8 b es, b' %30
+		des2\trill c4 r
+		as c8([ as)] f4 f
+		b des8([ b)] g4 b8 des
+		c[ es16 c] as8[ c16 as] f8 des'4 b8
+		g[ b16 g] es8[ des'16 b] c8 es4 c8 %35
+		b es4 b8 as2
+		g4 r r b8 b
+		b4 g8 g c8. b16 as4
+		\mvTr c\fE^\tuttiE c c c
+		b b r c %40
+		c c d! d
+		h c r es~
+		es es es^\critnote es
+		des2 c
+		b b %45
+		b4 r r8 \mvTr c\pE^\soloE c c
+		c8[( b16 as]) b8 g es8. es16 es4
+		r8 as as as as g16([ f)] g8 g
+		c2 b4 es~
+		es8[ d16 c] d8[ b] c4. c8 %50
+		b4 r8 \mvTr d\fE^\tuttiE d8. d16 d4
+		d4 b8 b b4 b
+		c8 c c c c4 c
+		d2 c
+		des es~ %55
+		es4 des c2
+		d4 d2 es4
+		es d r c
+		c b d8 d d d
+		d4 c des2~ %60
+		des4 c8[( b]) c2~
+		c4 b8[ a] b2~
+		b a! \noBreak
+		b1\fermata \bar "||"
+		r4 d d d \noBreak %65
+		r8 d d d es8. es16 es4
+		r b c c
+		r8 c c c c2
+		d8 b4 d8 c es4 c8
+		d b4 d8 es2 %70
+		d4 c d r
+		r8 es c c d2
+		c d4 b \noBreak
+		g4. g8 a2\fermata \bar "||"
+		\time 4/2 \tempoAmen \newSpacingSection
+			\set Staff.timeSignatureFraction = 2/2
+			R\breve*4 %78
+		b2. a8[ g] a4 b c d
+		g, a b c f,2 b4 a %80
+		g2 c1 b2~
+		b a b1
+		es4 d c2 d1
+		c b2 d
+		c1 b %85
+		a d
+		c\breve
+		c1 r
+		R\breve
+		b2. a8[ g] a4 b c d %90
+		g, a b c f,2 b4 as
+		g2 f f1
+		r2 c' d4 c b2
+		c4 b a2 b4 a g2
+		a4 g f2 g c4 b %95
+		a1 b4 c d2~
+		d c1 b2
+		es1 d~
+		d d2 es4 d
+		c2 d4 c b2 c4 b %100
+		as2 b es,1
+		R\breve*2
+		r1 r2 d'^\critnote
+		c1 b %105
+		a g
+		f es
+		d r
+		b'2. a8[ g] a4 b c d
+		g, a b c f,2 d' %110
+		es4 d c2 d d
+		c4 b a2 b es
+		R\breve
+		r2 b c d~
+		d c1 b2~ %115
+		b a b4 c d2~
+		d c1 b2
+		es1 d
+		c d
+		c d4 c b2 %120
+		c4 b a2 b4 d es2~
+		es d c1
+		d c
+		d\breve\fermata \bar "|." %124 FINIS
+	}
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+	\xE Et re -- sur -- %6
+	re -- xit ter -- ti -- a
+	di -- e, ter -- ti -- a
+	di -- e, re -- sur --
+	re -- xit se -- cun -- dum Scri -- %10
+	ptu -- ras, \x et a --
+	scen -- dit in
+	coe -- lum,
+
+	se -- det, se -- det ad %15
+	dex -- te -- ram Pa -- _
+	\xE tris. \x Et i --
+	te -- rum ven -- tu -- rus
+	est cum glo --
+	_ _ ri -- %20
+	\xE a iu -- di -- ca -- re
+	vi -- vos et mor -- _
+	_ _
+	_ tu -- os,
+	\x cu -- ius re -- gni %25
+	non e -- rit fi -- nis,
+	non, non e -- rit fi --
+	nis. Et in
+	Spi -- ri -- tum San -- ctum,
+	Do -- mi -- num et vi -- vi -- fi -- %30
+	can -- tem,
+	qui ex Pa -- tre
+	Fi -- li -- o -- que pro --
+	ce -- _ _ _ _
+	_ _ _ _ _ %35
+	_ _ _ _
+	dit. Qui cum
+	Pa -- tre et Fi -- li -- o
+	\xE si -- mul ad -- o --
+	ra -- tur et %40
+	con -- glo -- ri -- fi --
+	ca -- tur: qui __
+	lo -- cu -- tus
+	est per
+	Pro -- phe -- %45
+	tas. \x Et u -- nam
+	san -- ctam ca -- tho -- li -- cam
+	et a -- po -- sto -- li -- cam Ec --
+	cle -- _ _
+	_ _ si -- %50
+	am. \xE Con -- fi -- te -- or %51
+	u -- num ba -- ptis -- ma
+	in re -- mis -- si -- o -- nem
+	pec -- ca --
+	to -- _ %55
+	_ _
+	rum. Et ex --
+	pe -- cto, ex --
+	pe -- cto re -- sur -- re -- cti --
+	o -- nem mor -- %60
+	tu -- o --
+	_ _
+	_
+	rum.
+	Et vi -- tam %65
+	ven -- tu -- ri sae -- cu -- li,
+	et vi -- tam
+	ven -- tu -- ri sae --
+	_ _ _ _ _ _
+	_ _ _ _ %70
+	_ cu -- li,
+	\x ven -- tu -- ri sae --
+	_ _ _
+	\xE _ cu -- li.
+
+	A -- _ _ _ _ _ %79
+	_ _ _ _ _ _ _ %80
+	_ _ _
+	_ men,
+	a -- _ _ _
+	_ _ _
+	_ _ %85
+	_ _
+	_
+	\x men,
+
+	a -- _ _ _ _ _ %90
+	_ _ _ _ _ _ _
+	_ _ men,
+	a -- _ _ _
+	_ _ _ _ _ _
+	_ _ _ _ _ _ %95
+	_ _ _ _
+	_ _
+	_ _
+	men, a -- _
+	_ _ _ _ _ _ %100
+	_ _ men,
+
+	a -- %104
+	_ _ %105
+	_ _
+	_ _
+	men,
+	a -- _ _ _ _ _
+	_ _ _ _ _ _ %110
+	_ _ _ men, a --
+	_ _ _ _ men,
+
+	a -- _ _
+	_ _ %115
+	_ _ _ _
+	_ _
+	_ _
+	_ men,
+	a -- _ _ _ %120
+	_ _ men, a -- _ _
+	_ _
+	\xE men, a --
+	\x men. %124 finis
+}

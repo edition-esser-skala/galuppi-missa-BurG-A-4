@@ -1897,38 +1897,227 @@ CrucifixusSopranoLyrics = \lyricmode {
 	est. %34 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
+EtResurrexitSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoEtResurrexit
+		R1*5 %5
+		r2 r8 \mvTr b'\fE^\tuttiE b b
+		b4 b b b8 b
+		b4 b b b8 b
+		c4 c g4. g8
+		a4 c8 a b4 b8 b %10
+		b4 a r2
+		R1*2
+		r4 c8 c c([ b)] b b
+		a8. a16 a4 g c~ %15
+		c b2 a4
+		g2 a4 r8 a
+		b8. g16 g8 g a4 d
+		g,8 g a2 g4
+		c f, g4. g8 %20
+		a4 a8 a a4 a
+		h c8 g as2
+		b4 g as b8[ c]
+		f,4. f8 c4 r
+		r a'!8 a b4 b %25
+		r8 b b b b4 as
+		as g as8 as f4
+		g r r2
+		R1*10 %38
+		as4 as as as
+		f g r as %40
+		as as as as
+		g g r c~
+		c c c c
+		c b!2 as4~
+		as g f2 %45
+		g4 r r2
+		R1*4 %50
+		r4 r8 b b8. b16 b4
+		b g8 g g4 g
+		g8 g g g a4 a
+		b2 a
+		b2. c8.[ b16] %55
+		a4 b2 a4
+		b b2 b4
+		c a r g
+		a b b8 b b b
+		b4 a as as %60
+		g1
+		a!2 f
+		ges? ces \noBreak
+		f,1\fermata \bar "||"
+		r4 b b b \noBreak %65
+		r8 b b b b8. b16 b4
+		r g g g
+		r8 g g g a2
+		b8 d4 b8 a c4 a8
+		b d4 b8 g[ b c g] %70
+		b4 a b r
+		r8 c c a b2
+		c4 a b2~ \noBreak
+		b4. b8 a2\fermata \bar "||"
+		\time 4/2 \tempoAmen \newSpacingSection
+			\set Staff.timeSignatureFraction = 2/2
+			b2. a8[ g] a4 b c d %75
+		g, a b c f,2 b4 a
+		g2 c1 b2~
+		b a b1
+		d2. c8[ b] c4 b a2
+		b4 a g2 a d %80
+		g,1 r2 b(
+		c1) b
+		r2 a b1~
+		b2 a d b
+		c a b g %85
+		a4 f c'1 b2~
+		b a g1
+		a2 d1 c2~
+		c b1 a2
+		b b c4 b a2 %90
+		b4 a g2 a b~
+		b a b1
+		r b2. a8[ g]
+		a4 b c d g, a b c
+		f,2 b4 a g1 %95
+		fis g4 a b2~
+		b a1 \once \tieDashed d2~
+		d c1 b2
+		a1 b
+		R\breve %100
+		as2. g8[ f] g4 as b c
+		f, g as b es,2 as~
+		as4 f g es f2 b~
+		b a b d
+		c4 b a2 b4 a g2 %105
+		a4 g f2 r c'~
+		c b1 a2
+		b d c4 b a2
+		b4 a g2 c d~
+		d c1 b2~ %110
+		b a b2. a8[ g]
+		a4 b c d g, a b c
+		f,2 d' es4 d c2
+		b1 a
+		b2 es a, d %115
+		g, c f, b~
+		b c4 b a2 d~
+		d c1 b2~
+		b a b b
+		c4 b a2 b4 a g2 %120
+		a4 g f2 g1
+		a2 b1 a2
+		b b1(\trill a2)
+		b\breve\fermata \bar "|." %124 FINIS
+	}
+}
 
-%
-% Cru -- ci -- fi -- xus e -- ti -- am pro no -- bis
-% sub Pon -- ti -- o Pi -- la -- to, pas -- sus et se -- pul -- tus est.
-%
-% Et re -- sur -- re -- xit ter -- ti -- a di -- e
-% se -- cun -- dum Scri -- ptu -- ras,
-% et a -- scen -- dit in coe -- lum,
-% se -- det ad dex -- te -- ram Pa -- tris.
-% Et i -- te -- rum ven -- tu -- rus est cum glo -- ri -- a
-% iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
-% cu -- ius re -- gni non e -- rit fi -- nis.
-% Et in Spi -- ri -- tum San -- ctum,
-% Do -- mi -- num et vi -- vi -- fi -- can -- tem,
-% qui ex Pa -- tre Fi -- li -- o -- que pro -- ce -- dit.
-% Qui cum Pa -- tre et Fi -- li -- o
-% si -- mul ad -- o -- ra -- tur et con -- glo -- ri -- fi -- ca -- tur:
-% qui lo -- cu -- tus est per Pro -- phe -- tas.
-% Et u -- nam san -- ctam ca -- tho -- li -- cam
-% et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
-% Con -- fi -- te -- or u -- num ba -- ptis -- ma
-% in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
-% Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
-% et vi -- tam ven -- tu -- ri sae -- cu -- li.
-% A -- men.
+EtResurrexitSopranoLyrics = \lyricmode {
+	\xE Et re -- sur -- %6
+	re -- xit ter -- ti -- a
+	di -- e, ter -- ti -- a
+	di -- e, re -- sur --
+	re -- xit se -- cun -- dum Scri -- %10
+	ptu -- ras, \x
+
+	se -- det, se -- det ad %14
+	dex -- te -- ram Pa -- _ %15
+	_ _
+	_ \xE tris. Et
+	i -- te -- rum ven -- tu -- rus
+	\x est cum glo -- _
+	_ _ _ \xE ri -- %20
+	a iu -- di -- ca -- re
+	vi -- vos et mor --
+	_ _ _ _
+	_  tu -- os,
+	cu -- ius re -- gni %25
+	non e -- rit fi -- nis,
+	non, non e -- rit fi --
+	nis.
+
+	Si -- mul ad -- o -- %39
+	ra -- tur et %40
+	con -- glo -- ri -- fi --
+	ca -- tur: qui __
+	lo -- cu -- tus
+	\x est per Pro --
+	_ phe -- %45
+	tas.
+
+	\xE Con -- fi -- te -- or %51
+	u -- num ba -- ptis -- ma
+	in re -- mis -- si -- o -- nem
+	pec -- ca --
+	to -- _ %55
+	_ _ _
+	rum. Et ex --
+	pe -- cto, ex --
+	pe -- cto re -- sur -- re -- cti --
+	o -- nem mor -- tu -- %60
+	o --
+	_ _
+	_ _
+	rum.
+	Et vi -- tam %65
+	ven -- tu -- ri sae -- cu -- li,
+	et vi -- tam
+	ven -- tu -- ri sae --
+	_ _ _ _ _ _
+	_ _ _ _ %70
+	_ cu -- li,
+	\x ven -- tu -- ri sae --
+	_ _ _
+	\xE cu -- li. \x
+	A -- _ _ _ _ _ %75
+	_ _ _ _ _ _ _
+	_ _ _
+	_ \xE men,
+	a -- _ _ _ _
+	_ _ _ _ _ %80
+	men, a --
+	men,
+	a -- _
+	_ _ _
+	_ _ _ _ %85
+	_ _ _ _
+	_ _
+	\x men, a -- _
+	_ _
+	men, a -- _ _ _ %90
+	_ _ _ _ _
+	_ men,
+	a -- _
+	_ _ _ _ _ _ _ _
+	_ _ _ _ %95
+	_ _ _ _
+	_ _
+	_ _
+	_ men,
+	%100
+	a -- _ _ _ _ _
+	_ _ _ _ _ _
+	_ _ _ _ _
+	_ men, a --
+	_ _ _ _ _ _ %105
+	_ _ men, a --
+	_ _
+	men, a -- _ _ _
+	_ _ _ men, a --
+	_ _ %110
+	men, a -- _
+	_ _ _ _ _ _ _ _
+	_ _ _ _ _
+	_ _
+	_ _ _ _ %115
+	_ _ _ _
+	_ _ _ _
+	_ _
+	_ men, a --
+	_ _ _ _ _ _ %120
+	_ _ men, a --
+	_ _ _
+	men, a --
+	men. %124 FINIS
+}

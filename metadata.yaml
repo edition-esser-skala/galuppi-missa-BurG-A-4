@@ -1,0 +1,17 @@
+composer: Galuppi, Baldassare
+title: Missa in G
+id: BurG App. 4
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (G/D), 2 vl, vla, b
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-D-4
+    type: manuscript copy
+    date: 1750–1764
+    rism: 212006130
+    url: http://digital.slub-dresden.de/id426033655
+github: galuppi-missa-BurG-A-4
+imslp: Missa_in_G_major,_BurG_Anh.4_(Galuppi,_Baldassare)
+notes:
+

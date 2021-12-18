@@ -1,322 +1,121 @@
-\documentclass[parskip=full]{scrreprt}
-
-\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
-\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
-\setkomafont{pageheadfoot}{\normalsize}
-
-\def\pnumbox#1{#1\hspace*{8cm}}
-\DeclareTOCStyleEntry[
-  indent=0pt,
-  beforeskip=0pt,
-  entryformat=\itshape,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox,
-  pagenumberformat=\itshape
-]{tocline}{part}
-\DeclareTOCStyleEntry[
-  indent=2em,
-  beforeskip=-\baselineskip,
-  entrynumberformat=\textcolor{oldred},
-  numwidth=2em,
-  linefill=\hfill,
-  pagenumberbox=\pnumbox
-]{tocline}{section}
-
-\usepackage[english]{babel}
-
-\usepackage{fontspec}
-
-\setmainfont{Source Sans Pro}[
-  ItalicFont = Source Sans Pro Italic,
-  BoldFont = Source Sans Pro Bold,
-  BoldItalicFont = Source Sans Pro Bold Italic,
-  FontFace = {lt}{n}{Source Sans Pro Light},
-  FontFace = {lt}{it}{Source Sans Pro Light Italic},
-  FontFace = {sb}{n}{Source Sans Pro Semibold},
-  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
-  Numbers = Proportional,
-  Ligatures = Common
-]
-\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
-\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
-\DeclareTextFontCommand{\textlt}{\ltseries}
-\DeclareTextFontCommand{\textsb}{\sbseries}
-
-\newfontfamily\headingfont{Fredericka the Great}
-
-\usepackage[pass]{geometry}
-\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
-
-\usepackage{url}
-\urlstyle{same}
-
-\usepackage{microtype}
-\microtypesetup{verbose=silent}
-
-\usepackage{booktabs,array,longtable}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
-
-\usepackage{graphicx}
-
-\usepackage{xcolor}
-\definecolor{oldred}{rgb}{.8313,0,0}
-
-\usepackage{pdfpages}
-
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearscrheadfoot
-\cfoot[\thepage]{\thepage}
-\pagenumbering{roman}
-
-
-\makeatletter
-
-\newcommand\fancytitlehead{
-	\headingfont%
-	\fontsize{80}{80}\selectfont\textcolor{black!80}{\@lastname.}\\[15pt]%
-	\fontsize{60}{60}\selectfont\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.%
-}
-
-
-\def\firstname#1{\def\@firstname{#1}}
-\def\lastname#1{\def\@lastname{#1}}
-\def\shorttitle#1{\def\@shorttitle{#1}}
-\def\namesuffix#1{\def\@namesuffix{#1}}
-\def\instrumentation#1{\def\@instrumentation{#1}}
-\def\parts#1{\def\@parts{#1}}
-
-\firstname{\relax}
-\lastname{\relax}
-\namesuffix{\relax}
-\instrumentation{\relax}
-\parts{\relax}
-
-
-\def\maketitle{%
-\begin{titlepage}%
-	\Large%
-	{\@titlehead}%
-	\vfill%
-	{\strut\@firstname}\\%
-	{\sbseries\color{oldred}\strut\@lastname}\\%
-	{\strut\@namesuffix}%
-	\vfill%
-	{\sbseries\@title}\\%
-	{\@subtitle}\\[\baselineskip]%
-	{\itshape\@instrumentation}%
-	\vfill%
-	{\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
-\end{titlepage}%
-}
-
-
-\newif\iftemplate\templatetrue
-\newif\ifprintreport\printreportfalse
-\directlua{
-scores = {
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  ottoni = "Corno I, II in G/D",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
-  full_score = "Full Score"
-}
-
-last_arg = arg[\string#arg]
-texio.write("Last argument: " .. last_arg)
-if not (scores[last_arg] == nil) then
-  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
-  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
-  if (last_arg == "full_score") then
-    tex.print("\string\\printreporttrue")
-  end
-end
-}
-
-\@ifundefined{lypdfname}{%
-  \templatefalse
-  \printreporttrue
-  \parts{Draft}
-}{\templatetrue}
-
-\makeatother
-
-
-
-
-
+\documentclass{ees}
 
 \begin{document}
 
-\titlehead{\fancytitlehead}
-\firstname{Baldassare}
-\lastname{Galuppi}
-\title{Missa in G}
-\subtitle{BurG App. 4\\(D-Dl Mus.2973-D-4)}
-\instrumentation{S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor, 2 vl, vla, b}
-\maketitle
+\eesTitlePage
 
+\eesCriticalReport{
+  1   & –    & org   & All bass figures have been added by the editor. \\
+      & 29   & A     & 2nd/3rd \quarterNote\ in \B1: g′8–\sharp f′8–g′4 \\
+      & 38   & vl 2  & 3rd \quarterNote\ in \B1: b′8–b′8 \\
+      & 39   & vl 1  & 1st \quarterNote\ in \B1: g″8–g″8 \\
+      & 47   & S     & 8th \sixteenthNote\ in \B1: \sharp f′16 \\
+      & 50   & vla   & 1st \eighthNote\ in \B1: d′8 \\
+      & 56   & T     & 2nd \halfNote\ in \B1: e′2 \\
+      & 62   & org   & 2nd \eighthNote\ in \B1: c8 \\
+      & 65   & org   & 2nd \halfNote\ in \B1: e4–\quaverRest–c8 \\
+      & 77   & vla   & 3rd \quarterNote\ in \B1: c′8–c′8 \\
+      & 85   & S     & 1st \halfNote\ in \B1: b′2 \\
+      & 86   & vl 2  & 2nd \eighthNote\ in \B1: b′8 \\
+      & 88   & S     & 2nd/3rd \eighthNote\ in \B1: a′4 \\
+      & 101  & org   & 2nd/3rd \quarterNote\ in \B1: f8–d8–e8–d8 \\
+      & 12   & org   & bar in \B1: d4–d4–f4 \\
+      & 107  & vl 2  & 4th \eighthNote\ in \B1: c″8 \\
+      & 127  & vl 1  & 3rd \eighthNote\ in \B1: f″8 \\
+      & 136  & B     & 1st \halfNote\ in \B1: \flat B2 \\
+      & 145  & B     & 3rd \quarterNote\ in \B1: c4 \\
+      & 151  & vl    & grace note missing in \B1 \\
+      & 151  & S     & grace note missing in \B1 \\
+      & 171  & vl 2  & 1st \quarterNote\ in \B1: f′4 \\
+      & 172  & vl 2  & 3rd \quarterNote\ in \B1: b′4 \\
+      & 172  & S     & 2nd \eighthNote\ in \B1: g′8 \\
+      & 190  & S     & 1st \quarterNote\ in \B1: f′8–g′8 \\
+      & 205  & vla   & bar in \B1: c′2. \\
+      & 207  & org   & 2nd/3rd \quarterNote\ in \B1: c4–d4 \\
+      & 210  & vl 2  & 1st \eighthNote\ in \B1: g′8 \\
+      & 216  & vla   & bar in \B1: c′2. \\
+      & 226  & S     & 1st \halfNote\ in \B1: d″2 \\
+      & 229  & T     & bar in \B1: b2.–b4 \\
+      & 229  & org   & bar in \B1 unison with S and A \\
+      & 298  & cor 1 & bar in \B1: \wholeNoteRest \\
+      & 311  & cor   & 1st \halfNote\ in \B1: \halfNoteRest \\
+  \midrule
+  2   & –    & org   & All bass figures have been added by the editor. \\
+      & 12   & ob 2, vl 2 & last \eighthNote\ in \B1: g′8 \\
+      & 33   & A     & bar in \B1: g′4–g′2–g′4 \\
+      & 39   & vl    & 2nd \eighthNote\ in \B1: g′16–\sharp f′16 \\
+      & 50   & vl 1  & 2nd \halfNote\ in \B1: \semiquaverRest–\sharp f′16–a′16–d″16–\sharp f″16–d″16–a′16–\sharp f′16 \\
+      & 50   & vl 2  & 2nd \halfNote\ in \B1: \semiquaverRest–d′16–\sharp f′16–a′16–d″16–a′16–\sharp f′16–d′16 \\
+      & 68   & ob 1  & 5th \eighthNote\ in \B1: \sharp f′8 \\
+      & 68   & ob 2  & 3rd \quarterNote\ in \B1: \sharp f′8–\sharp f′8 \\
+      & 93   & vl    & 4th \eighthNote\ in \B1: b8 \\
+      & 98   & cor 2 & bar in \B1: d″2–c″2 \\
+      & 132  & vl 1  & 3rd \quarterNote\ in \B1: c″16–c″16–c″16–c″16 \\
+      & 159  & ob 2, vl 2 & 2nd \quarterNote\ in \B1: g′4 \\
+      & 199  & ob 2  & last \eighthNote\ in \B1: g′8 \\
+      & 209  & vla   & bar in \B1: c′2. \\
+      & 289  & vl 2  & 2nd \quarterNoteDotted\ in \B1: g′4. \\
+      & 303  & vl 1  & 1st \quarterNoteDotted\ in \B1: \flat b′4. \\
+      & 331  & vl 1  & 2nd \quarterNoteDotted\ in \B1: d″8–c″8–b′8 \\
+      & 376  & B     & 2nd \quarterNoteDotted\ in \B1: f4–f8 \\
+      & 380  & T     & bar in \B1: c′4.–c′4–c′8 \\
+      & 382  & vla   & 2nd \quarterNoteDotted\ in \B1: g′4. \\
+      & 383  & A     & 2nd \quarterNoteDotted\ in \B1: d′4. \\
+      & 388  & T     & 1st \quarterNoteDotted\ in \B1: d′4. \\
+      & 472  & vla  & Bar 71 appears twice in \B1, while bar 77 is missing. \\
+      & 474  & T     & bar in \B1: c′1 \\
+      & 528  & cor 1 & 3rd \quarterNote\ in \B1: c″4 \\
+      & 681  & vla   & bar in \B1: b8–\sharp f′8–g4–d4 \\
+      & 757  & vla   & 1st \quarterNote\ in \B1: a4 \\
+      & 796  & vla   & 2nd \eighthNote\ in \B1: \sharp f′8 \\
+      & 891  & vla   & 3rd \eighthNote\ in \B1: f′8 \\
+      & 900  & vla   & 7th \eighthNote\ in \B1: c′8 \\
+      & 924  & vl 1  & 3rd \quarterNote\ in \B1: \crotchetRest \\
+      & 924  & org   & 1st \quarterNote\ in \B1: f4 \\
+      & 973  & S     & bar in \B1: \flat e′2. \\
+      & 987  & S     & 2nd \halfNote\ in \B1: g′4–\crotchetRest \\
+      & 987  & B     & 1st \halfNote\ in \B1: d2 \\
+      & 1181 & vl 2  & bar in \B1: \wholeNoteRest \\
+      & 1196 & vl 1  & 1st \quarterNote\ in \B1: \sharp f″4 \\
+      & 1180 & A     & bar in \B1: a′2–g′2 \\
+      & 1249 & org   & 2nd \halfNote\ in \B1: \halfNoteRest \\
+      & 1250 & org   & 1st \halfNote\ in \B1: \halfNoteRest \\
+      & 1272f & vl   & bars are swapped between the violins in \B1 \\
+      & 1273–1277 & org & 2nd \halfNote\ of bar 1273 to 1st \halfNote\ of bar 1277 in \B1: rests \\
+      & 1277 & vl 2  & 2nd \halfNote\ in \B1: b′2 \\
+      & 1285 & vl 2  & 1st \halfNote\ in \B1: d″2 \\
+      & 1287 & cor 2 & 1st \halfNote\ in \B1: e″2 \\
+      & 1293 & org   & bar in \B1: \wholeNoteRest \\
+      & 1298f & vla  & bars in \B1: \sharp f′1–\sharp f′1 \\
+      & 1303 & B     & 2nd \halfNote\ in \B1: B2 \\
+      & 1308 & vl 1  & 1st \quarterNote\ in \B1: e″4 \\
+      & 1310 & vl 2  & 1st \halfNote\ in \B1: d″2 \\
+      & 1315 & vl 2  & bar in \B1: g′4–a′4–b′4–c″4 \\
+      & 1334–1337 & T, B & grace notes missing in \B1 \\
+      & 1338 & B     & bar in \B1: a2. \\
+  \midrule
+  3   & 27  & T     & last \eighthNote\ in \B1: a8 \\
+      & 37  & vl 2  & 1st \halfNote\ missing in \B1 \\
+      & 52  & B, org & 2nd \eighthNote\ in \B1: \flat B8 \\
+      & 54  & org   & 3rd \quarterNote\ in \B1: a4 \\
+      & 55  & vl 1  & last \eighthNote\ in \B1: d″8 \\
+      & 55  & vl 2  & last \quarterNote\ in \B1: d″8–d″8 \\
+      & 63  & vl 2  & 2nd \quarterNote\ in \B1: g′8–\flat b′8 \\
+      & 72  & B     & 2nd \quarterNote\ in \B1: c′8–\flat b8 \\
+      & 75  & vl    & 1st \quarterNote\ in \B1: d′8–d′16–\flat b16 \\
+      & 83  & vl    & 3rd \quarterNote\ in \B1: c″4 \\
+      & 95  & vla   & 1st \quarterNote\ in \B1: \flat b4 \\
+      & 111 & vla   & 2nd \quarterNote\ in \B1: g4 \\
+      & 122 & A     & grace note missing in \B1 \\
+      & 191 & T     & 2nd \halfNote\ in \B1: d′4–d′4 \\
+      & 231 & vl 2  & last \quarterNote\ in \B1: c″4 \\
+      & 248 & vl 2  & last \halfNote\ missing in \B1 \\
+      & 250f & org  & bars missing in \B1 \\
+      & 252 & T     & last \halfNote\ in \B1: c′2 \\
+}
 
-\thispagestyle{empty}
+\eesToc{}
 
-\vspace*{\fill}
-
-\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2020
-
-© 2020 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}. 
-
-Music engraving by LilyPond 2.18.0 (\url{http://www.lilypond.org}).\\
-Front matter typeset with Source Sans Pro and Fredericka the Great.
-
-\textit{First version, May 2020}
-
-\vspace*{2cm}
-
-\ifprintreport
-\chapter*{Critical Report.}
-
-This edition bases upon a bases upon a copy in the archive of the Dresden Hofkapelle, which has been digitized by the Saxon State Library – State and University Library Dresden. The digital version of the manuscript is available at \url{http://digital.slub-dresden.de/id426033655} (siglum Mus.2973-D-4).
-
-In general, this edition closely follows the manuscript. Any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks) or dashes (slurs and ties). Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, basso; cor, horn; Ms, manuscript; ob, oboe; org, organ; r, rest; S, soprano; T, tenore; vl,~violin; vla, viola.}
-
-\bigskip
-
-\begin{longtable}{lll L{10cm}}
-	\toprule
-	\itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
-	\midrule \endhead
-	–   & –   & org   & All bass figures in the \textit{Kyrie} and \textit{Gloria}\newline have been added by the editor. \\
-	1.1 & 29  & A     & 2nd/3rd quarter in Ms: g′8–fis′8–g′4 \\
-	    & 38  & vl 2  & 3rd quarter in Ms: b′8–b′8 \\
-	    & 39  & vl 1  & 1st quarter in Ms: g″8–g″8 \\
-	    & 47  & S     & 8th sixteenth in Ms: fis′16 \\
-	    & 50  & vla   & 1st eighth in Ms: d′8 \\
-	    & 56  & T     & 2nd half note in Ms: e′2 \\
-	    & 62  & org   & 2nd eighth in Ms: c8 \\
-	    & 65  & org   & 2nd half of bar in Ms: e4–r8–c8 \\
-	    & 77  & vla   & 3rd quarter in Ms: c′8–c′8 \\
-	    & 85  & S     & 1st half note in Ms: b′2 \\
-	    & 86  & vl 2  & 2nd eighth in Ms: b′8 \\
-	    & 88  & S     & 2nd/3rd eighth in Ms: a′4 \\
-	1.2 & 10  & org   & 2nd/3rd quarter in Ms: f8–d8–e8–d8 \\
-	    & 11  & org   & bar in Ms: d4–d4–f4 \\
-	    & 16  & vl 2  & 4th eighth in Ms: c″8 \\
-	    & 36  & vl 1  & 3rd eighth in Ms: f″8 \\
-	    & 45  & B     & 1st note in Ms: Bes2 \\
-	    & 54  & B     & 3rd quarter in Ms: c4 \\
-	    & 60  & vl 1, 2 & grace note missing in Ms \\
-	    & 60  & S     & grace note missing in Ms \\
-	    & 80  & vl 2  & 1st quarter in Ms: f′4 \\
-	    & 81  & vl 2  & 3rd quarter in Ms: b′4 \\
-	    & 83  & S     & 2nd eighth in Ms: g′8 \\
-	    & 99  & S     & 1st quarter in Ms: f′8–g′8 \\
-	    & 114 & vla   & bar in Ms: c′2. \\
-	    & 116 & org   & 2nd/3rd quarter in Ms: c4–d4 \\
-	    & 119 & vl 2  & 1st eighth in Ms: g′8 \\
-	    & 125 & vla   & bar in Ms: c′2. \\
-	1.3 & 8   & S     & 1st half note in Ms: d″2 \\
-	    & 11  & T     & bar in Ms: b2.–b4 \\
-	    & 11  & org   & bar in Ms unison with S and A \\
-	    & 80  & cor 1 & bar in Ms: r1 \\
-	    & 93  & cor 1, 2 & 1st half note in Ms: r2 \\
-	\midrule
-	2.1 & 12  & ob 2, vl 2  & last eighth in Ms: g′8 \\
-	    & 33  & A     & bar in Ms: g′4–g′2–g′4 \\
-	    & 39  & vl 1, 2  & 2nd eighth in Ms: g′16–fis′16 \\
-	    & 50  & vl 1  & 2nd half of bar in Ms: r16–fis′16–a′16–d″16–fis″16–d″16–a′16–fis′16 \\
-	    & 50  & vl 2  & 2nd half of bar in Ms: r16–d′16–fis′16–a′16–d″16–a′16–fis′16–d′16 \\
-	    & 68  & ob 1  & 5th eighth in Ms: cis′8 \\
-	    & 68  & ob 2  & 3rd quarter in Ms: cis′8–cis′8 \\
-	    & 93  & vl 1, 2 & 4th eighth in Ms: b8 \\
-	    & 98  & cor 2 & bar in Ms: d″2–c″2 \\
-	2.2 & 21  & vl 1  & 3rd quarter in Ms: c″16–c″16–c″16–c″16 \\
-	2.3 & 22  & ob 2, vl 2  & 2nd quarter in Ms: g′4 \\
-	    & 62  & ob 2  & last eighth in Ms: g′8 \\
-	    & 72  & vla   & bar in Ms: c′2. \\
-	2.4 & 40  & vl 2  & 2nd half of bar in Ms: g′4. \\
-	    & 54  & vl 1  & 1st note in Ms: bes′4. \\
-	    & 82  & vl 1  & 2nd half of bar in Ms: d″8–c″8–b′8 \\
-	    & 127 & B     & 2nd half of bar in Ms: f4–f8 \\
-	    & 131 & T     & bar in Ms: c′4.–c′4–c′8 \\
-	    & 133 & vla   & 2nd half of bar in Ms: g′4. \\
-	    & 134 & A     & 2nd note in Ms: d′4. \\
-	    & 139 & T     & 1st half of bar in Ms: d′4. \\
-	2.5 & 71ff & vla  & Bar 71 appears twice in Ms, while bar 77 is missing. \\
-	    & 73  & T     & bar in Ms: c′1 \\
-	2.6 & 4   & cor 1 & 3rd quarter in Ms: c″4 \\
-	    & 157 & vla   & bar in Ms: b8–cis′8–g4–d4 \\
-	2.7 & 49  & vla   & 1st quarter in Ms: a4 \\
-	    & 88  & vla   & 2nd eighth in Ms: cis′8 \\
-	2.8 & 22  & vla   & 3rd eighth in Ms: f′8 \\
-	    & 31  & vla   & 7th eighth in Ms: c′8 \\
-	    & 55  & vl 1  & 3rd quarter in Ms: r4 \\
-	    & 55  & org   & 1st quarter in Ms: f4 \\
-	    & 104 & S     & bar in Ms: es′2. \\
-	    & 118 & S     & 2nd half of bar in Ms: g′4–r4 \\
-	    & 118 & B     & 1st half note in Ms: d2 \\
-	2.9 & 9   & vl 2  & bar in Ms: r1 \\
-	    & 24  & vl 1  & 1st quarter in Ms: fis″4 \\
-	    & 28  & A     & bar in Ms: a′2–g′2 \\
-	    & 77f & org   & 2nd half of bar 77 and 1st half of bar 78 in Ms: r2–r2 \\
-	    & 100f & vl 1, 2 & bars are swapped between the violins in the Ms \\
-	    & 101–105 & org & 2nd half of bar 101 to 1st half of bar 105: rests in Ms \\
-	    & 105 & vl 2  & 2nd half note in Ms: b′2\\
-	    & 113 & vl 2  & 1st half note in Ms: d″2 \\
-	    & 115 & cor 2 & 1st half note in Ms: e″2 \\
-	    & 121 & org   & bar in Ms: r1 \\
-	    & 126f & vla  & bars in Ms: fis′1–fis′1 \\
-	    & 130 & B     & 2nd half note in Ms: B2 \\
-	    & 135 & vl 1  & 1st quarter in Ms: e″4 \\
-	    & 138 & vl 2  & 1st half note in Ms: d″2 \\
-	    & 143 & vl 2  & bar in Ms: g′4–a′4–b′4–c″4 \\
-	    & 162–165 & T, B & grace notes missing in Ms \\
-	    & 166 & B     & bar in Ms: a2. \\
-	\midrule
-	3.1 & 27  & T     & last eighth in Ms: a8 \\
-	    & 37  & vl 2  & 1st half of bar missing in Ms \\
-	    & 52  & B, org & 2nd eighth in Ms: Bes8 \\
-	    & 54  & org   & 3rd quarter in Ms: a4 \\
-	    & 55  & vl 1  & last eighth in Ms: d″8 \\
-	    & 55  & vl 2  & last quarter in Ms: d″8–d″8 \\
-	    & 63  & vl 2  & 2nd quarter in Ms: g′8–bes′8 \\
-	    & 72  & B     & 2nd quarter in Ms: c′8–bes8 \\
-	    & 75  & vl 1, 2 & 1st quarter in Ms: d′8–d′16–bes16 \\
-	3.2 & 4   & vl 1, 2 & 3rd quarter in Ms: c″4 \\
-	    & 16  & vla   & 1st quarter in Ms: bes4 \\
-	    & 32  & vla   & 2nd quarter in Ms: g4 \\
-	3.3 & 9   & A     & grace note missing in Ms \\
-	3.4 & 43  & T     & 2nd half of bar in Ms: d′4–d′4 \\
-	    & 83  & vl 2  & last quarter in Ms: c″4 \\
-	    & 97  & vl 2  & last half note missing in Ms \\
-	    & 102f & org  & bars missing in Ms \\
-	    & 104 & T     & last half note in Ms: c′2 \\
-	\bottomrule
-\end{longtable}
-
-
-This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/galuppi-missa-BurG-A-4}. Your help will be greatly appreciated.
-
-\bigskip
-\textit{Salzburg, May 2020\\
-Wolfgang Esser-Skala}
-
-\cleardoublepage
-\chapter*{Contents.}
-
-\InputIfFileExists{../out/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
-
-\cleardoublepage
-\fi
-
-\iftemplate
-\includepdf[pages=-]{../out/\lypdfname.pdf}
-\fi
+\eesScore
 
 \end{document}
